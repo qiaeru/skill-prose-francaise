@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Non publié]
 
+## [1.0.0] - 2026-05-27
+
 ### Ajouté
 
-- Version initiale.
+- _Skill_ `rediger-prose-francaise` : vingt règles contre les tics d'écriture de l'intelligence artificielle en français (hachage des phrases, participes présents en chaîne, adjectifs intensifs vides, anglicismes, langue de bois, typographie), trois fichiers de référence et une grille de notation sur cinq axes.
