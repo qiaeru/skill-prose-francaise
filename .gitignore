@@ -1,0 +1,23 @@
+# Fichiers de travail Claude Code, internes au poste de développement.
+CLAUDE.md
+.claude/
+
+# Systèmes d'exploitation.
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Éditeurs et IDE.
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# Sauvegardes et fichiers temporaires.
+*.bak
+*.tmp
+*.orig

@@ -1,0 +1,8 @@
+# Normalise les fins de ligne pour tous les fichiers texte du dépôt.
+* text=auto eol=lf
+
+*.md           text eol=lf
+*.yml          text eol=lf
+LICENSE        text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
