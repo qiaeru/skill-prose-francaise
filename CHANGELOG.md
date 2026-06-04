@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Non publié]
 
+## [1.1.0] - 2026-06-04
+
 ### Modifié
 
 - Règle 13 et référence des structures étendues au point-virgule. La virgule et le point portent désormais la charpente de la phrase, tandis que le deux-points et le point-virgule restent réservés à leurs emplois propres, équilibrer deux propositions liées ou ponctuer une liste.
