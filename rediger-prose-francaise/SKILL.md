@@ -47,7 +47,7 @@ Un fichier d'interface (libellés d'application, fichiers de locales) mélange d
 
 12. **Pas de méta-commentaire.** « Voyons cela ensemble », « Décortiquons », « Posons-nous la question », « Dans cet article, nous allons ». Supprime et entre dans le propos sans détour.
 
-13. **Pas de tiret cadratin, pas de barre oblique entre deux mots, et le deux-points avec parcimonie.** Tiret cadratin = calque anglo-saxon, remplace par une virgule, un point ou des parenthèses. Barre oblique = anglicisme (« et/ou », « FR/EN »), reformule avec « ou » ou « et ». Le deux-points reste légitime devant une liste ou une explication, mais l'IA en abuse comme annonce avant de dire. Garde-le quand il introduit vraiment quelque chose, coupe-le quand il ne fait qu'annoncer. Voir [references/structures.md](references/structures.md).
+13. **Pas de tiret cadratin, pas de barre oblique entre deux mots, et deux-points comme point-virgule avec parcimonie.** Tiret cadratin = calque anglo-saxon, remplace par une virgule, un point ou des parenthèses. Barre oblique = anglicisme (« et/ou », « FR/EN »), reformule avec « ou » ou « et ». Le deux-points reste légitime devant une liste ou une explication, mais l'IA en abuse comme annonce avant de dire, alors garde-le quand il introduit vraiment quelque chose et coupe-le quand il ne fait qu'annoncer. Le point-virgule a deux emplois propres, équilibrer deux propositions liées et séparer les items complexes d'une liste, mais l'IA le sème là où un point ou une virgule coule mieux ; en prose française la charpente normale reste la virgule et le point, donc réserve le deux-points et le point-virgule aux cas qui les méritent vraiment. Voir [references/structures.md](references/structures.md).
 
 14. **Respecte la typographie française.** Pas de virgule d'Oxford (« A, B et C », jamais « A, B, et C »). Deux insécables à distinguer, par la largeur et non par le comportement. L'**espace fine insécable** (U+202F, étroite) se place avant `;`, `!`, `?` et `%`, ainsi qu'à l'intérieur des guillemets français. L'**espace insécable normale** (U+00A0, largeur d'un mot) se place avant `:`, signe plus lourd. N'aplatis pas les deux sur une seule espace, la distinction est la forme correcte. Majuscules accentuées (« État », « À propos »). Espaces dans les nombres (« 1 000 000 »), les heures (« 14 h 30 ») et avant `%` (« 50 % »). Décimales avec virgule (« 3,14 »).
 
@@ -85,6 +85,7 @@ Passe chaque point avant de livrer.
 - Rythme en triade systématique (« X, Y et Z » et trois propositions cadencées à répétition) ? Casse la cadence, fais varier le nombre d'éléments.
 - Tiret cadratin (—) ? Virgule, point ou parenthèses.
 - Deux-points en pure annonce IA, sans liste ni explication derrière ? Coupe ou reformule. Devant une liste ou une explication, garde-le.
+- Point-virgule là où un point ou une virgule passerait mieux ? Remplace. Garde-le pour équilibrer deux propositions liées ou ponctuer une liste verticale.
 - Barre oblique entre deux mots ? « ou », « et », ou reformule.
 - Pléonasme (« voire même », « au jour d'aujourd'hui », « comme par exemple ») ? Coupe.
 - Verbe de redéfinition (« réinventer », « repenser », « révolutionner ») ? Nomme ce qui change concrètement.
