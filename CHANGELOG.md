@@ -8,10 +8,12 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ### Ajouté
 
+- Distribution en _plugin_ Claude Code : le dépôt est sa propre _marketplace_ (`.claude-plugin/`), pour une installation en une commande et des mises à jour sans re-copie. La copie manuelle reste possible.
 - Couverture de deux tics persistants des modèles récents : la question-relance en transition (« Le résultat ? ») et le gras d'emphase dans la prose.
 
 ### Modifié
 
+- Le dossier du _skill_ vit désormais sous `skills/rediger-prose-francaise/` (déplacé depuis la racine), l'emplacement attendu par le format _plugin_. La copie manuelle part de ce nouveau chemin.
 - Les adverbes en _-ment_ passent de « à bannir » à « parasites », alignés sur la règle 4 pour préserver leurs emplois légitimes.
 
 ### Corrigé
