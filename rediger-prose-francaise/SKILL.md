@@ -107,6 +107,8 @@ Passe chaque point avant de livrer.
 - « Est-ce que » à l'écrit soutenu ? Inverse.
 - Trois « que » subordonnants dans une phrase ? Infinitif, nominalisation ou apposition.
 - Ouverture parasite (« À noter que », « Sachez que », « C'est pourquoi » en attaque, « Plus encore », « Mieux ») ? Coupe ou reformule.
+- Question-relance en transition (« Le résultat ? », « La bonne nouvelle ? », « Le verdict ? ») ? Énonce directement, sans suspense.
+- Gras d'emphase semé dans la prose ? Comme pour l'italique, si le mot doit ressortir, change la phrase.
 
 ## Notation
 

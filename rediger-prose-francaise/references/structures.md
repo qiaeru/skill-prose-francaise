@@ -141,6 +141,8 @@ Annoncer l'idée au lieu de la livrer.
 
 Entre dans le propos.
 
+La variante en cours de texte est la question-relance, un fragment interrogatif aussitôt suivi de sa réponse (« Le résultat ? Une équipe plus rapide. », « La bonne nouvelle ? », « Le verdict ? »). C'est un tic de transition qui mime le suspense au lieu d'articuler. Énonce directement, par une phrase pleine ou une subordonnée de conséquence (« si bien que l'équipe gagne en vitesse »).
+
 ## Périphrases
 
 | Tournure | Direct |
@@ -236,6 +238,7 @@ Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au moins
 - **Guillemets français « ».** Avec espaces insécables lorsque tu cites en registre formel. Évite les guillemets droits dans un texte soutenu.
 - **Points de suspension dramatiques.** « ... » à la fin d'une phrase n'apporte rien.
 - **Italiques d'emphase.** Si le mot doit ressortir, change la phrase.
+- **Gras d'emphase.** L'IA sème du gras en pleine prose _markdown_ pour scander un mot par phrase. Réserve le gras aux intitulés et aux termes que le lecteur doit retrouver d'un coup d'œil. Comme pour l'italique, si le mot doit ressortir, change la phrase.
 
 ### Énumérations sans virgule d'Oxford
 

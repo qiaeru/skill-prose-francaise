@@ -6,6 +6,14 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Non publié]
 
+### Ajouté
+
+- Couverture de deux tics persistants des modèles récents : la question-relance en transition (« Le résultat ? ») et le gras d'emphase dans la prose.
+
+### Modifié
+
+- Les adverbes en _-ment_ passent de « à bannir » à « parasites », alignés sur la règle 4 pour préserver leurs emplois légitimes.
+
 ## [1.1.0] - 2026-06-04
 
 ### Modifié

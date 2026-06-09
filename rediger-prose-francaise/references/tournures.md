@@ -9,7 +9,7 @@
 - Verbes calqués sur l'anglais (à éviter ou à manier avec précaution)
 - Ouvertures parasites
 - Connecteurs IA surutilisés
-- Adverbes en _-ment_ à bannir
+- Adverbes en _-ment_ parasites
 - Verbes vidés et passe-partout
 - Verbes de redéfinition vides
 - Jargon corporate et institutionnel
@@ -167,7 +167,9 @@ Aucun n'est interdit, mais leur densité trahit la machine. Vise un connecteur p
 - à cet égard
 - de surcroît
 
-## Adverbes en _-ment_ à bannir
+## Adverbes en _-ment_ parasites
+
+Aucun n'est interdit en soi, certains gardent des emplois pleinement légitimes (« notamment » pour restreindre, « précisément » pour corriger). Le tic, c'est l'adverbe qui n'ajoute rien au verbe qu'il modifie. Coupe-le dans ce cas.
 
 - véritablement
 - réellement
