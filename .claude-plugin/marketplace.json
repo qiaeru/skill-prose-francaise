@@ -3,6 +3,9 @@
   "owner": {
     "name": "Qiaeru"
   },
+  "metadata": {
+    "description": "Marketplace du plugin rediger-prose-francaise : un skill qui supprime les tics d'écriture IA dans les textes français."
+  },
   "plugins": [
     {
       "name": "rediger-prose-francaise",

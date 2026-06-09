@@ -31,6 +31,8 @@ skill-prose-francaise/
             └── exemples.md
 ```
 
+Le dépôt est à la fois un _plugin_ Claude Code nommé `rediger-prose-francaise` et sa propre _marketplace_ : `plugin.json` décrit le _plugin_ (le dépôt entier, avec le _skill_ sous `skills/`) et `marketplace.json` le référence pour que Claude Code l'installe et le mette à jour directement depuis GitHub.
+
 ## Installation
 
 Deux modes d'installation coexistent. Le _plugin_ est la voie recommandée, parce qu'il s'installe en une fois et se met à jour sans re-copie, tandis que la copie manuelle reste utile si votre version de Claude Code ne gère pas les _plugins_ ou si vous préférez figer une copie locale.
@@ -44,7 +46,7 @@ Le dépôt est sa propre _marketplace_. Dans Claude Code, ajoutez-la puis instal
 /plugin install rediger-prose-francaise@skill-prose-francaise
 ```
 
-Le _skill_ est disponible dans tous vos projets. Lorsqu'une nouvelle version sort, `/plugin marketplace update` rafraîchit le catalogue et récupère la mise à jour, sans copie de fichiers.
+Le _skill_ est disponible dans tous vos projets. Le champ `version` du _plugin_ suit les versions publiées du dépôt, relevé à chaque publication en même temps que le CHANGELOG. Lorsqu'une nouvelle version sort, mettez à jour avec `/plugin update rediger-prose-francaise`, ou laissez la mise à jour automatique de Claude Code s'en charger, sans copie de fichiers.
 
 ### En copie manuelle
 
