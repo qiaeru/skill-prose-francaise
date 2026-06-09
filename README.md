@@ -66,7 +66,7 @@ Pour vérifier que le _skill_ est bien chargé et qu'il fonctionne, soumettez à
 
 > À noter que cette solution représente un véritable enjeu stratégique majeur, permettant ainsi aux équipes d'implémenter une démarche d'amélioration continue, tout en garantissant une scalabilité optimale. En effet, par ailleurs, il est important de souligner que ce n'est pas une simple mise à jour, c'est une refonte fondamentale. Cette solution est simple, intuitive et performante. La solution s'adapte. La solution répond aux besoins. Voyons cela ensemble. En définitive, la solution permet véritablement de réaliser des gains de productivité significatifs.
 
-Si le _skill_ est actif, Claude doit identifier l'essentiel de ces tics, proposer une version qui coule par subordination et faire passer la note globale au-dessus de 35 sur 50. À l'inverse, si la réponse de Claude conserve les puces, les phrases courtes empilées et les adverbes en _-ment_, le _skill_ n'a pas été chargé.
+Si le _skill_ est actif, Claude doit identifier l'essentiel de ces tics, proposer une version qui coule par subordination et faire passer la note globale au-dessus de 35 sur 50. À l'inverse, si la réponse de Claude introduit des puces ou conserve les phrases courtes empilées et les adverbes en _-ment_, le _skill_ n'a pas été chargé.
 
 ## Licence
 

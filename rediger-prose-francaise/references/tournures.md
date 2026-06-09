@@ -325,7 +325,7 @@ Si tu dois annoncer ta franchise, tu ne l'es pas.
 
 Le _skill_ liste surtout ce qu'il faut éviter, mais le réflexe utile reste de savoir par quoi remplacer. Ce tableau récapitule les déplacements les plus fréquents, en regroupant les tournures à proscrire et leurs alternatives recommandées.
 
-| Si tu êtes tenté d'écrire | Préfère |
+| Si tu es tenté d'écrire | Préfère |
 | --- | --- |
 | une enfilade de phrases courtes | une phrase articulée par « parce que », « alors que », « tandis que », « puisque » |
 | une chaîne de participes présents | une relative en « qui » ou une subordonnée causale en « parce que » |

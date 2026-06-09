@@ -14,6 +14,10 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 - Les adverbes en _-ment_ passent de « à bannir » à « parasites », alignés sur la règle 4 pour préserver leurs emplois légitimes.
 
+### Corrigé
+
+- Deux accords fautifs dans les références et le critère d'échec du test rapide du README, qui mentionnait des puces absentes du paragraphe de test.
+
 ## [1.1.0] - 2026-06-04
 
 ### Modifié

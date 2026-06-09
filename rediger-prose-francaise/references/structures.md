@@ -166,7 +166,7 @@ Quand l'acteur existe, exhume-le et fais-en le sujet.
 
 ## Abus des listes à puces
 
-Claude convertit volontiers tout enchaînement d'idées en liste de puces, comme le fait l'anglais journalistique et le contenu web anglo-saxon. La prose française attendue dans une lettre, un essai ou un article hors web tisse au contraire les idées dans des phrases articulées. Réserve la liste à puces aux cas où elle a un vrai sens, à savoir une énumération parallèle (cinq pays, sept étapes d'une procédure, dix paramètres techniques) ou un inventaire dont l'ordre n'importe pas. Pour deux ou trois idées liées par un raisonnement, écris une phrase ou un paragraphe.
+Claude convertit volontiers tout enchaînement d'idées en liste de puces, comme le font l'anglais journalistique et le contenu web anglo-saxon. La prose française attendue dans une lettre, un essai ou un article hors web tisse au contraire les idées dans des phrases articulées. Réserve la liste à puces aux cas où elle a un vrai sens, à savoir une énumération parallèle (cinq pays, sept étapes d'une procédure, dix paramètres techniques) ou un inventaire dont l'ordre n'importe pas. Pour deux ou trois idées liées par un raisonnement, écris une phrase ou un paragraphe.
 
 ### Avant, puces gratuites
 
