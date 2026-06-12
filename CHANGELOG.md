@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Non publié]
 
+## [1.2.0] - 2026-06-12
+
 ### Ajouté
 
 - Distribution en _plugin_ Claude Code : le dépôt est sa propre _marketplace_ (`.claude-plugin/`), pour une installation en une commande et des mises à jour sans re-copie. La copie manuelle reste possible.
