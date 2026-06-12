@@ -28,6 +28,8 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 - 22\. Construction interrogative familière
 - 23\. Excès du « que » subordonnant
 - 24\. Ouverture parasite « À noter que »
+- 25\. Fragments publicitaires en cascade
+- 26\. Ouverture commerciale « Que vous soyez »
 
 ## 1. Phrases courtes à la chaîne (calque anglo-saxon)
 
@@ -177,3 +179,15 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 **Avant.** À noter que le rapport doit être validé par le comité avant publication. Sachez que tout retard décale l'ensemble du calendrier.
 
 **Après.** Le rapport doit être validé par le comité avant publication, et tout retard décale l'ensemble du calendrier.
+
+## 25. Fragments publicitaires en cascade
+
+**Avant.** Pas de jargon. Pas de configuration interminable. Pas de mauvaise surprise. Juste un outil qui marche.
+
+**Après.** L'outil fonctionne dès l'installation, sans jargon, sans configuration interminable ni mauvaise surprise.
+
+## 26. Ouverture commerciale « Que vous soyez »
+
+**Avant.** Que vous soyez une petite équipe ou un grand groupe, dans un monde où tout s'accélère, cette plateforme s'adapte à vos besoins.
+
+**Après.** La plateforme convient aussi bien à une petite équipe qu'à un grand groupe, parce que ses modules s'activent à la demande.

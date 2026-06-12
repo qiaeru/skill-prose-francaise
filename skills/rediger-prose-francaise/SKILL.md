@@ -5,11 +5,23 @@ description: Supprime les tics d'écriture IA en français. À utiliser pour ré
 
 # Rédiger une prose française
 
-Le défaut principal d'un texte IA en français n'est pas l'emphase anglo-saxonne mais le hachage. L'IA aligne des phrases courtes calquées sur l'anglais alors que le français écrit attend des phrases plus longues, articulées par subordination. Ce skill corrige ce défaut et neuf autres familles de tics.
+Le défaut principal d'un texte IA en français n'est pas l'emphase anglo-saxonne mais le hachage. L'IA aligne des phrases courtes calquées sur l'anglais alors que le français écrit attend des phrases plus longues, articulées par subordination. Ce skill corrige ce défaut et dix-neuf autres familles de tics.
 
 ## Quand l'appliquer
 
 Dès que la sortie attendue est un texte en français à registre soutenu courant (article, essai, courriel professionnel, documentation, communiqué, billet). N'applique pas ce skill à la fiction, à la poésie, au juridique pur ou à l'administratif normalisé, où plusieurs règles deviennent contre-productives.
+
+## Déroulé
+
+Pour une relecture ou une réécriture complète :
+
+1. lis le texte en entier avant de corriger, pour repérer les tics de structure (hachage, répétitions, cadence) qui n'apparaissent pas phrase par phrase;
+2. applique les règles centrales, en ouvrant les références au besoin;
+3. passe les vérifications rapides sur le résultat;
+4. note sur la grille des cinq axes et réécris sous 35 sur 50;
+5. relis ta propre sortie avec les mêmes vérifications, car le texte corrigé doit respecter les règles qu'il impose.
+
+Pour un texte court (courriel, message, paragraphe isolé), applique les règles sans dérouler la grille de notation.
 
 ## Cas particulier : interfaces logicielles
 
@@ -80,6 +92,7 @@ Passe chaque point avant de livrer.
 - Adverbe en *-ment* qui n'ajoute rien ? Coupe.
 - « permet de », « constitue », « représente », « s'avère » ? Verbe d'action direct.
 - « Non pas X, mais Y » ? Garde Y.
+- Fragments publicitaires en cascade (« Pas de jargon. Pas de détour. Juste l'essentiel. ») ou balancement « Moins de X, plus de Y » ? Reconstruis une phrase pleine.
 - Plus d'un connecteur d'ouverture par paragraphe ? Coupe l'excès.
 - Trois adjectifs synonymes alignés ? Réduis à deux ou un.
 - Rythme en triade systématique (« X, Y et Z » et trois propositions cadencées à répétition) ? Casse la cadence, fais varier le nombre d'éléments.
@@ -106,9 +119,11 @@ Passe chaque point avant de livrer.
 - Mot ou structure répétés à courte distance ? Varie.
 - « Est-ce que » à l'écrit soutenu ? Inverse.
 - Trois « que » subordonnants dans une phrase ? Infinitif, nominalisation ou apposition.
-- Ouverture parasite (« À noter que », « Sachez que », « C'est pourquoi » en attaque, « Plus encore », « Mieux ») ? Coupe ou reformule.
+- Ouverture parasite (« À noter que », « Sachez que », « C'est pourquoi » en attaque, « Plus encore », « Mieux », « Dans un monde où », « Que vous soyez X ou Y ») ? Coupe ou reformule.
+- Pseudo-clivée d'annonce (« Ce qui est intéressant, c'est que ») ? Énonce directement.
 - Question-relance en transition (« Le résultat ? », « La bonne nouvelle ? », « Le verdict ? ») ? Énonce directement, sans suspense.
 - Gras d'emphase semé dans la prose ? Comme pour l'italique, si le mot doit ressortir, change la phrase.
+- Émoji ou pictogramme dans la prose (coches, fusées) ? Supprime, le mot porte le sens.
 
 ## Notation
 
@@ -130,7 +145,7 @@ Registre soutenu courant (Le Monde, Libération, essai contemporain). Vocabulair
 
 ## Exemples
 
-Voir [references/exemples.md](references/exemples.md) pour vingt-quatre paires avant et après.
+Voir [references/exemples.md](references/exemples.md) pour vingt-six paires avant et après.
 
 ## Attribution
 

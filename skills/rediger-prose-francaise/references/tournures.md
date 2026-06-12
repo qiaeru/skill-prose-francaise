@@ -83,6 +83,10 @@ Calques de l'anglais que l'IA emploie sans réfléchir. Remplace par le verbe ou
 | dédié à | consacré à, pour |
 | customisé | sur mesure, personnalisé |
 | process | processus, procédure |
+| game-changer | tournant, ce qui change la donne |
+| roadmap | feuille de route |
+| digital (adjectif) | numérique |
+| s'intégrer de manière transparente | s'intégrer sans heurt, naturellement |
 
 ## Faux-amis et calques sémantiques
 
@@ -104,6 +108,8 @@ Mots français qui ressemblent à un mot anglais mais qui ont un sens différent
 | ignorer | ne pas savoir | _to ignore_ (= faire semblant de ne pas voir) |
 | disposer de | avoir à sa disposition | _to dispose of_ (= se débarrasser de) |
 | achever | mener à terme | _to achieve_ (= atteindre, obtenir) |
+| versatile | inconstant, changeant | _versatile_ (= polyvalent) |
+| assumer | endosser, prendre sur soi | _to assume_ (= supposer, présumer) |
 
 ## Verbes calqués sur l'anglais (à éviter ou à manier avec précaution)
 
@@ -145,6 +151,10 @@ Annoncent le propos au lieu de le tenir.
 - « Soyons clairs »
 - « À l'heure où »
 - « À une époque où »
+- « Dans un monde où »
+- « Que vous soyez X ou Y » en attaque commerciale
+- « Ce qui est intéressant, c'est que » et les pseudo-clivées d'annonce (« Ce qui frappe, c'est que », « Ce qu'il faut retenir, c'est que »)
+- « C'est là que X entre en jeu », calque de transition de l'anglais _that's where X comes in_
 
 ## Connecteurs IA surutilisés
 
@@ -226,6 +236,8 @@ L'IA aime annoncer des bouleversements abstraits.
 - bouleverser
 - réimaginer
 - réenchanter
+- libérer ou débloquer le potentiel
+- exploiter la puissance de
 
 Si tu emploies un de ces verbes, demande-toi ce qui change au juste. Nomme le changement à la place.
 
@@ -241,7 +253,6 @@ Si tu emploies un de ces verbes, demande-toi ce qui change au juste. Nomme le ch
 | dans une optique de | pour |
 | dans une démarche de | pour |
 | à l'ère de | aujourd'hui, avec |
-| en matière de | sur, pour |
 | force est de | (supprimer) |
 | problématique (nom) | problème, question |
 | thématique (nom) | thème, sujet |
@@ -282,9 +293,10 @@ Souvent jargonneuses et typiques de l'IA. Remplace par du français courant.
 - prévoir à l'avance (prévoir)
 - collaborer ensemble (collaborer)
 - au final (finalement, ou rien du tout)
-- pour autant que (si)
 
 ## Atténuations et précautions
+
+Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le tic IA, c'est l'empilement qui dilue l'affirmation (« il semblerait que cela pourrait, d'une certaine manière, contribuer à »). Affirme, et réserve la réserve aux doutes réels.
 
 - sans doute
 - peut-être

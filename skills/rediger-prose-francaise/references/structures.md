@@ -55,8 +55,12 @@ Créent une fausse tension. Énonce le second terme, éventuellement nuancé par
 | « Loin de X, Y » | Même formule, registre soutenu |
 | « X n'est pas le problème. Y l'est. » | Reformulation cliché |
 | « La vraie question, ce n'est pas X, c'est Y » | Diversion rhétorique |
+| « Pas de X. Pas de Y. Juste Z. » | Fragments publicitaires en cascade |
+| « Moins de X, plus de Y. » | Balancement publicitaire (_less X, more Y_) |
 
 Dis Y. « Y compte. » Ou bien, si la nuance vaut la peine, « Y compte davantage que X, quoique ce dernier reste un facteur. »
+
+La variante en fragments (« Pas de jargon. Pas de configuration interminable. Juste un outil qui marche. ») cumule la fausse opposition et le hachage. Reconstruis une phrase pleine qui affirme Z en écartant X et Y au passage (« L'outil fonctionne dès l'installation, sans jargon ni configuration interminable »).
 
 ## Empilement de relatives
 
@@ -239,6 +243,7 @@ Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au moins
 - **Points de suspension dramatiques.** « ... » à la fin d'une phrase n'apporte rien.
 - **Italiques d'emphase.** Si le mot doit ressortir, change la phrase.
 - **Gras d'emphase.** L'IA sème du gras en pleine prose _markdown_ pour scander un mot par phrase. Réserve le gras aux intitulés et aux termes que le lecteur doit retrouver d'un coup d'œil. Comme pour l'italique, si le mot doit ressortir, change la phrase.
+- **Émojis et pictogrammes.** L'IA ponctue ses paragraphes de coches, de fusées et d'ampoules, par contamination du contenu web. En prose soutenue, supprime-les, le mot porte le sens.
 
 ### Énumérations sans virgule d'Oxford
 
@@ -255,16 +260,17 @@ Cas particulier, lorsque la dernière entrée contient elle-même une conjonctio
 
 ### Espaces insécables
 
-Le français impose une espace insécable avant les ponctuations doubles et à l'intérieur des guillemets français. Dans une source _markdown_, on utilise souvent une espace normale faute de mieux, mais le rendu typographique correct exige l'insécable.
+Le français impose une espace insécable avant les ponctuations doubles et à l'intérieur des guillemets français. Deux largeurs coexistent, conformément à la règle 14 : la fine (U+202F), étroite, et la normale (U+00A0), large d'un mot. Dans une source _markdown_, on utilise souvent une espace normale faute de mieux, mais le rendu typographique correct exige l'insécable de la bonne largeur.
 
 | Signe | Espace requise |
 | --- | --- |
-| `?`, `!`, `;` | insécable avant |
-| `«` | insécable après |
-| `»` | insécable avant |
-| `%` | insécable avant |
-| `°` (degré) | insécable avant le nombre |
-| `h` dans les heures | insécable avant et après (« 14 h 30 ») |
+| `:` | insécable normale (U+00A0) avant |
+| `?`, `!`, `;` | fine insécable (U+202F) avant |
+| `%` | fine insécable avant |
+| `«` | fine insécable après |
+| `»` | fine insécable avant |
+| `°C` et autres symboles d'unité | insécable normale entre le nombre et le symbole (« 25 °C ») |
+| `h` dans les heures | insécable normale avant et après (« 14 h 30 ») |
 
 ### Majuscules accentuées
 
