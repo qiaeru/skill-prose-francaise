@@ -1,7 +1,7 @@
 {
   "name": "rediger-prose-francaise",
   "description": "Supprime les tics d'écriture IA en français. À utiliser pour rédiger, éditer ou relire un texte FR. Impose une prose articulée par subordination plutôt que par hachage anglo-saxon, et applique la typographie française.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "Qiaeru"
   },

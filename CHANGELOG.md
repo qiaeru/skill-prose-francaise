@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Non publié]
 
+## [1.3.0] - 2026-06-25
+
 ### Ajouté
 
 - Règle 21 contre le registre d'assistant, l'angle qui manquait au _skill_, centré sur la prose et non sur le résidu de modèle. Elle vise trois familles, la flagornerie d'ouverture (« Excellente question ») et l'accord réflexe, les formules de service en tête ou en clôture (« J'espère que ce message vous trouve bien », « Souhaitez-vous que je développe ? »), et les mentions résiduelles du modèle (« En tant que modèle de langage »), avec trois vérifications rapides, une section de référence dans `tournures.md` et un exemple avant et après.
