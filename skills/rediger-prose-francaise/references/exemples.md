@@ -1,6 +1,6 @@
 # Exemples avant et après
 
-Chaque « Après » montre une phrase française qui coule, articulée par subordination ou par apposition, plutôt qu'une succession de phrases courtes calquées sur l'anglais.
+Chaque « Après » montre une phrase française qui coule, articulée par subordination ou par apposition, plutôt qu'une succession de phrases courtes calquées sur l'anglais.
 
 ## Sommaire
 
@@ -18,7 +18,7 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 - 12\. Méta-commentaire et amorce rhétorique
 - 13\. Pléonasmes et locutions latines
 - 14\. Double négation savante
-- 15\. Tournure « se voir » suivie d'un infinitif
+- 15\. Tournure « se voir » suivie d'un infinitif
 - 16\. Clôture clichée
 - 17\. Liste négative et fragmentation
 - 18\. Voix passive cachant l'acteur
@@ -26,10 +26,11 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 - 20\. Liste à puces convertie en paragraphe
 - 21\. Répétitions lexicales
 - 22\. Construction interrogative familière
-- 23\. Excès du « que » subordonnant
-- 24\. Ouverture parasite « À noter que »
+- 23\. Excès du « que » subordonnant
+- 24\. Ouverture parasite « À noter que »
 - 25\. Fragments publicitaires en cascade
-- 26\. Ouverture commerciale « Que vous soyez »
+- 26\. Ouverture commerciale « Que vous soyez »
+- 27\. Registre d'assistant
 
 ## 1. Phrases courtes à la chaîne (calque anglo-saxon)
 
@@ -99,7 +100,7 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 
 ## 12. Méta-commentaire et amorce rhétorique
 
-**Avant.** Et si on regardait cela de plus près ? Voyons ensemble pourquoi cette tendance s'impose aujourd'hui.
+**Avant.** Et si on regardait cela de plus près ? Voyons ensemble pourquoi cette tendance s'impose aujourd'hui.
 
 **Après.** Cette tendance s'impose aujourd'hui parce qu'elle conjugue la pression réglementaire, le coût du capital et l'évolution des attentes des clients.
 
@@ -115,7 +116,7 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 
 **Après.** Cette méthode compte, ne serait-ce que parce qu'elle a fait ses preuves sur des cas concrets.
 
-## 15. Tournure « se voir » suivie d'un infinitif
+## 15. Tournure « se voir » suivie d'un infinitif
 
 **Avant.** L'utilisateur se voit proposer plusieurs options, lui permettant de personnaliser son expérience.
 
@@ -137,7 +138,7 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 
 **Avant.** Il a été décidé que les utilisateurs seraient notifiés par e-mail dans un délai raisonnable.
 
-**Après.** L'équipe produit notifiera les utilisateurs par e-mail sous 48 h.
+**Après.** L'équipe produit notifiera les utilisateurs par e-mail sous 48 h.
 
 ## 19. Atténuations empilées
 
@@ -164,17 +165,17 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 
 ## 22. Construction interrogative familière
 
-**Avant.** Est-ce qu'il faut prévenir l'équipe avant la mise en production, et est-ce que cela peut attendre la prochaine itération ?
+**Avant.** Est-ce qu'il faut prévenir l'équipe avant la mise en production, et est-ce que cela peut attendre la prochaine itération ?
 
-**Après.** Faut-il prévenir l'équipe avant la mise en production, ou la question peut-elle attendre la prochaine itération ?
+**Après.** Faut-il prévenir l'équipe avant la mise en production, ou la question peut-elle attendre la prochaine itération ?
 
-## 23. Excès du « que » subordonnant
+## 23. Excès du « que » subordonnant
 
 **Avant.** Il faut que nous comprenions que ce changement implique que toute l'équipe accepte que les délais soient revus.
 
 **Après.** Nous devons comprendre que ce changement impose à l'équipe de revoir ses délais.
 
-## 24. Ouverture parasite « À noter que »
+## 24. Ouverture parasite « À noter que »
 
 **Avant.** À noter que le rapport doit être validé par le comité avant publication. Sachez que tout retard décale l'ensemble du calendrier.
 
@@ -186,8 +187,14 @@ Chaque « Après » montre une phrase française qui coule, articulée par subor
 
 **Après.** L'outil fonctionne dès l'installation, sans jargon, sans configuration interminable ni mauvaise surprise.
 
-## 26. Ouverture commerciale « Que vous soyez »
+## 26. Ouverture commerciale « Que vous soyez »
 
 **Avant.** Que vous soyez une petite équipe ou un grand groupe, dans un monde où tout s'accélère, cette plateforme s'adapte à vos besoins.
 
 **Après.** La plateforme convient aussi bien à une petite équipe qu'à un grand groupe, parce que ses modules s'activent à la demande.
+
+## 27. Registre d'assistant
+
+**Avant.** Excellente question ! En tant que modèle de langage, je dirais que cette solution est tout à fait pertinente. J'espère que cela vous aide, n'hésitez pas à revenir vers moi si besoin.
+
+**Après.** Cette solution tient, parce qu'elle réduit les allers-retours réseau et se déploie sans configuration.

@@ -7,7 +7,7 @@
 - Fausses oppositions
 - Empilement de relatives
 - Doubles négations savantes
-- Tournures « se voir » ou « se faire » suivi d'un infinitif
+- Tournures « se voir » ou « se faire » suivi d'un infinitif
 - Tournures impersonnelles abusives
 - Nominalisations
 - Énumération ternaire automatique
@@ -16,10 +16,10 @@
 - Voix passive cachant l'acteur
 - Abus des listes à puces
 - Répétitions lexicales et syntaxiques
-- Constructions interrogatives et excès du « que »
+- Constructions interrogatives et excès du « que »
 - Typographie et ponctuation françaises
 - Pièges grammaticaux fréquents
-- « On », « l'on », « nous »
+- « On », « l'on », « nous »
 
 ## Phrases courtes à la chaîne (calque anglo-saxon)
 
@@ -27,11 +27,11 @@ Le tic IA le plus visible en français est l'enfilade de phrases courtes coordon
 
 | Tournure IA | Reconstruction française |
 | --- | --- |
-| « Le résultat tient. C'est une refonte. La méthode marche. » | « Le résultat tient, puisque la refonte de la méthode a porté ses fruits. » |
-| « Le projet a démarré. L'équipe est petite. Les ressources sont limitées. » | « Le projet a démarré avec une équipe restreinte, dans un cadre budgétaire serré. » |
-| « X fait Y. Cela permet Z. C'est important. » | « En faisant Y, X obtient Z, ce qui pèse sur la suite. » |
+| « Le résultat tient. C'est une refonte. La méthode marche. » | « Le résultat tient, puisque la refonte de la méthode a porté ses fruits. » |
+| « Le projet a démarré. L'équipe est petite. Les ressources sont limitées. » | « Le projet a démarré avec une équipe restreinte, dans un cadre budgétaire serré. » |
+| « X fait Y. Cela permet Z. C'est important. » | « En faisant Y, X obtient Z, ce qui pèse sur la suite. » |
 
-Pour relier les idées sans hacher, mobilise les subordonnants comme « alors que », « tandis que », « puisque », « bien que », « dès lors que », « pourvu que », « quoique », « lorsque », « dès que », « après que », « avant que », « si bien que », « de sorte que », « parce que », « au point que » ou « pour peu que ».
+Pour relier les idées sans hacher, mobilise les subordonnants comme « alors que », « tandis que », « puisque », « bien que », « dès lors que », « pourvu que », « quoique », « lorsque », « dès que », « après que », « avant que », « si bien que », « de sorte que », « parce que », « au point que » ou « pour peu que ».
 
 ## Chaîne de participes présents
 
@@ -39,9 +39,9 @@ Un participe présent isolé ne pose pas de problème et appartient au registre 
 
 | Forme IA | Reconstruction |
 | --- | --- |
-| « X, permettant Y et offrant Z, garantit W. » | « X garantit W, puisqu'il permet Y et qu'il offre Z. » |
-| « Une solution s'appuyant sur A, mobilisant B et visant à C. » | « Une solution qui s'appuie sur A et mobilise B, dans le but de C. » |
-| « Un outil visant à... » | « Un outil destiné à... » ou « Un outil conçu pour... » |
+| « X, permettant Y et offrant Z, garantit W. » | « X garantit W, puisqu'il permet Y et qu'il offre Z. » |
+| « Une solution s'appuyant sur A, mobilisant B et visant à C. » | « Une solution qui s'appuie sur A et mobilise B, dans le but de C. » |
+| « Un outil visant à... » | « Un outil destiné à... » ou « Un outil conçu pour... » |
 
 ## Fausses oppositions
 
@@ -49,25 +49,25 @@ Créent une fausse tension. Énonce le second terme, éventuellement nuancé par
 
 | Tournure | Problème |
 | --- | --- |
-| « Non pas X, mais Y » | Pivot mécanique |
-| « Ce n'est pas X, c'est Y » | Renversement téléphoné |
-| « Il ne s'agit pas de X, mais de Y » | Variante administrative |
-| « Loin de X, Y » | Même formule, registre soutenu |
-| « X n'est pas le problème. Y l'est. » | Reformulation cliché |
-| « La vraie question, ce n'est pas X, c'est Y » | Diversion rhétorique |
-| « Pas de X. Pas de Y. Juste Z. » | Fragments publicitaires en cascade |
-| « Moins de X, plus de Y. » | Balancement publicitaire (_less X, more Y_) |
+| « Non pas X, mais Y » | Pivot mécanique |
+| « Ce n'est pas X, c'est Y » | Renversement téléphoné |
+| « Il ne s'agit pas de X, mais de Y » | Variante administrative |
+| « Loin de X, Y » | Même formule, registre soutenu |
+| « X n'est pas le problème. Y l'est. » | Reformulation cliché |
+| « La vraie question, ce n'est pas X, c'est Y » | Diversion rhétorique |
+| « Pas de X. Pas de Y. Juste Z. » | Fragments publicitaires en cascade |
+| « Moins de X, plus de Y. » | Balancement publicitaire (_less X, more Y_) |
 
-Dis Y. « Y compte. » Ou bien, si la nuance vaut la peine, « Y compte davantage que X, quoique ce dernier reste un facteur. »
+Dis Y. « Y compte. » Ou bien, si la nuance vaut la peine, « Y compte davantage que X, quoique ce dernier reste un facteur. »
 
-La variante en fragments (« Pas de jargon. Pas de configuration interminable. Juste un outil qui marche. ») cumule la fausse opposition et le hachage. Reconstruis une phrase pleine qui affirme Z en écartant X et Y au passage (« L'outil fonctionne dès l'installation, sans jargon ni configuration interminable »).
+La variante en fragments (« Pas de jargon. Pas de configuration interminable. Juste un outil qui marche. ») cumule la fausse opposition et le hachage. Reconstruis une phrase pleine qui affirme Z en écartant X et Y au passage (« L'outil fonctionne dès l'installation, sans jargon ni configuration interminable »).
 
 ## Empilement de relatives
 
 Une ou deux relatives bien placées rendent service. Au-delà, la phrase s'effondre.
 
-- **À éviter.** « Une plateforme qui permet à des équipes qui collaborent à distance et dont les usages sont variés, laquelle s'appuie sur une infrastructure dont la fiabilité a été éprouvée... »
-- **Reconstruction.** « Une plateforme de collaboration à distance, taillée pour des usages variés, qui s'appuie sur une infrastructure éprouvée. »
+- **À éviter.** « Une plateforme qui permet à des équipes qui collaborent à distance et dont les usages sont variés, laquelle s'appuie sur une infrastructure dont la fiabilité a été éprouvée... »
+- **Reconstruction.** « Une plateforme de collaboration à distance, taillée pour des usages variés, qui s'appuie sur une infrastructure éprouvée. »
 
 Une relative par phrase, deux à la rigueur si chacune apporte une information distincte. Au-delà, redistribue par subordination ou par apposition.
 
@@ -75,35 +75,35 @@ Une relative par phrase, deux à la rigueur si chacune apporte une information d
 
 Affaiblissent ce qu'elles affirment.
 
-- « n'est pas sans intérêt »
-- « non sans difficulté »
-- « ne saurait être ignoré »
-- « il n'est pas exclu que »
-- « il n'est pas rare que »
+- « n'est pas sans intérêt »
+- « non sans difficulté »
+- « ne saurait être ignoré »
+- « il n'est pas exclu que »
+- « il n'est pas rare que »
 
-Affirme. « C'est intéressant. » « Difficile mais faisable. » « Cela compte. »
+Affirme. « C'est intéressant. » « Difficile mais faisable. » « Cela compte. »
 
-## Tournures « se voir » ou « se faire » suivi d'un infinitif
+## Tournures « se voir » ou « se faire » suivi d'un infinitif
 
 Équivalent passif typique de l'IA.
 
-- « Il s'est vu attribuer le rôle de... »
-- « X se voit imposer Y. »
-- « L'entreprise se fait fort de... »
+- « Il s'est vu attribuer le rôle de... »
+- « X se voit imposer Y. »
+- « L'entreprise se fait fort de... »
 
-Passe à la voix active et nomme l'acteur. « Y a attribué le rôle à X. » « Y impose Z à X. »
+Passe à la voix active et nomme l'acteur. « Y a attribué le rôle à X. » « Y impose Z à X. »
 
 ## Tournures impersonnelles abusives
 
-Le sujet « il » impersonnel est légitime quand aucun acteur n'existe (« il pleut », « il existe »). Quand un acteur existe, nomme-le et laisse-le porter la phrase.
+Le sujet « il » impersonnel est légitime quand aucun acteur n'existe (« il pleut », « il existe »). Quand un acteur existe, nomme-le et laisse-le porter la phrase.
 
 | Tournure | À transformer si un acteur existe |
 | --- | --- |
-| « Il est important de » | (sujet humain et verbe) |
-| « Il convient de » | (verbe direct) |
-| « Il s'agit de » | (sujet et verbe) |
-| « Il faut » | l'impératif ou nomme qui doit |
-| « On peut » | sujet précis (l'équipe, l'utilisateur, le développeur) |
+| « Il est important de » | (sujet humain et verbe) |
+| « Il convient de » | (verbe direct) |
+| « Il s'agit de » | (sujet et verbe) |
+| « Il faut » | l'impératif ou nomme qui doit |
+| « On peut » | sujet précis (l'équipe, l'utilisateur, le développeur) |
 
 ## Nominalisations
 
@@ -124,10 +124,10 @@ Verbes transformés en noms abstraits, souvent enchaînés en complément de nom
 
 Trois adjectifs synonymes alignés sonnent comme un slogan.
 
-- « rapide, efficace, fiable »
-- « simple, clair, intuitif »
-- « robuste, performant, évolutif »
-- « innovant, ambitieux, transformateur »
+- « rapide, efficace, fiable »
+- « simple, clair, intuitif »
+- « robuste, performant, évolutif »
+- « innovant, ambitieux, transformateur »
 
 Réduis à deux éléments contrastés ou à un seul, juste.
 
@@ -135,17 +135,18 @@ Réduis à deux éléments contrastés ou à un seul, juste.
 
 Annoncer l'idée au lieu de la livrer.
 
-- « Et si... ? »
-- « Voyons cela ensemble. »
-- « Décortiquons. »
-- « Posons-nous la question. »
-- « Voici pourquoi. »
-- « Plongeons dans le sujet. »
-- « Dans cet article, nous allons voir... »
+- « Et si... ? »
+- « Voyons cela ensemble. »
+- « Décortiquons. »
+- « Posons-nous la question. »
+- « Voici pourquoi. »
+- « Plongeons dans le sujet. »
+- « Plongée au cœur de X. »
+- « Dans cet article, nous allons voir... »
 
 Entre dans le propos.
 
-La variante en cours de texte est la question-relance, un fragment interrogatif aussitôt suivi de sa réponse (« Le résultat ? Une équipe plus rapide. », « La bonne nouvelle ? », « Le verdict ? »). C'est un tic de transition qui mime le suspense au lieu d'articuler. Énonce directement, par une phrase pleine ou une subordonnée de conséquence (« si bien que l'équipe gagne en vitesse »).
+La variante en cours de texte est la question-relance, un fragment interrogatif aussitôt suivi de sa réponse (« Le résultat ? Une équipe plus rapide. », « La bonne nouvelle ? », « Le verdict ? »). C'est un tic de transition qui mime le suspense au lieu d'articuler. Énonce directement, par une phrase pleine ou une subordonnée de conséquence (« si bien que l'équipe gagne en vitesse »).
 
 ## Périphrases
 
@@ -164,9 +165,9 @@ La variante en cours de texte est la question-relance, un fragment interrogatif 
 
 Quand l'acteur existe, exhume-le et fais-en le sujet.
 
-- « Il a été décidé que... » devient « L'équipe a décidé que... »
-- « Les performances ont été améliorées » devient « L'équipe a accéléré le système »
-- « Une attention particulière sera portée à... » devient « L'équipe surveillera de près... »
+- « Il a été décidé que... » devient « L'équipe a décidé que... »
+- « Les performances ont été améliorées » devient « L'équipe a accéléré le système »
+- « Une attention particulière sera portée à... » devient « L'équipe surveillera de près... »
 
 ## Abus des listes à puces
 
@@ -199,26 +200,26 @@ Le français écrit accepte mal la répétition à courte distance, là où l'an
 | important | central, déterminant lorsque c'est vrai, lourd de conséquences |
 | montrer que | démontrer que, indiquer que, témoigner que (sans abus) |
 
-L'autre forme de répétition est syntaxique. Trois phrases qui commencent par le même mot (« Cette solution... Cette solution... Cette solution... ») ou par la même structure (« On voit que..., On note que..., On observe que... ») sonnent comme une copie automatique. Varie l'attaque, déplace le complément circonstanciel en tête, alterne phrase simple et phrase complexe.
+L'autre forme de répétition est syntaxique. Trois phrases qui commencent par le même mot (« Cette solution... Cette solution... Cette solution... ») ou par la même structure (« On voit que..., On note que..., On observe que... ») sonnent comme une copie automatique. Varie l'attaque, déplace le complément circonstanciel en tête, alterne phrase simple et phrase complexe.
 
-## Constructions interrogatives et excès du « que »
+## Constructions interrogatives et excès du « que »
 
 ### Interrogation
 
-En registre soutenu courant, l'inversion l'emporte sur « est-ce que ».
+En registre soutenu courant, l'inversion l'emporte sur « est-ce que ».
 
 | À éviter | Préférer |
 | --- | --- |
-| Est-ce qu'il faut agir ? | Faut-il agir ? |
-| Est-ce qu'on peut attendre ? | Peut-on attendre ? |
-| Est-ce que cela vous convient ? | Cela vous convient-il ? |
-| Est-ce que vous voulez en discuter ? | Souhaitez-vous en discuter ? |
+| Est-ce qu'il faut agir ? | Faut-il agir ? |
+| Est-ce qu'on peut attendre ? | Peut-on attendre ? |
+| Est-ce que cela vous convient ? | Cela vous convient-il ? |
+| Est-ce que vous voulez en discuter ? | Souhaitez-vous en discuter ? |
 
-L'inversion s'impose surtout à l'écrit. À l'oral et dans un courriel familier, « est-ce que » reste acceptable.
+L'inversion s'impose surtout à l'écrit. À l'oral et dans un courriel familier, « est-ce que » reste acceptable.
 
-### Excès du subordonnant « que »
+### Excès du subordonnant « que »
 
-Un « que » subordonnant utile ne pose pas de problème. Le tic IA, c'est l'enchaînement.
+Un « que » subordonnant utile ne pose pas de problème. Le tic IA, c'est l'enchaînement.
 
 | Lourd | Léger |
 | --- | --- |
@@ -229,25 +230,25 @@ Un « que » subordonnant utile ne pose pas de problème. Le tic IA, c'est l'enc
 | Le risque est que le projet glisse | Le risque, un glissement du projet |
 | Je crois que je peux dire que c'est utile | Je crois pouvoir dire que c'est utile |
 
-Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au moins un par un infinitif, une nominalisation légère ou une apposition.
+Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au moins un par un infinitif, une nominalisation légère ou une apposition.
 
 ## Typographie et ponctuation françaises
 
 ### Ponctuation à manier avec précaution
 
-- **Tiret cadratin (—).** L'IA l'utilise comme virgule ou comme deux-points à l'anglo-saxonne, sans logique d'incise. Préfère les virgules (« Pierre, qui sait, est venu »), un point ou des parenthèses.
+- **Tiret cadratin (—).** L'IA l'utilise comme virgule ou comme deux-points à l'anglo-saxonne, sans logique d'incise. Préfère les virgules (« Pierre, qui sait, est venu »), un point ou des parenthèses.
 - **Deux-points (`:`).** Légitime devant une liste ou une vraie explication, mais l'IA française en abuse pour présenter, annoncer ou définir. Garde-le quand il introduit vraiment quelque chose, et coupe l'annonce creuse, en reformulant alors par une virgule, un point ou une subordonnée. Dose, ne sème pas des deux-points à chaque phrase.
-- **Point-virgule (`;`).** Deux emplois légitimes, équilibrer deux propositions indépendantes mais liées (« Pierre travaille ; Marie se repose ») et séparer les items d'une liste verticale ou d'une énumération déjà chargée de virgules. Hors de là, l'IA le place par réflexe là où le français écrit attend un point ou une virgule. La charpente par défaut de la prose française reste la virgule pour articuler à l'intérieur de la phrase et le point pour la clore, si bien que le point-virgule doit rester l'exception choisie, jamais le liant courant. En cas de doute, coupe par un point ou relie par une subordonnée plutôt que par un point-virgule.
-- **Barre oblique (`/`).** Calque anglais (« et/ou », « FR/EN », « lecture/écriture »). Utilise « ou », « et » ou reformule la phrase. Garde la barre oblique uniquement pour les chemins de fichiers, les URL et autres usages syntaxiques.
-- **Guillemets français « ».** Avec espaces insécables lorsque tu cites en registre formel. Évite les guillemets droits dans un texte soutenu.
-- **Points de suspension dramatiques.** « ... » à la fin d'une phrase n'apporte rien.
+- **Point-virgule (`;`).** Deux emplois légitimes, équilibrer deux propositions indépendantes mais liées (« Pierre travaille ; Marie se repose ») et séparer les items d'une liste verticale ou d'une énumération déjà chargée de virgules. Hors de là, l'IA le place par réflexe là où le français écrit attend un point ou une virgule. La charpente par défaut de la prose française reste la virgule pour articuler à l'intérieur de la phrase et le point pour la clore, si bien que le point-virgule doit rester l'exception choisie, jamais le liant courant. En cas de doute, coupe par un point ou relie par une subordonnée plutôt que par un point-virgule.
+- **Barre oblique (`/`).** Calque anglais (« et/ou », « FR/EN », « lecture/écriture »). Utilise « ou », « et » ou reformule la phrase. Garde la barre oblique uniquement pour les chemins de fichiers, les URL et autres usages syntaxiques.
+- **Guillemets français « ».** Avec espaces insécables lorsque tu cites en registre formel. Évite les guillemets droits dans un texte soutenu.
+- **Points de suspension dramatiques.** « ... » à la fin d'une phrase n'apporte rien.
 - **Italiques d'emphase.** Si le mot doit ressortir, change la phrase.
-- **Gras d'emphase.** L'IA sème du gras en pleine prose _markdown_ pour scander un mot par phrase. Réserve le gras aux intitulés et aux termes que le lecteur doit retrouver d'un coup d'œil. Comme pour l'italique, si le mot doit ressortir, change la phrase.
+- **Gras d'emphase.** L'IA sème du gras en pleine prose _markdown_ pour scander un mot par phrase. Réserve le gras aux intitulés et aux termes que le lecteur doit retrouver d'un coup d'œil. Comme pour l'italique, si le mot doit ressortir, change la phrase. Méfie-toi du même réflexe en début de ligne, le paragraphe mué en liste d'intitulés en gras suivis d'un deux-points (« **Productivité :** trois leviers... », « **Sécurité :** un audit... »), faux plan qui hache le raisonnement et qu'on reconvertit en prose articulée dès que les items s'enchaînent par une logique.
 - **Émojis et pictogrammes.** L'IA ponctue ses paragraphes de coches, de fusées et d'ampoules, par contamination du contenu web. En prose soutenue, supprime-les, le mot porte le sens.
 
 ### Énumérations sans virgule d'Oxford
 
-En français, la conjonction « et » ou « ou » remplace la dernière virgule d'une énumération. L'IA, sous influence anglo-saxonne, ajoute parfois une virgule de trop.
+En français, la conjonction « et » ou « ou » remplace la dernière virgule d'une énumération. L'IA, sous influence anglo-saxonne, ajoute parfois une virgule de trop.
 
 | À éviter | Correct |
 | --- | --- |
@@ -256,11 +257,11 @@ En français, la conjonction « et » ou « ou » remplace la dernière virgule 
 | pommes, poires, oranges | pommes, poires et oranges |
 | rouge, blanc, bleu | rouge, blanc et bleu |
 
-Cas particulier, lorsque la dernière entrée contient elle-même une conjonction, on peut ajouter une virgule de séparation pour éviter l'ambiguïté (« Pierre, Paul, et Jacques et Marie »). Cet usage reste rare.
+Cas particulier, lorsque la dernière entrée contient elle-même une conjonction, on peut ajouter une virgule de séparation pour éviter l'ambiguïté (« Pierre, Paul, et Jacques et Marie »). Cet usage reste rare.
 
 ### Espaces insécables
 
-Le français impose une espace insécable avant les ponctuations doubles et à l'intérieur des guillemets français. Deux largeurs coexistent, conformément à la règle 14 : la fine (U+202F), étroite, et la normale (U+00A0), large d'un mot. Dans une source _markdown_, on utilise souvent une espace normale faute de mieux, mais le rendu typographique correct exige l'insécable de la bonne largeur.
+Le français impose une espace insécable avant les ponctuations doubles et à l'intérieur des guillemets français. Deux largeurs coexistent, conformément à la règle 14 : la fine (U+202F), étroite, et la normale (U+00A0), large d'un mot. Dans une source _markdown_, on utilise souvent une espace normale faute de mieux, mais le rendu typographique correct exige l'insécable de la bonne largeur.
 
 | Signe | Espace requise |
 | --- | --- |
@@ -269,12 +270,12 @@ Le français impose une espace insécable avant les ponctuations doubles et à l
 | `%` | fine insécable avant |
 | `«` | fine insécable après |
 | `»` | fine insécable avant |
-| `°C` et autres symboles d'unité | insécable normale entre le nombre et le symbole (« 25 °C ») |
-| `h` dans les heures | insécable normale avant et après (« 14 h 30 ») |
+| `°C` et autres symboles d'unité | insécable normale entre le nombre et le symbole (« 25 °C ») |
+| `h` dans les heures | insécable normale avant et après (« 14 h 30 ») |
 
 ### Majuscules accentuées
 
-Les majuscules portent leurs accents en français. « État », « À propos », « Élève », « Île », « Œuvre ». L'IA omet souvent l'accent par contamination clavier anglo-saxon.
+Les majuscules portent leurs accents en français. « État », « À propos », « Élève », « Île », « Œuvre ». L'IA omet souvent l'accent par contamination clavier anglo-saxon.
 
 | À éviter | Correct |
 | --- | --- |
@@ -294,7 +295,7 @@ Le français écrit les titres en casse de phrase, seule la première lettre et 
 | Les Grandes Tendances de l'Année | Les grandes tendances de l'année |
 | Guide Complet de la Sécurité | Guide complet de la sécurité |
 
-Ne capitalise pas non plus les noms communs en cours de phrase par déférence anglo-saxonne (« l'Intelligence Artificielle », « notre Entreprise », « le Client »). Ils s'écrivent en minuscules, sauf quand ils désignent une entité propre nommée.
+Ne capitalise pas non plus les noms communs en cours de phrase par déférence anglo-saxonne (« l'Intelligence Artificielle », « notre Entreprise », « le Client »). Ils s'écrivent en minuscules, sauf quand ils désignent une entité propre nommée.
 
 ### Sigles et acronymes
 
@@ -315,11 +316,11 @@ Une liste à puces introduite par un deux-points suit une ponctuation réglée. 
 | À éviter | Correct |
 | --- | --- |
 | 3.14 | 3,14 |
-| 1,000,000 | 1 000 000 |
-| 50% | 50 % |
-| 25°C | 25 °C |
-| 14h30 | 14 h 30 |
-| 10km | 10 km |
+| 1,000,000 | 1 000 000 |
+| 50% | 50 % |
+| 25°C | 25 °C |
+| 14h30 | 14 h 30 |
+| 10km | 10 km |
 
 La virgule sert de séparateur décimal, l'espace (idéalement insécable) sépare les milliers, et toute unité prend une espace insécable avant son symbole.
 
@@ -329,15 +330,15 @@ Erreurs courantes que l'IA reproduit, parfois parce qu'elles existent à l'oral 
 
 | Fautif | Correct | Pourquoi |
 | --- | --- | --- |
-| pallier à un défaut | pallier un défaut | « pallier » est transitif direct |
-| se rappeler de quelque chose | se rappeler quelque chose | « se rappeler » est transitif direct, contrairement à « se souvenir de » |
-| malgré que + subjonctif | bien que + subjonctif | « malgré que » est considéré comme fautif en registre soigné |
+| pallier à un défaut | pallier un défaut | « pallier » est transitif direct |
+| se rappeler de quelque chose | se rappeler quelque chose | « se rappeler » est transitif direct, contrairement à « se souvenir de » |
+| malgré que + subjonctif | bien que + subjonctif | « malgré que » est considéré comme fautif en registre soigné |
 | après que + subjonctif | après que + indicatif | l'action est accomplie, donc indicatif |
 | en termes de sécurité | en matière de sécurité, pour la sécurité | calque de l'anglais _in terms of_ |
-| supporter une décision | soutenir une décision, accepter une décision | « supporter » au sens anglais |
+| supporter une décision | soutenir une décision, accepter une décision | « supporter » au sens anglais |
 | être en charge de | être chargé de | calque de _to be in charge of_ |
-| de par sa nature | par sa nature, en raison de sa nature | « de par » est lourd et discutable |
+| de par sa nature | par sa nature, en raison de sa nature | « de par » est lourd et discutable |
 
-## « On », « l'on », « nous »
+## « On », « l'on », « nous »
 
-En registre soutenu courant, « on » reste valide pour désigner un sujet indéfini. Préfère « l'on » après « et », « ou », « où », « que » et « si » pour éviter le hiatus (« et l'on voit que », plutôt que « et on voit que »). Pour un « nous » d'auteur explicite, utilise « nous » et accorde en conséquence (« nous avons constaté »).
+En registre soutenu courant, « on » reste valide pour désigner un sujet indéfini. Préfère « l'on » après « et », « ou », « où », « que » et « si » pour éviter le hiatus (« et l'on voit que », plutôt que « et on voit que »). Pour un « nous » d'auteur explicite, utilise « nous » et accorde en conséquence (« nous avons constaté »).

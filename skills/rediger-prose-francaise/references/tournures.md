@@ -18,11 +18,12 @@
 - Atténuations et précautions
 - Clôtures clichées
 - Emphase performative
+- Registre d'assistant
 - Préférer plutôt, récapitulatif positif
 
 ## Participes présents en chaîne
 
-Un participe présent isolé reste naturel en français écrit. Le tic IA, c'est l'enfilade qui sert à relier des idées au lieu de construire une vraie subordination. Vise au plus un participe par phrase, et privilégie les subordonnées (« qui », « parce que », « alors que ») dès qu'une chaîne apparaît.
+Un participe présent isolé reste naturel en français écrit. Le tic IA, c'est l'enfilade qui sert à relier des idées au lieu de construire une vraie subordination. Vise au plus un participe par phrase, et privilégie les subordonnées (« qui », « parce que », « alors que ») dès qu'une chaîne apparaît.
 
 - permettant (de)
 - offrant
@@ -38,13 +39,13 @@ Un participe présent isolé reste naturel en français écrit. Le tic IA, c'est
 - mettant en lumière
 - alliant X et Y
 
-Une phrase avec deux participes présents ou plus est presque toujours à reconstruire par subordination. Plutôt que « X, permettant Y, offrant Z », préfère « X, qui permet Y et qui offre Z » ou bien « X, parce qu'il permet Y et qu'il offre Z ».
+Une phrase avec deux participes présents ou plus est presque toujours à reconstruire par subordination. Plutôt que « X, permettant Y, offrant Z », préfère « X, qui permet Y et qui offre Z » ou bien « X, parce qu'il permet Y et qu'il offre Z ».
 
 ## Adjectifs intensifs vides
 
 Mots qui se veulent emphatiques mais ne disent rien. Si l'adjectif peut sauter sans changer le sens, il saute.
 
-- véritable (« un véritable défi »)
+- véritable (« un véritable défi »)
 - majeur
 - stratégique
 - incontournable
@@ -131,30 +132,31 @@ Mots français qui ressemblent à un mot anglais mais qui ont un sens différent
 
 Annoncent le propos au lieu de le tenir.
 
-- « En effet, »
-- « Force est de constater que »
-- « Il est intéressant de noter que »
-- « Il convient de souligner que »
-- « Il convient de rappeler que »
-- « Il est à noter que »
-- « À noter que »
-- « Sachez que »
-- « C'est pourquoi » en début de phrase (acceptable au milieu, lourd en attaque)
-- « Plus encore »
-- « Mieux » employé seul en début de phrase
-- « Précisons que »
-- « Notons que »
-- « Soulignons que »
-- « On peut dire que »
-- « Disons-le clairement »
-- « Pour être tout à fait honnête »
-- « Soyons clairs »
-- « À l'heure où »
-- « À une époque où »
-- « Dans un monde où »
-- « Que vous soyez X ou Y » en attaque commerciale
-- « Ce qui est intéressant, c'est que » et les pseudo-clivées d'annonce (« Ce qui frappe, c'est que », « Ce qu'il faut retenir, c'est que »)
-- « C'est là que X entre en jeu », calque de transition de l'anglais _that's where X comes in_
+- « En effet, »
+- « Force est de constater que »
+- « Il est intéressant de noter que »
+- « Il convient de souligner que »
+- « Il convient de rappeler que »
+- « Il est à noter que »
+- « À noter que »
+- « Sachez que »
+- « C'est pourquoi » en début de phrase (acceptable au milieu, lourd en attaque)
+- « Plus encore »
+- « Mieux » employé seul en début de phrase
+- « Précisons que »
+- « Notons que »
+- « Soulignons que »
+- « On peut dire que »
+- « Disons-le clairement »
+- « Pour être tout à fait honnête »
+- « Soyons clairs »
+- « À l'heure où »
+- « À une époque où »
+- « Dans un monde où »
+- « Que vous soyez X ou Y » en attaque commerciale
+- « Imaginez que », « Imaginez un instant », appel à se projeter en ouverture
+- « Ce qui est intéressant, c'est que » et les pseudo-clivées d'annonce (« Ce qui frappe, c'est que », « Ce qu'il faut retenir, c'est que »)
+- « C'est là que X entre en jeu », calque de transition de l'anglais _that's where X comes in_
 
 ## Connecteurs IA surutilisés
 
@@ -179,7 +181,7 @@ Aucun n'est interdit, mais leur densité trahit la machine. Vise un connecteur p
 
 ## Adverbes en _-ment_ parasites
 
-Aucun n'est interdit en soi, certains gardent des emplois pleinement légitimes (« notamment » pour restreindre, « précisément » pour corriger). Le tic, c'est l'adverbe qui n'ajoute rien au verbe qu'il modifie. Coupe-le dans ce cas.
+Aucun n'est interdit en soi, certains gardent des emplois pleinement légitimes (« notamment » pour restreindre, « précisément » pour corriger). Le tic, c'est l'adverbe qui n'ajoute rien au verbe qu'il modifie. Coupe-le dans ce cas.
 
 - véritablement
 - réellement
@@ -208,7 +210,7 @@ Aucun n'est interdit en soi, certains gardent des emplois pleinement légitimes 
 
 | À éviter | Préférer |
 | --- | --- |
-| permettre de + infinitif | le verbe direct (« permet d'accélérer » devient « accélère ») |
+| permettre de + infinitif | le verbe direct (« permet d'accélérer » devient « accélère ») |
 | constituer | être, former |
 | représenter | être, valoir |
 | s'inscrire dans | (souvent à supprimer) |
@@ -259,7 +261,7 @@ Si tu emploies un de ces verbes, demande-toi ce qui change au juste. Nomme le ch
 | à la croisée de | entre, mêlant |
 | au carrefour de | entre |
 | afin de | pour |
-| à savoir | (souvent à supprimer, voire à remplacer par « c'est-à-dire ») |
+| à savoir | (souvent à supprimer, voire à remplacer par « c'est-à-dire ») |
 | de par + nom | par, à cause de, grâce à |
 
 ## Locutions latines et savantes
@@ -296,7 +298,7 @@ Souvent jargonneuses et typiques de l'IA. Remplace par du français courant.
 
 ## Atténuations et précautions
 
-Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le tic IA, c'est l'empilement qui dilue l'affirmation (« il semblerait que cela pourrait, d'une certaine manière, contribuer à »). Affirme, et réserve la réserve aux doutes réels.
+Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le tic IA, c'est l'empilement qui dilue l'affirmation (« il semblerait que cela pourrait, d'une certaine manière, contribuer à »). Affirme, et réserve la réserve aux doutes réels.
 
 - sans doute
 - peut-être
@@ -324,14 +326,49 @@ Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le ti
 
 Faux signaux d'authenticité.
 
-- « soyons honnêtes »
-- « la vérité, c'est que »
-- « disons-le franchement »
-- « entre nous »
-- « pour être tout à fait transparent »
-- « je vais être direct »
+- « soyons honnêtes »
+- « la vérité, c'est que »
+- « disons-le franchement »
+- « entre nous »
+- « pour être tout à fait transparent »
+- « je vais être direct »
+- « honnêtement » en tête de phrase
+- « le truc, c'est que »
 
 Si tu dois annoncer ta franchise, tu ne l'es pas.
+
+## Registre d'assistant
+
+Résidus de l'assistant sous la prose, propres aux textes générés par un modèle. Trois familles à supprimer sans reformuler, parce qu'elles n'ajoutent rien au propos.
+
+**Flagornerie et accord réflexe.** L'ouverture par compliment, puis l'approbation servie avant le moindre argument. Entre dans la réponse sans flatter.
+
+- « Excellente question »
+- « Très bonne question »
+- « Très bonne remarque »
+- « Vous avez tout à fait raison »
+- « C'est un excellent point »
+- « Avec plaisir »
+
+**Formules de service.** Politesse vide d'assistant ou de courriel, en tête ou en clôture. Garde la salutation utile, coupe le remplissage.
+
+- « J'espère que ce message vous trouve bien »
+- « En espérant que cela vous aide »
+- « En espérant avoir répondu à votre question »
+- « N'hésitez pas à revenir vers moi »
+- « N'hésitez pas si vous avez la moindre question »
+- « Je reste à votre disposition »
+- « Souhaitez-vous que je développe ? »
+- « Voulez-vous que je détaille un point ? »
+
+**Mentions résiduelles du modèle.** Texte de génération laissé dans la sortie. Supprime, ne reformule pas.
+
+- « En tant que modèle de langage »
+- « En tant qu'intelligence artificielle »
+- « je n'ai pas d'opinion personnelle »
+- « je n'ai pas accès à »
+- « à la date de ma dernière mise à jour »
+- « jusqu'à ma date de connaissance »
 
 ## Préférer plutôt, récapitulatif positif
 
@@ -339,17 +376,17 @@ Le _skill_ liste surtout ce qu'il faut éviter, mais le réflexe utile reste de 
 
 | Si tu es tenté d'écrire | Préfère |
 | --- | --- |
-| une enfilade de phrases courtes | une phrase articulée par « parce que », « alors que », « tandis que », « puisque » |
-| une chaîne de participes présents | une relative en « qui » ou une subordonnée causale en « parce que » |
-| « permet de + infinitif » | le verbe d'action direct (« accélère », « réduit », « simplifie ») |
-| « il est important de », « il convient de » | un sujet humain ou désigné suivi du verbe |
-| « non pas X, mais Y » | Y seul, ou Y nuancé par « bien que », « quoique » |
-| un adjectif intensif vide (« véritable », « majeur ») | l'adjectif supprimé, le nom porte le sens |
-| une nominalisation lourde (« la mise en œuvre de ») | le verbe correspondant, en subordonnée si besoin |
-| « il faut que », « je veux que », « il est important que » | un infinitif ou une nominalisation légère |
-| « est-ce que... » à l'écrit | l'inversion (« faut-il », « peut-on ») |
+| une enfilade de phrases courtes | une phrase articulée par « parce que », « alors que », « tandis que », « puisque » |
+| une chaîne de participes présents | une relative en « qui » ou une subordonnée causale en « parce que » |
+| « permet de + infinitif » | le verbe d'action direct (« accélère », « réduit », « simplifie ») |
+| « il est important de », « il convient de » | un sujet humain ou désigné suivi du verbe |
+| « non pas X, mais Y » | Y seul, ou Y nuancé par « bien que », « quoique » |
+| un adjectif intensif vide (« véritable », « majeur ») | l'adjectif supprimé, le nom porte le sens |
+| une nominalisation lourde (« la mise en œuvre de ») | le verbe correspondant, en subordonnée si besoin |
+| « il faut que », « je veux que », « il est important que » | un infinitif ou une nominalisation légère |
+| « est-ce que... » à l'écrit | l'inversion (« faut-il », « peut-on ») |
 | trois adjectifs synonymes alignés | deux adjectifs contrastés ou un seul juste |
 | une liste à puces de phrases liées par un raisonnement | un paragraphe en prose |
 | la répétition d'un même mot quatre fois en cinq phrases | un synonyme adapté au contexte |
-| une amorce rhétorique (« Voyons cela », « Posons-nous la question ») | entrer dans le propos sans détour |
-| une clôture cliché (« en définitive », « pour conclure ») | la dernière phrase de fond, sans étiquette |
+| une amorce rhétorique (« Voyons cela », « Posons-nous la question ») | entrer dans le propos sans détour |
+| une clôture cliché (« en définitive », « pour conclure ») | la dernière phrase de fond, sans étiquette |
