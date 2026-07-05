@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-07-05
+
 ### Changed
 
 - Les sections du journal reprennent les mots-clés anglais de Keep a Changelog (`Unreleased`, `Added`, `Changed`, `Fixed`), que la traduction française officielle ne traduit pas non plus.
