@@ -239,9 +239,11 @@ Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au m
 - **Tiret cadratin (—).** L'IA l'utilise comme virgule ou comme deux-points à l'anglo-saxonne, sans logique d'incise. Préfère les virgules (« Pierre, qui sait, est venu »), un point ou des parenthèses.
 - **Deux-points (`:`).** Légitime devant une liste ou une vraie explication, mais l'IA française en abuse pour présenter, annoncer ou définir. Garde-le quand il introduit vraiment quelque chose, et coupe l'annonce creuse, en reformulant alors par une virgule, un point ou une subordonnée. Dose, ne sème pas des deux-points à chaque phrase.
 - **Point-virgule (`;`).** Deux emplois légitimes, équilibrer deux propositions indépendantes mais liées (« Pierre travaille ; Marie se repose ») et séparer les items d'une liste verticale ou d'une énumération déjà chargée de virgules. Hors de là, l'IA le place par réflexe là où le français écrit attend un point ou une virgule. La charpente par défaut de la prose française reste la virgule pour articuler à l'intérieur de la phrase et le point pour la clore, si bien que le point-virgule doit rester l'exception choisie, jamais le liant courant. En cas de doute, coupe par un point ou relie par une subordonnée plutôt que par un point-virgule.
+- **Point d'exclamation (`!`).** L'IA le sème pour vendre son enthousiasme (« C'est parti ! », « Bonne nouvelle ! »), par contamination du ton commercial. Réserve-le aux phrases qui exclament vraiment, rares en registre soutenu.
 - **Barre oblique (`/`).** Calque anglais (« et/ou », « FR/EN », « lecture/écriture »). Utilise « ou », « et » ou reformule la phrase. Garde la barre oblique uniquement pour les chemins de fichiers, les URL et autres usages syntaxiques.
-- **Guillemets français « ».** Avec espaces insécables lorsque tu cites en registre formel. Évite les guillemets droits dans un texte soutenu.
-- **Points de suspension dramatiques.** « ... » à la fin d'une phrase n'apporte rien.
+- **Guillemets français « ».** Avec leurs fines insécables lorsque tu cites en registre formel. Remplace les guillemets droits ("...") d'une citation par les guillemets français, et réserve les droits aux chaînes techniques et au code.
+- **Apostrophe typographique (’).** Le rendu soigné attend l'apostrophe courbe plutôt que l'apostrophe droite (') du clavier. En source _markdown_, l'apostrophe droite reste tolérée, au même titre que l'espace ordinaire à la place des insécables.
+- **Points de suspension.** « ... » dramatiques à la fin d'une phrase n'apportent rien. Lorsqu'ils se justifient, compose-les en un caractère (…, U+2026) plutôt qu'en trois points tapés.
 - **Italiques d'emphase.** Si le mot doit ressortir, change la phrase.
 - **Gras d'emphase.** L'IA sème du gras en pleine prose _markdown_ pour scander un mot par phrase. Réserve le gras aux intitulés et aux termes que le lecteur doit retrouver d'un coup d'œil. Comme pour l'italique, si le mot doit ressortir, change la phrase. Méfie-toi du même réflexe en début de ligne, le paragraphe mué en liste d'intitulés en gras suivis d'un deux-points (« **Productivité :** trois leviers... », « **Sécurité :** un audit... »), faux plan qui hache le raisonnement et qu'on reconvertit en prose articulée dès que les items s'enchaînent par une logique.
 - **Émojis et pictogrammes.** L'IA ponctue ses paragraphes de coches, de fusées et d'ampoules, par contamination du contenu web. En prose soutenue, supprime-les, le mot porte le sens.
@@ -297,6 +299,10 @@ Le français écrit les titres en casse de phrase, seule la première lettre et 
 
 Ne capitalise pas non plus les noms communs en cours de phrase par déférence anglo-saxonne (« l'Intelligence Artificielle », « notre Entreprise », « le Client »). Ils s'écrivent en minuscules, sauf quand ils désignent une entité propre nommée.
 
+### Titres formulaïques à deux-points
+
+Le titre en deux volets séparés par un deux-points (« X : le guide complet », « Télétravail : pourquoi tout change ») est une signature IA héritée des titres web anglo-saxons. Reforme un titre plein (« Le guide complet de X », « Pourquoi le télétravail change tout »), et réserve le deux-points de titre au vrai sous-titre d'ouvrage ou à la numérotation d'une collection.
+
 ### Sigles et acronymes
 
 Un sigle s'épelle lettre à lettre et garde toutes ses capitales, sans points (SNCF, TGV, RATP, PDG). Un acronyme se lit comme un mot ordinaire et, dès qu'il s'est lexicalisé, ne garde que l'initiale en capitale (Otan, Unesco, Osint, Benelux), voire passe entièrement en minuscules une fois devenu nom commun (laser, radar, sida, ovni). L'usage hésite sur l'initiale seule, plusieurs guides gardent tout en capitales, alors tranche une fois et reste cohérent dans un même texte.
@@ -323,6 +329,18 @@ Une liste à puces introduite par un deux-points suit une ponctuation réglée. 
 | 10km | 10 km |
 
 La virgule sert de séparateur décimal, l'espace (idéalement insécable) sépare les milliers, et toute unité prend une espace insécable avant son symbole.
+
+### Dates et ordinaux
+
+Les mois et les jours s'écrivent en minuscules, leur capitale étant un calque de l'anglais, tandis que les ordinaux s'abrègent en « 1er », « 1re » et « 2e », jamais en « ème ». Les siècles se composent en chiffres romains suivis de la même abréviation (« XXIe siècle »).
+
+| À éviter | Correct |
+| --- | --- |
+| le 5 Juillet 2026 | le 5 juillet 2026 |
+| Lundi prochain, en cours de phrase | lundi prochain |
+| 2ème, 3ème | 2e, 3e |
+| 1ère | 1re |
+| XXIème siècle | XXIe siècle |
 
 ## Pièges grammaticaux fréquents
 

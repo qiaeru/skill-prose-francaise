@@ -18,7 +18,7 @@ Pour une relecture ou une réécriture complète :
 1. lis le texte en entier avant de corriger, pour repérer les tics de structure (hachage, répétitions, cadence) qui n'apparaissent pas phrase par phrase ;
 2. applique les règles centrales, en ouvrant les références au besoin ;
 3. passe les vérifications rapides sur le résultat ;
-4. note sur la grille des cinq axes et réécris sous 35 sur 50 ;
+4. note sur la grille des cinq axes, réécris une fois lorsque le total tombe sous 35 sur 50, puis livre le texte accompagné de sa note ;
 5. relis ta propre sortie avec les mêmes vérifications, car le texte corrigé doit respecter les règles qu'il impose.
 
 Pour un texte court (courriel, message, paragraphe isolé), applique les règles sans dérouler la grille de notation.
@@ -27,11 +27,11 @@ Pour un texte court (courriel, message, paragraphe isolé), applique les règles
 
 Un fichier d'interface (libellés d'application, fichiers de locales) mélange deux registres qu'il faut traiter différemment. La ligne de partage est l'unité, pas le fichier : un fragment court ne relève que des règles lexicales et typographiques, tandis qu'une phrase complète relève de toute la prose.
 
-**Micro-libellés** : boutons, onglets, étiquettes de champ, titres courts, notifications brèves, messages d'erreur d'une ligne. Ce sont des fragments, pas des phrases, si bien que les règles d'architecture de la phrase ne s'y appliquent pas. Laisse de côté la subordination (1), les participes (2), les relatives (3), les fausses oppositions (8), les connecteurs d'ouverture (9), le méta-commentaire (12), les listes (17), l'inversion interrogative (19) et le registre d'assistant (21). N'y regarde que le lexique et la typographie : anglicismes (6), faux-amis (15), pièges grammaticaux (16), concret plutôt que vague (11) et surtout typographie (14), puisque c'est sur ces fragments que se jouent les insécables, les majuscules accentuées et les pourcentages.
+**Micro-libellés** : boutons, onglets, étiquettes de champ, titres courts, notifications brèves, messages d'erreur d'une ligne. Ce sont des fragments, pas des phrases, si bien que les règles d'architecture de la phrase ne s'y appliquent pas. Laisse de côté la subordination (1), les participes (2), les relatives (3), les fausses oppositions (8), les connecteurs d'ouverture (9), le méta-commentaire (12), les listes (17), l'inversion interrogative (19) et le registre d'assistant (21). N'y regarde que le lexique et la typographie : anglicismes (6), faux-amis (15), pièges grammaticaux (16), concret plutôt que vague (11) et surtout typographie (14), puisque c'est sur ces fragments que se jouent les insécables, les majuscules accentuées et les pourcentages. Dans les vérifications rapides, ne déroule que les familles du lexique, de la ponctuation et de la typographie.
 
 **Inversion de la règle 18 sur les micro-libellés.** En prose tu varies le lexique, alors qu'en interface une même action garde toujours le même mot. Si « Supprimer » étiquette un bouton, ne l'alterne jamais avec « Effacer » ou « Retirer » ailleurs, parce que l'utilisateur apprend les mots de l'interface et que la cohérence prime sur la variété.
 
-**Textes longs** : descriptions, textes d'aide, corps des fenêtres de confirmation, messages d'erreur explicatifs, introductions. Dès qu'une chaîne forme une ou plusieurs phrases complètes, applique le skill entier, subordination comprise. Un avertissement de deux phrases ou une description de carte est de la prose et se relit comme telle.
+**Textes longs** : descriptions, textes d'aide, corps des fenêtres de confirmation, messages d'erreur explicatifs, introductions. Dès qu'une chaîne forme une ou plusieurs phrases complètes, applique le skill entier, subordination et vérifications rapides comprises. Un avertissement de deux phrases ou une description de carte est de la prose et se relit comme telle.
 
 ## Règles centrales
 
@@ -41,7 +41,7 @@ Un fichier d'interface (libellés d'application, fichiers de locales) mélange d
 
 3. **N'empile pas les relatives.** Une ou deux relatives bien placées enrichissent. Au-delà, redistribue sur plusieurs phrases ou passe à la subordination.
 
-4. **Élimine les adverbes en *-ment* parasites.** Véritablement, réellement, particulièrement, essentiellement, fondamentalement, profondément. Garde l'adverbe seulement quand il modifie le sens (« lentement », « hier »).
+4. **Élimine les adverbes en _-ment_ parasites.** Véritablement, réellement, particulièrement, essentiellement, fondamentalement, profondément. Garde l'adverbe seulement quand il modifie le sens (« lentement », « hier »).
 
 5. **Coupe les adjectifs intensifs vides.** « Véritable », « majeur », « stratégique », « incontournable », « clé », « fondamental », « essentiel », « crucial ». Si l'adjectif peut sauter sans changer le sens, il saute.
 
@@ -59,9 +59,9 @@ Un fichier d'interface (libellés d'application, fichiers de locales) mélange d
 
 12. **Pas de méta-commentaire.** « Voyons cela ensemble », « Décortiquons », « Posons-nous la question », « Plongeons dans le sujet », « Plongée au cœur de », « Dans cet article, nous allons ». Supprime et entre dans le propos sans détour.
 
-13. **Pas de tiret cadratin, pas de barre oblique entre deux mots, et deux-points comme point-virgule avec parcimonie.** Tiret cadratin = calque anglo-saxon, remplace par une virgule, un point ou des parenthèses. Barre oblique = anglicisme (« et/ou », « FR/EN »), reformule avec « ou » ou « et ». Le deux-points reste légitime devant une liste ou une explication, mais l'IA en abuse comme annonce avant de dire, alors garde-le quand il introduit vraiment quelque chose et coupe-le quand il ne fait qu'annoncer. Le point-virgule a deux emplois propres, équilibrer deux propositions liées et séparer les items complexes d'une liste, mais l'IA le sème là où un point ou une virgule coule mieux ; en prose française la charpente normale reste la virgule et le point, donc réserve le deux-points et le point-virgule aux cas qui les méritent vraiment. Voir [references/structures.md](references/structures.md).
+13. **Pas de tiret cadratin, pas de barre oblique entre deux mots, et parcimonie sur le deux-points, le point-virgule et le point d'exclamation.** Tiret cadratin = calque anglo-saxon, remplace par une virgule, un point ou des parenthèses. Barre oblique = anglicisme (« et/ou », « FR/EN »), reformule avec « ou » ou « et ». Garde le deux-points quand il introduit vraiment une liste ou une explication, coupe-le quand il ne fait qu'annoncer, et méfie-toi du titre formulaïque en deux volets (« X : le guide complet »). Réserve le point-virgule à ses deux emplois propres, équilibrer deux propositions liées et séparer les items complexes d'une liste, parce que la charpente normale de la prose reste la virgule et le point. Modère enfin le point d'exclamation, dont l'enthousiasme ponctué (« C'est parti ! ») trahit la machine. Voir [references/structures.md](references/structures.md).
 
-14. **Respecte la typographie française.** Pas de virgule d'Oxford (« A, B et C », jamais « A, B, et C »). Deux insécables à distinguer, par la largeur et non par le comportement. L'**espace fine insécable** (U+202F, étroite) se place avant `;`, `!`, `?` et `%`, ainsi qu'à l'intérieur des guillemets français. L'**espace insécable normale** (U+00A0, largeur d'un mot) se place avant `:`, signe plus lourd. N'aplatis pas les deux sur une seule espace, la distinction est la forme correcte. Majuscules accentuées (« État », « À propos »). Espaces dans les nombres (« 1 000 000 »), les heures (« 14 h 30 ») et avant `%` (« 50 % »). Décimales avec virgule (« 3,14 »).
+14. **Respecte la typographie française.** Pas de virgule d'Oxford (« A, B et C », jamais « A, B, et C »). Deux insécables à distinguer par la largeur : la fine (U+202F) avant `;`, `!`, `?`, `%` et à l'intérieur des guillemets français, la normale (U+00A0) avant `:`, sans les aplatir sur une seule espace. Guillemets français (« »), apostrophe typographique (’) et points de suspension en un caractère (…) plutôt que leurs équivalents dactylographiés, la source _markdown_ tolérant l'apostrophe droite. Majuscules accentuées (« État », « À propos »). Espaces dans les nombres (« 1 000 000 »), les heures (« 14 h 30 ») et avant `%` (« 50 % »), décimales avec virgule (« 3,14 »), ordinaux abrégés en « 1er », « 1re » et « 2e », jamais en « ème ». Voir [references/structures.md](references/structures.md).
 
 15. **Méfie-toi des faux-amis.** « Définitivement » = pour de bon (non « certainement »). « Éventuellement » = peut-être (non « finalement »). « Réaliser » = accomplir (non « se rendre compte »). « Supporter » = endurer (non « soutenir »). « Contrôler » = vérifier (non « maîtriser »). « Opportunité » = caractère opportun (non « occasion »). Voir [references/tournures.md](references/tournures.md).
 
@@ -73,7 +73,7 @@ Un fichier d'interface (libellés d'application, fichiers de locales) mélange d
 
 19. **Préfère l'inversion interrogative et l'infinitif aux « est-ce que » et aux « que » empilés.** « Faut-il agir ? » plutôt que « Est-ce qu'il faut agir ? ». « Je veux votre départ » plutôt que « Je veux que vous partiez ». Trois « que » dans la même phrase = copier-coller mental de l'anglais.
 
-20. **Respecte la casse française.** Le français écrit en casse de phrase, pas en casse de titre à l'anglaise (« Les grandes tendances de l'année », non « Les Grandes Tendances de l'Année »). Ne capitalise pas non plus les noms communs en cours de phrase par calque (« l'intelligence artificielle », non « l'Intelligence Artificielle »). Distingue le sigle, épelé lettre à lettre et tout en capitales (SNCF, TGV, RATP), de l'acronyme, lu comme un mot, qui ne garde que l'initiale en capitale dès qu'il se lexicalise (Otan, Unesco, Osint) et passe en minuscules une fois devenu nom commun (laser, radar, sida). L'usage hésite sur ce dernier point, alors tranche une fois et reste cohérent dans un même texte. Voir [references/structures.md](references/structures.md).
+20. **Respecte la casse française.** Le français écrit en casse de phrase, pas en casse de titre à l'anglaise (« Les grandes tendances de l'année », non « Les Grandes Tendances de l'Année »). Ne capitalise pas non plus les noms communs en cours de phrase par calque (« l'intelligence artificielle », non « l'Intelligence Artificielle »). Distingue le sigle, épelé lettre à lettre et tout en capitales (SNCF, TGV, RATP), de l'acronyme, lu comme un mot, qui ne garde que l'initiale en capitale dès qu'il se lexicalise (Otan, Unesco, Osint) et passe en minuscules une fois devenu nom commun (laser, radar, sida). L'usage hésite sur ce dernier point, alors tranche une fois et reste cohérent dans un même texte. Écris aussi les mois et les jours en minuscules (« le 5 juillet », « chaque lundi »), leur capitale étant un calque de l'anglais. Voir [references/structures.md](references/structures.md).
 
 21. **Bannis le registre d'assistant.** Trois résidus trahissent la machine sous la prose. La flagornerie d'abord, l'ouverture par compliment réflexe (« Excellente question », « Très bonne remarque ») et l'accord systématique avant même de répondre. Entre dans le propos sans flatter. Les formules de service ensuite, en tête ou en clôture (« J'espère que ce message vous trouve bien », « N'hésitez pas à revenir vers moi », « En espérant que cela vous aide », « Souhaitez-vous que je développe ? »). Garde la salutation utile, coupe le remplissage. Les mentions résiduelles du modèle enfin (« En tant que modèle de langage », « je n'ai pas d'opinion personnelle », « à la date de ma dernière mise à jour »), à supprimer sans reformuler.
 
@@ -83,49 +83,72 @@ Mets en italique tout mot ou locution d'une langue étrangère non encore natura
 
 ## Vérifications rapides
 
-Passe chaque point avant de livrer.
+Passe chaque famille avant de livrer. La liste fait partie du skill au même titre que les règles centrales, puisqu'elle couvre aussi des tics sans règle numérotée (pléonasmes, verbes de redéfinition, clôtures clichées, gras d'emphase, émojis).
+
+### Architecture de la phrase
 
 - Plus de trois phrases courtes consécutives sans subordination ? Reconstruis.
 - Chaîne de participes (« permettant... offrant... garantissant ») ? Casse, garde au plus un participe.
 - Trois relatives en cascade ? Redistribue.
-- Adjectif intensif vide ? Supprime.
-- Anglicisme IA ? Remplace par le verbe français équivalent.
-- « faire sens », « au niveau de », « en termes de » ? « avoir du sens » ou « être cohérent », « pour » ou « côté », « en matière de ».
-- Adverbe en *-ment* qui n'ajoute rien ? Coupe.
-- « permet de », « constitue », « représente », « s'avère » ? Verbe d'action direct.
 - « Non pas X, mais Y » ? Garde Y.
 - Fragments publicitaires en cascade (« Pas de jargon. Pas de détour. Juste l'essentiel. ») ou balancement « Moins de X, plus de Y » ? Reconstruis une phrase pleine.
-- Plus d'un connecteur d'ouverture par paragraphe ? Coupe l'excès.
-- Trois adjectifs synonymes alignés ? Réduis à deux ou un.
 - Rythme en triade systématique (« X, Y et Z » et trois propositions cadencées à répétition) ? Casse la cadence, fais varier le nombre d'éléments.
+- Nominalisation lourde ? Verbe.
+- « Est-ce que » à l'écrit soutenu ? Inverse.
+- Trois « que » subordonnants dans une phrase ? Infinitif, nominalisation ou apposition.
+- Puces là où un paragraphe articulé suffit ? Reconvertis en prose.
+- Liste verticale mal ponctuée ? Deux-points d'introduction, items en minuscule, point-virgule à chaque item, point au dernier.
+
+### Lexique
+
+- Adjectif intensif vide ? Supprime.
+- Trois adjectifs synonymes alignés ? Réduis à deux ou un.
+- Anglicisme IA ? Remplace par le verbe français équivalent.
+- « faire sens », « au niveau de », « en termes de » ? « avoir du sens » ou « être cohérent », « pour » ou « côté », « en matière de ».
+- Adverbe en _-ment_ qui n'ajoute rien ? Coupe.
+- « permet de », « constitue », « représente », « s'avère » ? Verbe d'action direct.
+- Verbe de redéfinition (« réinventer », « repenser », « révolutionner ») ? Nomme ce qui change concrètement.
+- Pléonasme (« voire même », « au jour d'aujourd'hui », « comme par exemple ») ? Coupe.
+- Faux-ami au sens anglais ? Remplace.
+- « Pallier à », « se rappeler de », « malgré que » + subjonctif, « après que » + subjonctif ? Corrige.
+- Mot ou structure répétés à courte distance ? Varie.
+
+### Rhétorique et transitions
+
+- Plus d'un connecteur d'ouverture par paragraphe ? Coupe l'excès.
+- Ouverture parasite (« À noter que », « Sachez que », « C'est pourquoi » en attaque, « Plus encore », « Mieux », « Dans un monde où », « Que vous soyez X ou Y », « Honnêtement », « Soyons clairs », « Imaginez », « Le truc, c'est que ») ? Coupe ou reformule.
+- Pseudo-clivée d'annonce (« Ce qui est intéressant, c'est que ») ? Énonce directement.
+- Question-relance en transition (« Le résultat ? », « La bonne nouvelle ? », « Le verdict ? ») ? Énonce directement, sans suspense.
+- Clôture cliché (« en définitive », « au final », « pour conclure ») ? Coupe.
+
+### Ponctuation
+
 - Tiret cadratin (—) ? Virgule, point ou parenthèses.
 - Deux-points en pure annonce IA, sans liste ni explication derrière ? Coupe ou reformule. Devant une liste ou une explication, garde-le.
+- Titre formulaïque en deux volets (« X : le guide complet », « Y : pourquoi tout change ») ? Reforme un titre plein, sans balancier.
 - Point-virgule là où un point ou une virgule passerait mieux ? Remplace. Garde-le pour équilibrer deux propositions liées ou ponctuer une liste verticale.
 - Barre oblique entre deux mots ? « ou », « et », ou reformule.
-- Pléonasme (« voire même », « au jour d'aujourd'hui », « comme par exemple ») ? Coupe.
-- Verbe de redéfinition (« réinventer », « repenser », « révolutionner ») ? Nomme ce qui change concrètement.
-- Terme étranger non naturalisé sans italique (latin, anglais, italien et autres) ? Italicise (_in fine_, _skill_, _a cappella_) ou remplace, sauf emprunt assimilé (« week-end »).
-- Clôture cliché (« en définitive », « au final », « pour conclure ») ? Coupe.
-- Nominalisation lourde ? Verbe.
+- Points d'exclamation d'enthousiasme (« C'est parti ! », « Bonne nouvelle ! ») ? Réserve l'exclamation aux phrases qui exclament vraiment.
 - Virgule d'Oxford ? Supprime.
+
+### Typographie et mise en forme
+
+- Guillemets droits ("...") autour d'une citation ? Guillemets français avec leurs fines insécables.
+- Apostrophe droite (') ou points de suspension en trois points tapés (...) dans un rendu soigné ? Apostrophe typographique (’) et caractère unique (…), la source _markdown_ pouvant garder les formes dactylographiées.
 - Majuscule non accentuée (« Etat », « A propos ») ? Restaure (« État », « À propos »).
 - Casse de titre anglaise ou nom commun capitalisé en pleine phrase (« les Grandes Tendances », « l'Intelligence Artificielle ») ? Casse de phrase.
+- Mois ou jour capitalisé en cours de phrase (« le 5 Juillet », « chaque Lundi ») ? Minuscule (« le 5 juillet », « chaque lundi »).
+- Ordinal en « ème » (« 2ème », « 1ère ») ? Abréviations réglées (« 2e », « 1re », « 1er », « XXIe siècle »).
 - Sigle épelé écrit en minuscules, ou acronyme lexicalisé tout en capitales ? SNCF reste en capitales (épelé), Osint prend la seule initiale (lu comme un mot).
 - Point décimal anglo-saxon (« 3.14 ») ou séparateur de milliers virgule (« 1,000,000 ») ? Inverse.
 - Heure ou pourcentage collés (« 14h30 », « 50% ») ? Espace insécable.
 - Insécable normale (U+00A0) là où la fine (U+202F) est requise, avant `;`, `!`, `?`, `%` ou dans les guillemets, ou l'inverse avant `:` ? Corrige la largeur.
-- Faux-ami au sens anglais ? Remplace.
-- « Pallier à », « se rappeler de », « malgré que » + subjonctif, « après que » + subjonctif ? Corrige.
-- Puces là où un paragraphe articulé suffit ? Reconvertis en prose.
-- Liste verticale mal ponctuée ? Deux-points d'introduction, items en minuscule, point-virgule à chaque item, point au dernier.
-- Mot ou structure répétés à courte distance ? Varie.
-- « Est-ce que » à l'écrit soutenu ? Inverse.
-- Trois « que » subordonnants dans une phrase ? Infinitif, nominalisation ou apposition.
-- Ouverture parasite (« À noter que », « Sachez que », « C'est pourquoi » en attaque, « Plus encore », « Mieux », « Dans un monde où », « Que vous soyez X ou Y », « Honnêtement », « Soyons clairs », « Imaginez », « Le truc, c'est que ») ? Coupe ou reformule.
-- Pseudo-clivée d'annonce (« Ce qui est intéressant, c'est que ») ? Énonce directement.
-- Question-relance en transition (« Le résultat ? », « La bonne nouvelle ? », « Le verdict ? ») ? Énonce directement, sans suspense.
+- Terme étranger non naturalisé sans italique (latin, anglais, italien et autres) ? Italicise (_in fine_, _skill_, _a cappella_) ou remplace, sauf emprunt assimilé (« week-end »).
 - Gras d'emphase semé dans la prose, ou paragraphe mué en liste d'intitulés en gras suivis d'un deux-points (« **Productivité :** ... ») ? Comme pour l'italique, si le mot doit ressortir, change la phrase, ou reviens à la prose articulée.
 - Émoji ou pictogramme dans la prose (coches, fusées) ? Supprime, le mot porte le sens.
+
+### Registre d'assistant
+
 - Ouverture flagorneuse (« Excellente question », « Très bonne remarque ») ou accord réflexe avant de répondre ? Coupe et entre dans le propos.
 - Formule de service en tête ou en clôture (« J'espère que ce message vous trouve bien », « N'hésitez pas à revenir vers moi », « En espérant que cela vous aide », « Souhaitez-vous que je développe ? ») ? Garde la salutation utile, coupe le reste.
 - Mention résiduelle de modèle (« En tant que modèle de langage », « je n'ai pas d'opinion personnelle », « à la date de ma dernière mise à jour ») ? Supprime sans reformuler.
@@ -142,7 +165,7 @@ Note de 1 à 10 sur chaque axe.
 | Authenticité | Sonne français écrit, pas traduit de l'anglais ? |
 | Économie | Reste-t-il du gras à couper sans casser le rythme ? |
 
-En dessous de 35 sur 50, réécris.
+En dessous de 35 sur 50, réécris une seule fois, puis livre la meilleure version avec sa note, sans boucler.
 
 ## Lexique cible
 
