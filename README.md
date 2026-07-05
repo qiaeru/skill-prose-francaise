@@ -16,9 +16,15 @@ skill-prose-francaise/
 │   ├── plugin.json
 │   └── marketplace.json
 ├── .github/
-│   └── FUNDING.yml
+│   ├── dependabot.yml
+│   ├── FUNDING.yml
+│   ├── scripts/
+│   │   └── validate.mjs
+│   └── workflows/
+│       └── validate.yml
 ├── .gitattributes
 ├── .gitignore
+├── .markdownlint-cli2.jsonc
 ├── README.md
 ├── CHANGELOG.md
 ├── LICENSE
@@ -32,6 +38,8 @@ skill-prose-francaise/
 ```
 
 Le dépôt est à la fois un _plugin_ Claude Code nommé `rediger-prose-francaise` et sa propre _marketplace_ : `plugin.json` décrit le _plugin_ (le dépôt entier, avec le _skill_ sous `skills/`) et `marketplace.json` le référence pour que Claude Code l'installe et le mette à jour directement depuis GitHub.
+
+À chaque _push_, à chaque _pull request_ et une fois par semaine, le _workflow_ GitHub Actions [validate.yml](.github/workflows/validate.yml) revalide les manifestes (`plugin validate`), l'hygiène _markdown_ (`markdownlint-cli2`) et les invariants du dépôt (_frontmatter_ du _skill_, liens relatifs et leur confinement au dossier installable, typographie de la règle 14, version du _plugin_ alignée sur la dernière version publiée), le script [validate.mjs](.github/scripts/validate.mjs) restant exécutable en local.
 
 ## Installation
 

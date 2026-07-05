@@ -11,11 +11,18 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 - Couverture typographique élargie : les guillemets droits d'une citation passent aux guillemets français, l'apostrophe typographique et les points de suspension en un caractère entrent dans la règle 14, les mois et les jours s'écrivent en minuscules et les ordinaux s'abrègent en « 1er », « 1re » et « 2e », avec une table « Dates et ordinaux » en référence.
 - Deux tics de ponctuation en plus : le point d'exclamation d'enthousiasme (« C'est parti ! ») rejoint la règle 13, tandis que le titre formulaïque en deux volets (« X : le guide complet ») gagne sa section de référence.
 
+- Workflow d'intégration continue [validate.yml](.github/workflows/validate.yml), premier filet d'un dépôt sans build ni tests. À chaque _push_, _pull request_ et une fois par semaine, il revalide les manifestes du _plugin_, l'hygiène _markdown_ et les invariants portés par [validate.mjs](.github/scripts/validate.mjs), exécutable en local (_frontmatter_ du _skill_, liens relatifs confinés au dossier installable, typographie de la règle 14, version du _plugin_ alignée sur la dernière version publiée).
+- Configuration [dependabot.yml](.github/dependabot.yml) qui surveille chaque semaine les versions des actions GitHub des _workflows_, pour qu'elles ne dérivent plus vers l'obsolescence.
+
 ### Modifié
 
 - Les vérifications rapides sont regroupées en six familles (architecture de la phrase, lexique, rhétorique et transitions, ponctuation, typographie, registre d'assistant), si bien que le cas des interfaces désigne désormais les familles à passer sur un micro-libellé.
 - Les règles 13 et 14 renvoient le détail à `structures.md`, ce qui allège SKILL.md sans perte de règle.
 - Le déroulé et la grille de notation bornent la boucle à une seule réécriture, le texte partant ensuite avec sa note.
+
+### Corrigé
+
+- Deux italiques de SKILL.md composés en astérisques, réalignés sur la convention du tiret bas que le linter impose désormais.
 
 ## [1.3.0] - 2026-06-25
 

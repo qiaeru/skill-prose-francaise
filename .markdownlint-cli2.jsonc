@@ -1,0 +1,13 @@
+// Hygiène markdown du dépôt. La prose s'écrit un paragraphe par ligne,
+// donc pas de limite de longueur. Italique en tiret bas, gras en astérisques,
+// conformément aux conventions notées dans CLAUDE.md.
+{
+  "config": {
+    "MD013": false,
+    "MD024": { "siblings_only": true },
+    "MD049": { "style": "underscore" },
+    "MD050": { "style": "asterisk" }
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**"]
+}

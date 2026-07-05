@@ -1,0 +1,34 @@
+# Le dépôt n'a ni build ni tests, donc cette validation est le seul filet :
+# invariants du dépôt d'abord (script local, rapide), hygiène markdown ensuite,
+# manifestes enfin. npx tire la dernière version du CLI Claude Code, une
+# régression côté CLI peut donc rougir sans changement du dépôt, ce qui est
+# voulu, et le déclenchement hebdomadaire la détecte entre deux push.
+name: Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  valider:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v7
+      - name: Vérifier les invariants du dépôt
+        run: node .github/scripts/validate.mjs
+      - name: Vérifier l'hygiène markdown
+        run: npx -y markdownlint-cli2
+      - name: Valider les manifestes du plugin
+        run: npx -y @anthropic-ai/claude-code plugin validate .
