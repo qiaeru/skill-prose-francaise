@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Non publié]
 
+## [1.4.0] - 2026-07-05
+
 ### Ajouté
 
 - Couverture typographique élargie : les guillemets droits d'une citation passent aux guillemets français, l'apostrophe typographique et les points de suspension en un caractère entrent dans la règle 14, les mois et les jours s'écrivent en minuscules et les ordinaux s'abrègent en « 1er », « 1re » et « 2e », avec une table « Dates et ordinaux » en référence.
