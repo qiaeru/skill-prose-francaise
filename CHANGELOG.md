@@ -6,6 +6,11 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Unreleased]
 
+### Added
+
+- Script [normalise.mjs](.github/scripts/normalise.mjs), qui pose la fine et l'insécable normale de la règle 14 sur les fichiers _markdown_ passés en argument, parce que les outils d'édition de Claude Code aplatissent ces deux espaces en espaces ordinaires.
+- Le validateur vérifie en plus, sur la prose du dépôt, les ordinaux en « ème », les capitales non accentuées, la barre oblique entre deux mots, les trois points tapés et l'égalité des descriptions du _skill_ et du _plugin_.
+
 ## [1.4.1] - 2026-07-05
 
 ### Changed

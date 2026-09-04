@@ -26,6 +26,7 @@ collecteMarkdown('skills');
 
 // 1. Frontmatter de chaque SKILL.md : name égal au dossier, description
 // présente et sous 300 caractères. Le runtime ne lit que ces deux champs.
+const descriptions = {};
 for (const nomSkill of readdirSync('skills')) {
   const dossier = path.join('skills', nomSkill);
   if (!statSync(dossier).isDirectory()) continue;
@@ -52,6 +53,7 @@ for (const nomSkill of readdirSync('skills')) {
   } else if ([...champs.description].length > 300) {
     signale(fichier, 3, `description de ${[...champs.description].length} caractères, maximum 300`);
   }
+  descriptions[nomSkill] = champs.description;
 }
 
 // 2. Liens relatifs : chaque cible existe, et un lien émis depuis le dossier
@@ -91,6 +93,24 @@ const CONTROLES = [
   [/[\u0020\u202F]:/, 'deux-points précédé d\'une espace ordinaire ou fine, insécable normale U+00A0 attendue'],
   [/—/, 'tiret cadratin en prose, à remplacer par virgule, point ou parenthèses'],
 ];
+
+// Tics des règles 13, 14 et 20 que la prose ne doit reproduire qu'en mention.
+// Les mentions entre guillemets français ou droits, les lignes de tableau
+// (colonnes « à éviter » des références), le code, les liens et les URL sont
+// retirés avant le contrôle.
+const CONTROLES_MENTIONS = [
+  [/(?:\d+|[IVXL]+)(?:ème|èmes|ère|ères)\b/u, 'ordinal en « ème », abréviation réglée attendue (1er, 1re, 2e)'],
+  [
+    /(?:^|[^\p{L}'’])(?:Etat|Etats|Ecole|Elève|Eglise|Egalité|Ile|Etude|Etape|Equipe|Election|Emission|Evolution|Edition|Editeur|Etranger|Evidemment|Egalement|Etant)\b/u,
+    'capitale non accentuée, majuscule accentuée attendue',
+  ],
+  [
+    /(?:^|[\s(])A (?:propos|noter|ce|cet|cette|la|le|les|l'|partir|priori|posteriori|travers|savoir|titre|terme|court|long|moyen|cause|condition|défaut)\b/u,
+    'capitale non accentuée, « À » attendu',
+  ],
+  [/\p{L}\/\p{L}/u, 'barre oblique entre deux mots, « ou », « et » ou reformulation attendue'],
+  [/\.\.\./, 'trois points tapés, caractère unique … attendu'],
+];
 for (const fichier of fichiersProse) {
   const lignes = lire(fichier).split(/\r?\n/);
   let dansFence = false;
@@ -119,6 +139,16 @@ for (const fichier of fichiersProse) {
     for (const [motif, message] of CONTROLES) {
       if (motif.test(nettoye)) signale(fichier, i + 1, message);
     }
+    if (/^\s*\|/.test(brut)) continue;
+    const nettoyeMention = brut
+      .replace(/`[^`]*`/g, '')
+      .replace(/\[[^\]]*\]\([^)]*\)/g, '')
+      .replace(/https?:\/\/\S+/g, '')
+      .replace(/«[^»]*»/g, '')
+      .replace(/"[^"]*"/g, '');
+    for (const [motif, message] of CONTROLES_MENTIONS) {
+      if (motif.test(nettoyeMention)) signale(fichier, i + 1, message);
+    }
   }
 }
 
@@ -136,9 +166,20 @@ if (!publiee) {
   );
 }
 
+// 5. La description du plugin reprend celle du skill du même nom, puisque
+// la marketplace lit la première et le runtime la seconde.
+const descriptionSkill = descriptions[manifeste.name];
+if (descriptionSkill && manifeste.description !== descriptionSkill) {
+  signale(
+    '.claude-plugin/plugin.json',
+    null,
+    `description différente de celle de skills/${manifeste.name}/SKILL.md`,
+  );
+}
+
 if (erreurs.length > 0) {
   console.error(`${erreurs.length} erreur(s) d'invariant :`);
   for (const e of erreurs) console.error(`  ${e}`);
   process.exit(1);
 }
-console.log(`Invariants vérifiés sur ${fichiersProse.length} fichiers : frontmatter, liens, typographie, version.`);
+console.log(`Invariants vérifiés sur ${fichiersProse.length} fichiers : frontmatter, liens, typographie, mentions, version, description.`);
