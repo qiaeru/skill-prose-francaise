@@ -1,42 +1,12 @@
 # Exemples avant et après
 
-Chaque « Après » montre une phrase française qui coule, articulée par subordination ou par apposition, plutôt qu'une succession de phrases courtes calquées sur l'anglais.
-
-## Sommaire
-
-- 1\. Phrases courtes à la chaîne (calque anglo-saxon)
-- 2\. Chaîne de participes présents
-- 3\. Relatives empilées
-- 4\. Adjectifs intensifs vides
-- 5\. Anglicismes IA
-- 6\. Adverbes, verbe vidé et tournure impersonnelle
-- 7\. Fausse opposition
-- 8\. Connecteurs surnuméraires
-- 9\. Verbe de redéfinition vide
-- 10\. Nominalisations et jargon corporate
-- 11\. Énumération ternaire publicitaire
-- 12\. Méta-commentaire et amorce rhétorique
-- 13\. Pléonasmes et locutions latines
-- 14\. Double négation savante
-- 15\. Tournure « se voir » suivie d'un infinitif
-- 16\. Clôture clichée
-- 17\. Liste négative et fragmentation
-- 18\. Voix passive cachant l'acteur
-- 19\. Atténuations empilées
-- 20\. Liste à puces convertie en paragraphe
-- 21\. Répétitions lexicales
-- 22\. Construction interrogative familière
-- 23\. Excès du « que » subordonnant
-- 24\. Ouverture parasite « À noter que »
-- 25\. Fragments publicitaires en cascade
-- 26\. Ouverture commerciale « Que vous soyez »
-- 27\. Registre d'assistant
+Chaque « Après » montre une phrase française qui coule, articulée par subordination ou par apposition, plutôt qu'une succession de phrases courtes calquées sur l'anglais. Chaque « Après » ne contient que ce que l'« Avant » fournit, si bien que la réécriture reste sobre quand la source reste vague, au lieu d'inventer un chiffre, une cause ou un acteur pour faire concret. Les liants varient d'un exemple à l'autre, parce qu'un « parce que » servi à chaque phrase serait un tic de plus.
 
 ## 1. Phrases courtes à la chaîne (calque anglo-saxon)
 
 **Avant.** Le résultat tient. La méthode marche. L'équipe est satisfaite.
 
-**Après.** Le résultat tient, parce que la méthode a fait ses preuves et que l'équipe la maîtrise désormais.
+**Après.** La méthode marche, si bien que le résultat tient et que l'équipe s'en déclare satisfaite.
 
 ## 2. Chaîne de participes présents
 
@@ -54,7 +24,7 @@ Chaque « Après » montre une phrase française qui coule, articulée par s
 
 **Avant.** L'IA représente un véritable enjeu stratégique majeur, devenu incontournable pour toute entreprise.
 
-**Après.** L'IA est devenue un sujet auquel les entreprises ne peuvent plus échapper, parce qu'elle reconfigure à la fois leurs coûts et leurs processus internes.
+**Après.** Aucune entreprise n'échappe plus à l'IA, devenue un enjeu de premier plan.
 
 ## 5. Anglicismes IA
 
@@ -66,25 +36,29 @@ Chaque « Après » montre une phrase française qui coule, articulée par s
 
 **Avant.** Il convient de souligner que cette approche permet véritablement d'optimiser les performances.
 
-**Après.** Cette approche accélère le système, parce qu'elle réduit le nombre d'allers-retours réseau.
+**Après.** Cette approche améliore les performances.
+
+La source ne dit ni de combien ni pourquoi, alors la réécriture s'en tient à l'affirmation, sans lui prêter un mécanisme ou une mesure.
 
 ## 7. Fausse opposition
 
 **Avant.** Ce n'est pas une simple mise à jour, c'est une refonte complète qui s'inscrit dans une démarche d'amélioration continue.
 
-**Après.** Plutôt qu'une simple mise à jour, ce travail refond l'architecture interne du produit.
+**Après.** Cette version refond le produit en profondeur, dans la continuité des améliorations précédentes.
 
 ## 8. Connecteurs surnuméraires
 
 **Avant.** En effet, par ailleurs, il est important de noter que le résultat s'avère probant.
 
-**Après.** Le résultat tient, comme l'équipe l'avait anticipé en début de cycle.
+**Après.** Le résultat est probant.
 
 ## 9. Verbe de redéfinition vide
 
 **Avant.** Notre plateforme réinvente la manière dont les utilisateurs interagissent avec leurs données, en repensant l'expérience de bout en bout.
 
-**Après.** Sur notre plateforme, l'utilisateur retrouve toutes ses données dans une seule vue qu'il filtre d'un clic.
+**Après.** Notre plateforme change la manière dont les utilisateurs consultent et manipulent leurs données.
+
+La source ne dit pas ce qui change. La réécriture retire les verbes de redéfinition et laisse à l'auteur le soin de nommer le changement, plutôt que de l'inventer à sa place.
 
 ## 10. Nominalisations et jargon corporate
 
@@ -96,25 +70,25 @@ Chaque « Après » montre une phrase française qui coule, articulée par s
 
 **Avant.** Cette solution est simple, intuitive et performante, permettant aux utilisateurs de gagner un temps précieux.
 
-**Après.** Cette solution, à la fois simple et rapide, fait gagner du temps à ses utilisateurs.
+**Après.** Cette solution, simple et rapide, fait gagner du temps à ses utilisateurs.
 
 ## 12. Méta-commentaire et amorce rhétorique
 
 **Avant.** Et si on regardait cela de plus près ? Voyons ensemble pourquoi cette tendance s'impose aujourd'hui.
 
-**Après.** Cette tendance s'impose aujourd'hui parce qu'elle conjugue la pression réglementaire, le coût du capital et l'évolution des attentes des clients.
+**Après.** Plusieurs raisons expliquent que cette tendance s'impose aujourd'hui.
 
 ## 13. Pléonasmes et locutions latines
 
 **Avant.** _In fine_, au jour d'aujourd'hui, voire même demain, cette approche s'avère être la plus pertinente.
 
-**Après.** Aujourd'hui comme demain, cette approche reste la plus pertinente, puisqu'elle s'adapte aux contraintes nouvelles sans renier les acquis.
+**Après.** Aujourd'hui comme demain, cette approche reste la plus pertinente.
 
 ## 14. Double négation savante
 
 **Avant.** Il n'est pas sans intérêt de souligner que cette méthode ne saurait être ignorée.
 
-**Après.** Cette méthode compte, ne serait-ce que parce qu'elle a fait ses preuves sur des cas concrets.
+**Après.** Cette méthode mérite qu'on s'y arrête.
 
 ## 15. Tournure « se voir » suivie d'un infinitif
 
@@ -126,25 +100,31 @@ Chaque « Après » montre une phrase française qui coule, articulée par s
 
 **Avant.** En définitive, au regard de l'ensemble des éléments évoqués, force est de constater que la transition numérique constitue un enjeu majeur.
 
-**Après.** La transition numérique pèse sur les comptes des entreprises, à la fois sur leurs coûts d'exploitation et sur leur capacité à atteindre de nouveaux marchés.
+**Après.** Ces éléments font de la transition numérique un enjeu de premier plan.
 
 ## 17. Liste négative et fragmentation
 
 **Avant.** Ce n'est pas un produit. Ce n'est pas une fonctionnalité. C'est une révolution.
 
-**Après.** Cette annonce ne concerne ni un produit isolé ni une simple fonctionnalité, mais une refonte du moteur de recherche.
+**Après.** Cette annonce dépasse le cadre d'un produit ou d'une fonctionnalité isolée.
+
+La source ne dit pas en quoi consiste la révolution. La réécriture garde l'affirmation au niveau que la source soutient et laisse l'auteur nommer ce qui change.
 
 ## 18. Voix passive cachant l'acteur
 
 **Avant.** Il a été décidé que les utilisateurs seraient notifiés par e-mail dans un délai raisonnable.
 
-**Après.** L'équipe produit notifiera les utilisateurs par e-mail sous 48 h.
+**Après.** Nous avons décidé de notifier les utilisateurs par e-mail dans un délai raisonnable.
+
+L'acteur reste celui que le contexte désigne, ici l'émetteur du message, et le délai reste celui de la source, que l'auteur précisera s'il le connaît.
 
 ## 19. Atténuations empilées
 
 **Avant.** Il semblerait que cette approche pourrait, d'une certaine manière, contribuer à améliorer sensiblement les résultats.
 
-**Après.** Cette approche améliore les résultats, comme l'a confirmé un premier test sur trois trimestres.
+**Après.** Cette approche devrait améliorer sensiblement les résultats.
+
+La source exprime un doute, alors la réécriture en garde un seul au lieu d'en empiler quatre ou de le supprimer.
 
 ## 20. Liste à puces convertie en paragraphe
 
@@ -155,13 +135,13 @@ Chaque « Après » montre une phrase française qui coule, articulée par s
 - une compatibilité avec les outils existants
 - un coût maîtrisé
 
-**Après.** Notre service se déploie en quelques jours, l'équipe le prend en main sans formation lourde, il s'intègre aux outils déjà en place et son coût reste maîtrisé.
+**Après.** Notre service se déploie rapidement et se prend en main simplement, tandis qu'il s'intègre aux outils existants pour un coût maîtrisé.
 
 ## 21. Répétitions lexicales
 
 **Avant.** Cette solution permet d'optimiser le processus. La solution s'adapte aux besoins. La solution est simple à déployer. La solution garantit un bon retour sur investissement.
 
-**Après.** Cette approche fluidifie le processus, parce qu'elle s'adapte aux besoins de chaque équipe, se déploie sans friction et garantit un retour sur investissement rapide.
+**Après.** Cette approche améliore le processus, s'adapte aux besoins et se déploie simplement, si bien qu'elle garantit un bon retour sur investissement.
 
 ## 22. Construction interrogative familière
 
@@ -185,16 +165,24 @@ Chaque « Après » montre une phrase française qui coule, articulée par s
 
 **Avant.** Pas de jargon. Pas de configuration interminable. Pas de mauvaise surprise. Juste un outil qui marche.
 
-**Après.** L'outil fonctionne dès l'installation, sans jargon, sans configuration interminable ni mauvaise surprise.
+**Après.** L'outil marche, sans jargon, sans configuration interminable ni mauvaise surprise.
 
 ## 26. Ouverture commerciale « Que vous soyez »
 
 **Avant.** Que vous soyez une petite équipe ou un grand groupe, dans un monde où tout s'accélère, cette plateforme s'adapte à vos besoins.
 
-**Après.** La plateforme convient aussi bien à une petite équipe qu'à un grand groupe, parce que ses modules s'activent à la demande.
+**Après.** La plateforme s'adapte aussi bien à une petite équipe qu'à un grand groupe.
 
 ## 27. Registre d'assistant
 
 **Avant.** Excellente question ! En tant que modèle de langage, je dirais que cette solution est tout à fait pertinente. J'espère que cela vous aide, n'hésitez pas à revenir vers moi si besoin.
 
-**Après.** Cette solution tient, parce qu'elle réduit les allers-retours réseau et se déploie sans configuration.
+**Après.** Cette solution est pertinente.
+
+## 28. Calques de remplissage
+
+**Avant.** Au sein de notre équipe, nous proposons non seulement un large éventail de services, mais aussi une expérience fluide, que ce soit pour les particuliers ou pour les entreprises. Ce dernier point fait toute la différence en fin de compte.
+
+**Après.** Notre équipe propose de nombreux services aux particuliers comme aux entreprises, avec un parcours sans accroc qui fait la différence.
+
+La source ne compte pas ses services et ne dit pas ce qui rend l'expérience fluide. La réécriture retire le remplissage sans y substituer un chiffre ou un mécanisme inventé, et laisse à l'auteur le soin de les préciser.

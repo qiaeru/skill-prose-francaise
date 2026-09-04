@@ -1,26 +1,5 @@
 # Tournures à supprimer
 
-## Sommaire
-
-- Participes présents en chaîne
-- Adjectifs intensifs vides
-- Anglicismes IA
-- Faux-amis et calques sémantiques
-- Verbes calqués sur l'anglais (à éviter ou à manier avec précaution)
-- Ouvertures parasites
-- Connecteurs IA surutilisés
-- Adverbes en _-ment_ parasites
-- Verbes vidés et passe-partout
-- Verbes de redéfinition vides
-- Jargon corporate et institutionnel
-- Locutions latines et savantes
-- Pléonasmes IA
-- Atténuations et précautions
-- Clôtures clichées
-- Emphase performative
-- Registre d'assistant
-- Préférer plutôt, récapitulatif positif
-
 ## Participes présents en chaîne
 
 Un participe présent isolé reste naturel en français écrit. Le tic IA, c'est l'enfilade qui sert à relier des idées au lieu de construire une vraie subordination. Vise au plus un participe par phrase, et privilégie les subordonnées (« qui », « parce que », « alors que ») dès qu'une chaîne apparaît.
@@ -101,13 +80,8 @@ Mots français qui ressemblent à un mot anglais mais qui ont un sens différent
 | supporter | endurer, tolérer | _to support_ (= soutenir, prendre en charge) |
 | contrôler | vérifier | _to control_ (= maîtriser) |
 | opportunité | caractère opportun | _opportunity_ (= occasion) |
-| confortable | matériellement à l'aise | _comfortable_ (= à l'aise psychologiquement) |
 | consistant | nourrissant, ferme | _consistent_ (= cohérent, régulier) |
-| bénéfice | profit financier | _benefit_ (= avantage) |
-| solliciter | demander | _to solicit_ (= démarcher, racoler) |
-| accomplir | mener à terme | _to accomplish_ (= réaliser dans certains contextes) |
 | ignorer | ne pas savoir | _to ignore_ (= faire semblant de ne pas voir) |
-| disposer de | avoir à sa disposition | _to dispose of_ (= se débarrasser de) |
 | achever | mener à terme | _to achieve_ (= atteindre, obtenir) |
 | versatile | inconstant, changeant | _versatile_ (= polyvalent) |
 | assumer | endosser, prendre sur soi | _to assume_ (= supposer, présumer) |
@@ -154,6 +128,7 @@ Annoncent le propos au lieu de le tenir.
 - « À une époque où »
 - « Dans un monde où »
 - « Que vous soyez X ou Y » en attaque commerciale
+- « Que ce soit X ou Y », même balancier appliqué aux usages ou aux publics
 - « Imaginez que », « Imaginez un instant », appel à se projeter en ouverture
 - « Ce qui est intéressant, c'est que » et les pseudo-clivées d'annonce (« Ce qui frappe, c'est que », « Ce qu'il faut retenir, c'est que »)
 - « C'est là que X entre en jeu », calque de transition de l'anglais _that's where X comes in_
@@ -222,8 +197,6 @@ Aucun n'est interdit en soi, certains gardent des emplois pleinement légitimes 
 | disposer de | avoir |
 | effectuer | faire |
 | réaliser (une tâche) | faire |
-| mettre en œuvre | appliquer, faire |
-| mettre en place | installer, lancer |
 | procéder à | (verbe d'action direct) |
 
 ## Verbes de redéfinition vides
@@ -260,9 +233,22 @@ Si tu emploies un de ces verbes, demande-toi ce qui change au juste. Nomme le ch
 | thématique (nom) | thème, sujet |
 | à la croisée de | entre, mêlant |
 | au carrefour de | entre |
-| afin de | pour |
+| au sein de | dans, chez, parmi |
 | à savoir | (souvent à supprimer, voire à remplacer par « c'est-à-dire ») |
 | de par + nom | par, à cause de, grâce à |
+
+## Quantificateurs et qualificatifs vagues
+
+L'IA remplit la phrase avec des quantités qu'elle ne compte pas et des qualités qu'elle ne décrit pas. Donne le nombre ou la nature quand la source les fournit, et sinon retire le remplissage sans inventer ce qui manque.
+
+| À éviter | Préférer |
+| --- | --- |
+| un large éventail de | le nombre, ou « de nombreux », « plusieurs » |
+| une multitude de | le nombre, ou « de nombreux » |
+| une grande variété de | « divers », « plusieurs » |
+| une expérience fluide, un parcours fluide | ce qui le rend simple (sans attente, sans ressaisie, en trois écrans) |
+| une intégration transparente | « s'intègre sans heurt », ou ce que l'utilisateur n'a plus à faire |
+| optimal, optimisé | le gain réel (plus rapide, moins cher, plus court) |
 
 ## Locutions latines et savantes
 
@@ -319,6 +305,7 @@ Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le ti
 - en conclusion
 - en somme
 - au bout du compte
+- en fin de compte
 - tout compte fait
 - pour résumer
 
@@ -376,7 +363,8 @@ Le _skill_ liste surtout ce qu'il faut éviter, mais le réflexe utile reste de 
 
 | Si tu es tenté d'écrire | Préfère |
 | --- | --- |
-| une enfilade de phrases courtes | une phrase articulée par « parce que », « alors que », « tandis que », « puisque » |
+| « au sein de », « un large éventail de », « une multitude de » | « dans », puis le nombre ou « de nombreux » |
+| une enfilade de phrases courtes | une phrase articulée, en variant le liant d'une phrase à l'autre, par « parce que », « alors que », « tandis que », « puisque » |
 | une chaîne de participes présents | une relative en « qui » ou une subordonnée causale en « parce que » |
 | « permet de + infinitif » | le verbe d'action direct (« accélère », « réduit », « simplifie ») |
 | « il est important de », « il convient de » | un sujet humain ou désigné suivi du verbe |

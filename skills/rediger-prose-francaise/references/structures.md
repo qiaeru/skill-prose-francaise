@@ -1,26 +1,5 @@
 # Structures à éviter
 
-## Sommaire
-
-- Phrases courtes à la chaîne (calque anglo-saxon)
-- Chaîne de participes présents
-- Fausses oppositions
-- Empilement de relatives
-- Doubles négations savantes
-- Tournures « se voir » ou « se faire » suivi d'un infinitif
-- Tournures impersonnelles abusives
-- Nominalisations
-- Énumération ternaire automatique
-- Amorces rhétoriques
-- Périphrases
-- Voix passive cachant l'acteur
-- Abus des listes à puces
-- Répétitions lexicales et syntaxiques
-- Constructions interrogatives et excès du « que »
-- Typographie et ponctuation françaises
-- Pièges grammaticaux fréquents
-- « On », « l'on », « nous »
-
 ## Phrases courtes à la chaîne (calque anglo-saxon)
 
 Le tic IA le plus visible en français est l'enfilade de phrases courtes coordonnées par des points, calquée sur la prose anglaise. Le français écrit construit ses idées par subordination interne, ce qui produit des phrases plus longues et mieux articulées.
@@ -32,6 +11,8 @@ Le tic IA le plus visible en français est l'enfilade de phrases courtes coordon
 | « X fait Y. Cela permet Z. C'est important. » | « En faisant Y, X obtient Z, ce qui pèse sur la suite. » |
 
 Pour relier les idées sans hacher, mobilise les subordonnants comme « alors que », « tandis que », « puisque », « bien que », « dès lors que », « pourvu que », « quoique », « lorsque », « dès que », « après que », « avant que », « si bien que », « de sorte que », « parce que », « au point que » ou « pour peu que ».
+
+Le contrepoids vaut autant que la règle. Le tic est l'enfilade, non la phrase courte, si bien qu'une phrase brève après une longue respire et qu'un texte corrigé tombe volontiers dans l'excès inverse, la phrase de soixante mots ou le « parce que » servi à chaque articulation. Alterne les subordonnants, garde une phrase courte lorsqu'elle porte un effet, et ne relie jamais deux idées par une cause que la source ne donne pas, puisque la subordination doit rassembler ce qui est écrit et non inventer un lien.
 
 ## Chaîne de participes présents
 
@@ -57,10 +38,13 @@ Créent une fausse tension. Énonce le second terme, éventuellement nuancé par
 | « La vraie question, ce n'est pas X, c'est Y » | Diversion rhétorique |
 | « Pas de X. Pas de Y. Juste Z. » | Fragments publicitaires en cascade |
 | « Moins de X, plus de Y. » | Balancement publicitaire (_less X, more Y_) |
+| « Non seulement X, mais aussi Y » | Balancement additif sans gradation (_not only X, but also Y_) |
 
 Dis Y. « Y compte. » Ou bien, si la nuance vaut la peine, « Y compte davantage que X, quoique ce dernier reste un facteur. »
 
-La variante en fragments (« Pas de jargon. Pas de configuration interminable. Juste un outil qui marche. ») cumule la fausse opposition et le hachage. Reconstruis une phrase pleine qui affirme Z en écartant X et Y au passage (« L'outil fonctionne dès l'installation, sans jargon ni configuration interminable »).
+La variante en fragments (« Pas de jargon. Pas de configuration interminable. Juste un outil qui marche. ») cumule la fausse opposition et le hachage. Reconstruis une phrase pleine qui affirme Z en écartant X et Y au passage (« L'outil marche, sans jargon ni configuration interminable »).
+
+Le balancement « non seulement X, mais aussi Y » relève du même réflexe, une gradation annoncée que le contenu ne justifie presque jamais. Quand X et Y pèsent le même poids, écris « X et Y ».
 
 ## Empilement de relatives
 
@@ -169,6 +153,8 @@ Quand l'acteur existe, exhume-le et fais-en le sujet.
 - « Les performances ont été améliorées » devient « L'équipe a accéléré le système »
 - « Une attention particulière sera portée à... » devient « L'équipe surveillera de près... »
 
+L'acteur exhumé doit être celui que le contexte désigne (l'émetteur du message, l'équipe nommée plus haut). Lorsque le texte ne désigne personne, garde la tournure passive ou impersonnelle plutôt que d'inventer un sujet.
+
 ## Abus des listes à puces
 
 Claude convertit volontiers tout enchaînement d'idées en liste de puces, comme le font l'anglais journalistique et le contenu web anglo-saxon. La prose française attendue dans une lettre, un essai ou un article hors web tisse au contraire les idées dans des phrases articulées. Réserve la liste à puces aux cas où elle a un vrai sens, à savoir une énumération parallèle (cinq pays, sept étapes d'une procédure, dix paramètres techniques) ou un inventaire dont l'ordre n'importe pas. Pour deux ou trois idées liées par un raisonnement, écris une phrase ou un paragraphe.
@@ -201,6 +187,8 @@ Le français écrit accepte mal la répétition à courte distance, là où l'an
 | montrer que | démontrer que, indiquer que, témoigner que (sans abus) |
 
 L'autre forme de répétition est syntaxique. Trois phrases qui commencent par le même mot (« Cette solution... Cette solution... Cette solution... ») ou par la même structure (« On voit que..., On note que..., On observe que... ») sonnent comme une copie automatique. Varie l'attaque, déplace le complément circonstanciel en tête, alterne phrase simple et phrase complexe.
+
+Deux répétitions plus discrètes trahissent aussi la machine. L'anaphore « ce dernier », « cette dernière », servie à chaque phrase pour reprendre le nom qui précède, alors que le français répète volontiers le nom ou passe par un pronom simple. Et le subordonnant unique, « parce que » ou « puisque » à chaque articulation, qui rend la subordination aussi mécanique que le hachage qu'elle remplace.
 
 ## Constructions interrogatives et excès du « que »
 

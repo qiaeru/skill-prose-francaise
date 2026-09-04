@@ -35,6 +35,7 @@ skill-prose-francaise/
         └── references/
             ├── tournures.md
             ├── structures.md
+            ├── interfaces.md
             └── exemples.md
 ```
 
@@ -73,9 +74,11 @@ Une fois le _skill_ installé, Claude s'en sert de trois manières principales.
 - Si vous formulez une demande de rédaction, d'édition ou de relecture d'un texte français sans nommer le _skill_, Claude reconnaît le contexte grâce au champ `description` de la _frontmatter_ et applique le _skill_ de lui-même. Vous pouvez le confirmer en lui demandant de citer la règle qu'il vient d'appliquer.
 - Enfin, pour un texte court, le _skill_ sert surtout de garde-fou. Claude évite les tics les plus visibles sans dérouler la grille de notation, ce qui reste suffisant pour la prose du quotidien.
 
-Quel que soit le mode d'invocation, le _skill_ repose sur trois étages que vous pouvez consulter à part. `SKILL.md` regroupe les règles centrales et les vérifications rapides. Le dossier [skills/rediger-prose-francaise/references/](skills/rediger-prose-francaise/references/) détaille les tournures, les structures et la typographie à éviter, ainsi que vingt-sept exemples avant et après. La grille de notation, en bas de `SKILL.md`, attribue une note sur cinq axes (articulation, densité lexicale, concret, authenticité et économie), avec un seuil de réécriture fixé à 35 sur 50.
+Quel que soit le mode d'invocation, le _skill_ repose sur trois étages que vous pouvez consulter à part. `SKILL.md` regroupe les règles centrales et les vérifications rapides. Le dossier [skills/rediger-prose-francaise/references/](skills/rediger-prose-francaise/references/) détaille les tournures, les structures et la typographie à éviter, le régime propre aux libellés d'interface et aux fichiers de locales, ainsi que des exemples avant et après, un par famille de tics. La grille de notation, en bas de `SKILL.md`, attribue une note sur cinq axes (articulation, densité lexicale, concret, authenticité et économie), avec un seuil de réécriture fixé à 35 sur 50, doublé d'un critère objectif puisque toute vérification rapide encore en échec déclenche aussi la réécriture.
 
 Pour un usage régulier, gardez à l'esprit que ce _skill_ privilégie une prose française qui coule par subordination, plutôt qu'une succession de phrases courtes calquées sur l'anglais. Si une suggestion de Claude vous paraît trop hachée, demandez-lui de rassembler les idées dans une phrase mieux articulée et de revoir sa note d'articulation en conséquence.
+
+Le _skill_ ne touche qu'à la forme. Il n'ajoute ni chiffre, ni cause, ni acteur absents de votre texte, garde une longueur voisine de l'original et signale le flou plutôt que de le combler, si bien qu'une phrase vague ressort sobre au lieu d'être étoffée par des précisions inventées.
 
 ## Limites du _skill_
 

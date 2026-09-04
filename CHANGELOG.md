@@ -8,8 +8,26 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ### Added
 
+- Consigne de fidélité au texte source, dans le déroulé et dans une famille « Fidélité » des vérifications rapides : la réécriture n'ajoute ni chiffre, ni cause, ni acteur absents de la source, garde une longueur voisine de l'original et signale le flou plutôt que de le combler. Les exemples qui inventaient des faits (allers-retours réseau, délai de 48 h, test sur trois trimestres) sont réécrits à partir du seul « Avant », avec une note quand la source reste vague.
+- Contrepoids à la subordination dans la règle 1 et dans la référence des structures : une phrase brève après une longue respire, et un même subordonnant répété de phrase en phrase devient un tic à son tour, avec une vérification rapide dédiée. Les exemples varient leurs liants au lieu de tout articuler par « parce que ».
+- Nouveaux tics couverts : « au sein de », « non seulement… mais aussi », « que ce soit X ou Y », « un large éventail de », « une multitude de », l'anaphore « ce dernier », le « fluide » passe-partout et « en fin de compte », avec une table des quantificateurs vagues et un exemple avant et après.
 - Script [normalise.mjs](.github/scripts/normalise.mjs), qui pose la fine et l'insécable normale de la règle 14 sur les fichiers _markdown_ passés en argument, parce que les outils d'édition de Claude Code aplatissent ces deux espaces en espaces ordinaires.
 - Le validateur vérifie en plus, sur la prose du dépôt, les ordinaux en « ème », les capitales non accentuées, la barre oblique entre deux mots, les trois points tapés et l'égalité des descriptions du _skill_ et du _plugin_.
+
+### Changed
+
+- La description du _skill_ mentionne les libellés d'interface et les fichiers de locales, pour que l'autodécouverte se déclenche aussi sur un fichier de traduction.
+- Le cas des interfaces logicielles migre de SKILL.md vers `references/interfaces.md`, les règles 13 et 14 renvoient leur détail aux vérifications rapides et à la référence, et les sommaires non liés des références disparaissent, ce qui allège ce que Claude charge à chaque déclenchement.
+- La notation s'appuie sur un critère objectif : toute vérification rapide encore en échec déclenche la réécriture, quelle que soit la note, et le texte livré mentionne ce compte.
+- Les nombres d'exemples et de familles de tics ne sont plus codés en dur dans la prose, où ils dérivaient à chaque ajout.
+
+### Fixed
+
+- « Mettre en place » et « mettre en œuvre », recommandés par la règle 6 et par la table des nominalisations, figuraient aussi parmi les verbes vidés à éviter.
+
+### Removed
+
+- « Afin de » quitte le jargon corporate, la locution étant du français soutenu ordinaire, et cinq faux-amis sans tic IA réel (« disposer de », « solliciter », « accomplir », « bénéfice », « confortable ») quittent la table.
 
 ## [1.4.1] - 2026-07-05
 
