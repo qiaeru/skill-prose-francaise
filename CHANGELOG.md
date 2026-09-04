@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-09-04
+
 ### Added
 
 - Consigne de fidélité au texte source, dans le déroulé et dans une famille « Fidélité » des vérifications rapides : la réécriture n'ajoute ni chiffre, ni cause, ni acteur absents de la source, garde une longueur voisine de l'original et signale le flou plutôt que de le combler. Les exemples qui inventaient des faits (allers-retours réseau, délai de 48 h, test sur trois trimestres) sont réécrits à partir du seul « Avant », avec une note quand la source reste vague.
