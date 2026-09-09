@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-09-09
+
 ### Added
 
 - Trois règles centrales reprises de [humanizer](https://github.com/blader/humanizer) (Siqi Chen, MIT) : l'objection fantôme (« Je ne dis pas que »), la mise en scène (chute d'une ligne, fragments dramatiques, aphorismes) et la portée gonflée (« marque un tournant », paragraphe d'envoi), qui couvre aussi l'autorité empruntée, le lien vague et la langue de brochure. Chaque famille a sa liste dans les références, ses vérifications rapides et un exemple avant et après.

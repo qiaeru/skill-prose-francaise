@@ -1,7 +1,7 @@
 {
   "name": "rediger-prose-francaise",
   "description": "Supprime les tics d'écriture IA en français. À utiliser pour rédiger, éditer ou relire un texte FR, y compris les libellés d'interface et les fichiers de locales (i18n). Impose une prose articulée par subordination plutôt que par hachage, et applique la typographie française.",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "author": {
     "name": "Qiaeru"
   },
