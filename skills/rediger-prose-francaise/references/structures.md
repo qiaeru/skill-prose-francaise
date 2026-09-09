@@ -39,6 +39,8 @@ Créent une fausse tension. Énonce le second terme, éventuellement nuancé par
 | « Pas de X. Pas de Y. Juste Z. » | Fragments publicitaires en cascade |
 | « Moins de X, plus de Y. » | Balancement publicitaire (_less X, more Y_) |
 | « Non seulement X, mais aussi Y » | Balancement additif sans gradation (_not only X, but also Y_) |
+| « Cela ne veut pas dire X. Cela veut dire Y. » | Même contraste, scindé sur deux phrases |
+| « X, pas de devinette. » | Queue négative tronquée (_no guessing_) |
 
 Dis Y. « Y compte. » Ou bien, si la nuance vaut la peine, « Y compte davantage que X, quoique ce dernier reste un facteur. »
 
@@ -115,6 +117,8 @@ Trois adjectifs synonymes alignés sonnent comme un slogan.
 
 Réduis à deux éléments contrastés ou à un seul, juste.
 
+La triade joue aussi à l'échelle du paragraphe, trois exemples parallèles suivis d'une leçon (« Une carrière peut sembler prometteuse et échouer. Une relation peut compter et finir. Une compétence peut coûter des années et ne servir à rien. »). Vérifie que chaque élément apporte une idée distincte. Sinon, fusionne les exemples ou développe le plus fort, et garde trois éléments quand le sens en compte trois.
+
 ## Amorces rhétoriques
 
 Annoncer l'idée au lieu de la livrer.
@@ -131,6 +135,15 @@ Annoncer l'idée au lieu de la livrer.
 Entre dans le propos.
 
 La variante en cours de texte est la question-relance, un fragment interrogatif aussitôt suivi de sa réponse (« Le résultat ? Une équipe plus rapide. », « La bonne nouvelle ? », « Le verdict ? »). C'est un tic de transition qui mime le suspense au lieu d'articuler. Énonce directement, par une phrase pleine ou une subordonnée de conséquence (« si bien que l'équipe gagne en vitesse »).
+
+## Chute d'une ligne et fragments dramatiques
+
+Le paragraphe d'une seule phrase qui redit le paragraphe précédent (« C'est là tout l'enjeu. », « Tout est là. », « Voilà le vrai gain. »), la même chute servie après chaque section, l'injonction à relire (« Relisez cette phrase. », « Prenez le temps de le mesurer. »), la rangée de fragments (« Aucun _a priori_. Aucune nostalgie. ») et le mot scandé point par point ou en capitales (« chaque. jour. ») demandent au lecteur de s'arrêter sur une idée au lieu d'en ajouter une. Une phrase courte porte l'accent quand elle apporte un fait neuf. Coupe la chute qui répète, fonds les fragments dans une phrase qui affirme quelque chose de précis.
+
+| Forme IA | Reconstruction |
+| --- | --- |
+| « La mise en cache évite le travail répété. Voilà le vrai gain. Les nouvelles tentatives masquent les coupures brèves. Voilà le vrai gain. » | « La mise en cache évite le travail répété, tandis que les nouvelles tentatives masquent les coupures brèves. » |
+| « Puis l'outil est arrivé. Aucun _a priori_. Aucune nostalgie. Les anciennes règles ont disparu. » | « L'outil est arrivé sans _a priori_ ni nostalgie, si bien que les anciennes règles ont cessé de s'appliquer. » |
 
 ## Périphrases
 
@@ -235,6 +248,8 @@ Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au m
 - **Italiques d'emphase.** Si le mot doit ressortir, change la phrase.
 - **Gras d'emphase.** L'IA sème du gras en pleine prose _markdown_ pour scander un mot par phrase. Réserve le gras aux intitulés et aux termes que le lecteur doit retrouver d'un coup d'œil. Comme pour l'italique, si le mot doit ressortir, change la phrase. Méfie-toi du même réflexe en début de ligne, le paragraphe mué en liste d'intitulés en gras suivis d'un deux-points (« **Productivité :** trois leviers... », « **Sécurité :** un audit... »), faux plan qui hache le raisonnement et qu'on reconvertit en prose articulée dès que les items s'enchaînent par une logique.
 - **Émojis et pictogrammes.** L'IA ponctue ses paragraphes de coches, de fusées et d'ampoules, par contamination du contenu web. En prose soutenue, supprime-les, le mot porte le sens.
+- **Flèches et filets.** La flèche (→) en guise de connecteur ou de puce, le filet horizontal entre chaque section et le titre de premier niveau qui répète le titre du document décorent sans informer. Remplace la flèche par le mot (« donne », « puis »), retire les filets et laisse le titre paraître une fois.
+- **Titre redit.** Le paragraphe d'une ligne qui reformule le titre qu'il suit (« ## Performance », puis « La vitesse compte. ») retarde le contenu. Supprime-le, le titre fait le travail.
 
 ### Énumérations sans virgule d'Oxford
 

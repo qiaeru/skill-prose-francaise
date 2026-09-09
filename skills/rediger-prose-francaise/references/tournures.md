@@ -17,8 +17,15 @@ Un participe présent isolé reste naturel en français écrit. Le tic IA, c'est
 - mettant en avant
 - mettant en lumière
 - alliant X et Y
+- soulignant
+- illustrant
+- symbolisant
+- reflétant
+- témoignant de
 
 Une phrase avec deux participes présents ou plus est presque toujours à reconstruire par subordination. Plutôt que « X, permettant Y, offrant Z », préfère « X, qui permet Y et qui offre Z » ou bien « X, parce qu'il permet Y et qu'il offre Z ».
+
+L'autre emploi à surveiller est le participe de profondeur, accroché à un fait simple pour le faire paraître plus riche (« peint en bleu et en or, reflétant l'attachement de la communauté à sa terre »). L'attribuer à une source nommée ne le rend pas vrai. Garde le fait, et ne garde le participe que si la source soutient ce qu'il affirme.
 
 ## Adjectifs intensifs vides
 
@@ -198,6 +205,10 @@ Aucun n'est interdit en soi, certains gardent des emplois pleinement légitimes 
 | effectuer | faire |
 | réaliser (une tâche) | faire |
 | procéder à | (verbe d'action direct) |
+| faire office de, jouer le rôle de | être |
+| se présenter comme | être |
+| désigner (pour définir) | être |
+| proposer, offrir (une caractéristique) | avoir, comporter |
 
 ## Verbes de redéfinition vides
 
@@ -324,9 +335,96 @@ Faux signaux d'authenticité.
 
 Si tu dois annoncer ta franchise, tu ne l'es pas.
 
+## Objections fantômes
+
+Le texte répond à une objection ou écarte une option que personne n'a soulevées, résidu d'un brouillon antérieur où l'auteur se parlait à lui-même. Plusieurs rejets sans rapport à la suite trahissent la machine plus sûrement qu'un seul. Coupe la défense, énonce l'affirmation qu'elle abrite, et garde seulement l'objection que le texte attribue et réfute en entier, ou l'option qu'un lecteur pèserait vraiment.
+
+- « Je ne dis pas que »
+- « Il ne s'agit pas ici de »
+- « Entendons-nous bien »
+- « Loin de moi l'idée de »
+- « Certains objecteront que », « Certains diront que… mais »
+- « On pourrait penser que… mais »
+- « On pourrait être tenté de »
+- « Une approche évidente serait de »
+- « Il serait facile de se contenter de »
+- « Cela ne veut pas dire que » sans objection préalable
+
+## Aphorismes et faux approfondissements
+
+Un point ordinaire déguisé en vérité cachée ou en maxime, dont l'habillage n'apporte aucun détail. Remplace la formule par l'affirmation précise.
+
+- « au fond »
+- « en réalité »
+- « la vraie question est »
+- « ce qui compte vraiment »
+- « le cœur du problème », « le nœud du problème »
+- « tout est là »
+- « X est le langage de Y »
+- « X est la monnaie de Y »
+- « X est l'architecture de Y »
+- « X devient un piège »
+- « X n'est pas un outil mais un miroir »
+
+## Gonflement de la portée
+
+Un fait ordinaire est présenté comme un tournant, un héritage ou une promesse. Le mouvement se répète à trois échelles, la locution, la section toute faite « Défis et perspectives » et le paragraphe d'envoi. Garde le fait, coupe la portée et termine sur le dernier fait concret ou sur les projets que la source énonce.
+
+- « marque un tournant », « marque une étape décisive »
+- « joue un rôle clé », « joue un rôle central »
+- « témoigne d'une volonté de »
+- « s'inscrit dans une dynamique plus large », « s'inscrit dans une tendance de fond »
+- « ouvre la voie à », « pose les jalons de »
+- « laisse une empreinte durable », « un héritage durable »
+- « souligne l'importance de »
+- « dans un paysage en constante évolution », « dans un contexte en pleine mutation »
+- « Malgré ces défis, X continue de prospérer »
+- « L'avenir s'annonce prometteur », « de belles perspectives se dessinent »
+- « une étape dans la bonne direction »
+
+## Autorité empruntée
+
+Une autorité anonyme soutient une affirmation, ou une liste de médias prestigieux soutient une personne, à la place de ce qui a été dit. Quand le texte nomme la source réelle et son propos, garde-les. Sinon, coupe l'affirmation ou la liste. N'invente jamais de source, et n'exige pas une citation partout, la plupart des textes n'en portent pas.
+
+- « les experts s'accordent à dire »
+- « selon les observateurs », « selon les spécialistes »
+- « de nombreuses études montrent », « la recherche a démontré »
+- « il est largement admis que », « il est communément admis que »
+- « certains critiques », « plusieurs publications »
+- « cité par » suivi d'une liste de médias, « repris par la presse spécialisée »
+- « une présence active sur les réseaux sociaux », « plus de N abonnés »
+
+## Liens vagues
+
+Le texte dit que deux choses sont liées sans dire comment. « Il est associé à la direction de X » cache s'il en est le président, un administrateur ou un consultant. Nomme le rapport que la source donne. Si elle ne le donne pas, garde le flou plutôt que d'inventer un rôle.
+
+| Vague | Rapport à nommer |
+| --- | --- |
+| associé à | a fondé, dirige, siège à, conseille |
+| lié à | fait partie de, dépend de, découle de |
+| en lien avec, en relation avec | organisé pour, à l'occasion de |
+| rattaché à | employé par, membre de |
+| connecté à | le rapport réel, ou le flou de la source |
+
+## Langue de brochure
+
+Le texte se lit comme une publicité, surtout pour un lieu, une culture, un produit ou une organisation. Dis ce que la chose est.
+
+- « niché au cœur de », « lové au creux de »
+- « regorge de »
+- « un écrin », « un véritable joyau »
+- « à couper le souffle »
+- « un riche patrimoine », « un patrimoine exceptionnel »
+- « un savant mélange de tradition et de modernité »
+- « renommé », « de renommée mondiale »
+- « à ne pas manquer »
+- « se targue de », « peut s'enorgueillir de »
+- « un engagement fort en faveur de »
+- « une offre riche et variée »
+
 ## Registre d'assistant
 
-Résidus de l'assistant sous la prose, propres aux textes générés par un modèle. Trois familles à supprimer sans reformuler, parce qu'elles n'ajoutent rien au propos.
+Résidus de l'assistant sous la prose, propres aux textes générés par un modèle. Quatre familles à couper, parce qu'elles n'ajoutent rien au propos.
 
 **Flagornerie et accord réflexe.** L'ouverture par compliment, puis l'approbation servie avant le moindre argument. Entre dans la réponse sans flatter.
 
@@ -357,6 +455,15 @@ Résidus de l'assistant sous la prose, propres aux textes générés par un mod�
 - « à la date de ma dernière mise à jour »
 - « jusqu'à ma date de connaissance »
 
+**Aveu de lacune suivi d'une conjecture.** Le texte avoue n'avoir pas trouvé de source, puis comble le vide par une supposition plausible. Dis ce que les sources ne montrent pas, ou coupe la phrase, et ne présente jamais une conjecture comme un fait.
+
+- « bien que les détails restent peu documentés »
+- « d'après les informations disponibles »
+- « les informations à ce sujet restent limitées »
+- « on peut supposer que », « il est probable que »
+- « elle a probablement grandi », « il aurait vraisemblablement étudié »
+- « préfère rester discret sur sa vie privée », en guise de bouche-trou
+
 ## Préférer plutôt, récapitulatif positif
 
 Le _skill_ liste surtout ce qu'il faut éviter, mais le réflexe utile reste de savoir par quoi remplacer. Ce tableau récapitule les déplacements les plus fréquents, en regroupant les tournures à proscrire et leurs alternatives recommandées.
@@ -378,3 +485,8 @@ Le _skill_ liste surtout ce qu'il faut éviter, mais le réflexe utile reste de 
 | la répétition d'un même mot quatre fois en cinq phrases | un synonyme adapté au contexte |
 | une amorce rhétorique (« Voyons cela », « Posons-nous la question ») | entrer dans le propos sans détour |
 | une clôture cliché (« en définitive », « pour conclure ») | la dernière phrase de fond, sans étiquette |
+| une objection fantôme (« Je ne dis pas que », « On pourrait être tenté de ») | l'affirmation que la défense abrite |
+| une chute d'une ligne qui redit le paragraphe (« Tout est là. ») | le paragraphe seul, ou une phrase qui ajoute un fait |
+| une portée gonflée (« marque un tournant », « ouvre la voie à ») | le fait seul, puis le fait concret suivant |
+| une autorité anonyme (« les experts s'accordent », « selon les observateurs ») | la source nommée et son propos, ou rien |
+| un lien vague (« associé à », « en lien avec ») | le rapport que la source donne (a fondé, dirige, fait partie de) |

@@ -6,7 +6,7 @@ La prose française se construit par des phrases plus longues, mieux articulées
 
 Ce _skill_ cible donc d'abord ce hachage, puis les classiques (participes présents en chaîne, adjectifs intensifs vides, anglicismes, fausses oppositions et langue de bois).
 
-Il s'agit d'une adaptation française inspirée de [stop-slop](https://github.com/hardikpandya/stop-slop) d'Hardik Pandya.
+Il s'agit d'une adaptation française inspirée de [stop-slop](https://github.com/hardikpandya/stop-slop) d'Hardik Pandya, complétée par les apports de [humanizer](https://github.com/blader/humanizer) de Siqi Chen, à savoir le seuil d'action, la voix de l'auteur et les familles de la mise en scène, de la portée gonflée, de l'autorité empruntée et de l'objection fantôme.
 
 ## Arborescence
 
@@ -80,6 +80,8 @@ Pour un usage régulier, gardez à l'esprit que ce _skill_ privilégie une prose
 
 Le _skill_ ne touche qu'à la forme. Il n'ajoute ni chiffre, ni cause, ni acteur absents de votre texte, garde une longueur voisine de l'original et signale le flou plutôt que de le combler, si bien qu'une phrase vague ressort sobre au lieu d'être étoffée par des précisions inventées.
 
+Vous pouvez joindre deux ou trois paragraphes de votre propre prose. Le _skill_ cale alors la réécriture sur votre longueur de phrase, votre lexique et votre ponctuation, et l'échantillon prime sur ses règles. Pointé vers un fichier, il n'y réécrit que la prose et laisse intacts le code, la _frontmatter_ et les cibles de liens, tandis qu'appelé depuis une autre tâche (message de _commit_, description de _pull request_) il ne rend que le texte final. Il applique enfin un seuil d'action, puisqu'un point-virgule ou un connecteur isolés ne comptent qu'en compagnie d'autres tics, alors qu'une fausse opposition ou un résidu d'assistant justifient une correction dès la première occurrence.
+
 ## Limites du _skill_
 
 `rediger-prose-francaise` se concentre sur les tics d'écriture IA et sur la typographie française. Il reste plusieurs choses qu'il ne fait pas, et qu'il vaut mieux savoir avant de l'invoquer :
@@ -87,7 +89,7 @@ Le _skill_ ne touche qu'à la forme. Il n'ajoute ni chiffre, ni cause, ni acteur
 - Ce n'est pas un correcteur orthographique. Le _skill_ ne détecte pas les fautes d'accord du participe passé selon les règles fines, ni les confusions homophoniques (« ces » et « ses », « a » et « à »). Pour ce travail, un outil dédié comme Antidote ou LanguageTool reste indispensable.
 - Le fond lui échappe également. Il regarde la forme, le rythme et le lexique, mais il ne vérifie pas la cohérence argumentative, l'exactitude factuelle ou la solidité du raisonnement.
 - Son registre reste le soutenu courant. Pour la fiction, la poésie, le théâtre, le juridique ou l'administratif pur, plusieurs règles deviennent inadaptées, et l'auteur garde la main sur ce qui doit céder. La section « Quand l'appliquer » de `SKILL.md` le rappelle.
-- Enfin, il ne couvre que le français. Pour l'anglais, le [stop-slop](https://github.com/hardikpandya/stop-slop) original reste la bonne référence.
+- Enfin, il ne couvre que le français. Pour l'anglais, le [stop-slop](https://github.com/hardikpandya/stop-slop) original et [humanizer](https://github.com/blader/humanizer) restent les bonnes références.
 
 ## Test rapide
 

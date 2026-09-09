@@ -186,3 +186,65 @@ La source exprime un doute, alors la réécriture en garde un seul au lieu d'en 
 **Après.** Notre équipe propose de nombreux services aux particuliers comme aux entreprises, avec un parcours sans accroc qui fait la différence.
 
 La source ne compte pas ses services et ne dit pas ce qui rend l'expérience fluide. La réécriture retire le remplissage sans y substituer un chiffre ou un mécanisme inventé, et laisse à l'auteur le soin de les préciser.
+
+## 29. Objection fantôme
+
+**Avant.** Il ne s'agit pas ici de la longueur des consignes, et je ne dis pas que la documentation ne compte pas. On pourrait classer le problème autrement, mais la question est de savoir si l'agent peut appliquer la consigne au moment d'agir.
+
+**Après.** La question est de savoir si l'agent peut appliquer la consigne au moment d'agir.
+
+## 30. Chute d'une ligne répétée
+
+**Avant.** La mise en cache évite de refaire le même travail. Voilà le vrai gain. Les nouvelles tentatives masquent les coupures brèves. Voilà le vrai gain.
+
+**Après.** La mise en cache évite de refaire le même travail, tandis que les nouvelles tentatives masquent les coupures brèves.
+
+## 31. Aphorisme et faux approfondissement
+
+**Avant.** La vraie question est de savoir si les équipes sauront s'adapter. Au fond, ce qui compte vraiment, c'est la maturité de l'organisation.
+
+**Après.** Reste à savoir si les équipes sauront s'adapter, ce qui dépend surtout de la maturité de l'organisation.
+
+## 32. Portée gonflée
+
+**Avant.** L'Institut de statistique a été créé en 1989, marquant un tournant décisif dans l'évolution des statistiques régionales. Cette initiative s'inscrivait dans une dynamique plus large de décentralisation administrative. Malgré les défis, l'institut continue de prospérer et l'avenir s'annonce prometteur.
+
+**Après.** L'Institut de statistique a été créé en 1989, au cours d'une décentralisation administrative plus large.
+
+Le dernier paragraphe ne contient aucun fait, alors il tombe, et le texte se clôt sur le dernier fait concret.
+
+## 33. Autorité empruntée
+
+**Avant.** En raison de ses caractéristiques uniques, la rivière intéresse les chercheurs et les associations de protection. Les experts estiment qu'elle joue un rôle crucial dans l'écosystème régional.
+
+**Après.** Les chercheurs et les associations de protection étudient la rivière pour ses caractéristiques singulières.
+
+La source ne nomme pas les experts, alors leur estimation tombe, sans qu'un nom soit inventé pour la sauver.
+
+## 34. Lien vague
+
+**Avant.** Il est associé à l'orchestre de la ville, qu'il a fondé et qu'il dirige. Les concerts ont été organisés en lien avec le cinquantenaire de la ville, dont ils ouvraient les célébrations.
+
+**Après.** Il a fondé l'orchestre de la ville, qu'il dirige, et ses concerts ont ouvert les célébrations du cinquantenaire.
+
+## 35. Langue de brochure
+
+**Avant.** Nichée au cœur de la vallée, la commune regorge de trésors et se targue d'un riche patrimoine, dans un écrin de verdure à couper le souffle.
+
+**Après.** La commune se trouve dans la vallée, entourée de verdure.
+
+La source ne nomme ni les trésors ni le patrimoine, alors la réécriture s'en tient au lieu, et l'auteur ajoutera les monuments s'il les connaît.
+
+## 36. Participe de profondeur
+
+**Avant.** Le temple est peint en bleu, en vert et en or, des couleurs qui rappellent les lupins du Texas et le golfe du Mexique, reflétant l'attachement profond de la communauté à sa terre.
+
+**Après.** Le temple est peint en bleu, en vert et en or, des couleurs qui rappellent les lupins du Texas et le golfe du Mexique.
+
+## 37. Aveu de lacune et conjecture
+
+**Avant.** Bien que les détails sur la fondation de l'entreprise restent peu documentés, elle semble avoir vu le jour dans les années 1990. La fondatrice, discrète sur sa vie privée, a probablement grandi dans un milieu enseignant, ce qui expliquerait son intérêt pour l'éducation.
+
+**Après.** Les sources consultées ne datent pas la fondation de l'entreprise et ne disent rien de la jeunesse de la fondatrice.
+
+Les deux conjectures tombent, et la phrase qui reste peut elle-même disparaître si le texte n'a pas besoin de signaler la lacune.

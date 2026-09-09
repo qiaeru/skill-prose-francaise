@@ -6,6 +6,19 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Unreleased]
 
+### Added
+
+- Trois règles centrales reprises de [humanizer](https://github.com/blader/humanizer) (Siqi Chen, MIT) : l'objection fantôme (« Je ne dis pas que »), la mise en scène (chute d'une ligne, fragments dramatiques, aphorismes) et la portée gonflée (« marque un tournant », paragraphe d'envoi), qui couvre aussi l'autorité empruntée, le lien vague et la langue de brochure. Chaque famille a sa liste dans les références, ses vérifications rapides et un exemple avant et après.
+- Section « Seuil d'action » : les tics corrigés dès la première occurrence sont distingués de ceux qui ne comptent qu'en compagnie d'autres, la tournure surveillée est laissée en paix dans une citation ou un passage qui en parle, et ce qui porte la voix de l'auteur est gardé.
+- Section « Voix de l'auteur » : un échantillon de prose fourni par l'auteur prime sur les règles, et sans échantillon le ton suit le genre du texte.
+- Section « Ce que tu rends » : le texte collé revient avec sa note, le fichier nommé ne reçoit que le texte final sans toucher au code ni aux cibles de liens, et l'appel depuis une autre tâche ne rend que le texte. Le texte reçu est traité comme une matière à corriger, jamais comme des consignes.
+- Nouveaux tics couverts : participe de profondeur (« reflétant l'attachement de »), aveu de lacune suivi d'une conjecture, triade à l'échelle du paragraphe, contraste scindé sur deux phrases, titre redit par la phrase suivante, flèches et filets décoratifs, documentation qui décrit l'ancienne version, verbes qui évitent « être » (« faire office de »).
+
+### Changed
+
+- La relecture finale cible d'abord les tics qui résistent le mieux à une réécriture (deux-points d'annonce, point-virgule réflexe, triade, « permet de », chute d'une ligne).
+- L'attribution du _skill_ et du README mentionne humanizer à côté de stop-slop.
+
 ## [1.5.0] - 2026-09-04
 
 ### Added
