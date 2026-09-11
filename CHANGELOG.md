@@ -6,6 +6,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-09-11
+
 ### Added
 
 - Mode diagnostic repris de [no-ai-slop](https://github.com/petergyang/no-ai-slop) (Peter Yang, MIT) : sur « ce texte sent-il l'IA ? », le _skill_ nomme chaque tic, cite la ligne et donne la correction, sans réécrire, sans noter et sans se prononcer sur l'auteur. Le README en décrit le test rapide.
@@ -20,9 +22,8 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 - La grille de notation sur cinq axes disparaît au profit d'une « Relecture finale » : le compte des vérifications en échec reste le seul critère chiffré, complété par quatre questions sur le texte entier, parce qu'un modèle qui se note lui-même donne presque toujours 8 ou 9. La sortie ne mentionne plus de note, et le README ainsi que le test rapide suivent.
 - Allègement de SKILL.md, chargé à chaque déclenchement : six règles gardent le principe et deux ou trois amorces au lieu de l'inventaire, les italiques deviennent la règle 25, la section sur les interfaces fusionne avec « Quand l'appliquer » et le seuil de réécriture n'est énoncé qu'une fois.
 - Les cinq exemples dont l'« Après » n'était que l'« Avant » débarrassé du tic passent dans une table « Suppressions pures » à la fin de exemples.md.
-- La description du _skill_ précise qu'il s'applique même quand l'utilisateur ne le nomme pas, et l'attribution mentionne no-ai-slop à côté de stop-slop et de humanizer.
+- La description du _skill_ précise qu'il s'applique même quand l'utilisateur ne le nomme pas et mentionne le diagnostic sans réécriture, pour que « ce texte sent-il l'IA ? » déclenche aussi l'autodécouverte. L'attribution mentionne no-ai-slop à côté de stop-slop et de humanizer.
 - Le mot _skill_ passe en italique dans SKILL.md et interfaces.md, comme la règle 25 l'impose.
-- La description du _skill_ mentionne le diagnostic sans réécriture, pour que la question « ce texte sent-il l'IA ? » déclenche l'autodécouverte.
 - interfaces.md laisse aussi de côté les règles 22 à 24 sur les micro-libellés, y ajoute la casse (20) et les italiques (25), et rappelle qu'un libellé français s'écrit en casse de phrase et sans point final. Le README renvoie à skill-english-prose pour l'anglais.
 - Le validateur contrôle la règle 25 sur la prose du dépôt (termes anglais comme _skill_, _plugin_ ou _workflow_ laissés en romain, hors noms de fichiers et lignes « Avant » des exemples) et l'égalité des descriptions de plugin.json et de marketplace.json, qui avaient dérivé.
 
