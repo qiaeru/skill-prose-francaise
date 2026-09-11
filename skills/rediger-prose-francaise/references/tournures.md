@@ -305,6 +305,8 @@ Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le ti
 - pour ainsi dire
 - d'une façon ou d'une autre
 
+Le balancement qui refuse de trancher relève du même réflexe, « d'un côté… de l'autre », « tout dépend du contexte », « il n'y a pas de bonne réponse », « chaque approche a ses avantages ». Prends position, puis nomme l'arbitrage réel que la position coûte.
+
 ## Clôtures clichées
 
 - en définitive
@@ -459,6 +461,22 @@ Le texte se lit comme une publicité, surtout pour un lieu, une culture, un prod
 - « se targue de », « peut s'enorgueillir de »
 - « un engagement fort en faveur de »
 - « une offre riche et variée »
+
+## Métaphores usées
+
+Une image éculée tient lieu de l'affirmation précise. Chacune recouvre une phrase plate, écris cette phrase.
+
+| À éviter | Préfère |
+| --- | --- |
+| une arme à double tranchant | nomme le gain et le coût |
+| (pas de) solution miracle, (pas de) baguette magique | nomme ce que le remède couvre et ce qu'il laisse |
+| faire bouger les lignes, changer la donne | nomme le chiffre ou la règle qui a changé |
+| le nerf de la guerre | nomme la ressource et son effet |
+| la partie émergée de l'iceberg | nomme ce qui reste caché |
+| un cercle vertueux, un cercle vicieux | nomme les deux effets qui s'entretiennent |
+| à la croisée de X et Y | dis ce que la chose fait des deux |
+| un parcours, un voyage (au figuré) | processus, étapes, ou nomme-les |
+| imaginez que, voyez cela comme (par réflexe) | décris la chose, garde l'analogie qui explique un mécanisme |
 
 ## Registre d'assistant
 

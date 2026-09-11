@@ -91,7 +91,7 @@ Vous pouvez aussi demander un diagnostic sans réécriture (« ce texte sent-i
 - Ce n'est pas un correcteur orthographique. Le _skill_ ne détecte pas les fautes d'accord du participe passé selon les règles fines, ni les confusions homophoniques (« ces » et « ses », « a » et « à »). Pour ce travail, un outil dédié comme Antidote ou LanguageTool reste indispensable.
 - Le fond lui échappe également. Il regarde la forme, le rythme et le lexique, mais il ne vérifie pas la cohérence argumentative, l'exactitude factuelle ou la solidité du raisonnement.
 - Son registre reste le soutenu courant. Pour la fiction, la poésie, le théâtre, le juridique ou l'administratif pur, plusieurs règles deviennent inadaptées, et l'auteur garde la main sur ce qui doit céder. La section « Quand l'appliquer » de `SKILL.md` le rappelle.
-- Enfin, il ne couvre que le français. Pour l'anglais, le [stop-slop](https://github.com/hardikpandya/stop-slop) original, [humanizer](https://github.com/blader/humanizer) et [no-ai-slop](https://github.com/petergyang/no-ai-slop) restent les bonnes références.
+- Enfin, il ne couvre que le français. Pour l'anglais, le _skill_ frère [skill-english-prose](https://github.com/qiaeru/skill-english-prose) suit la même construction avec les tics propres à l'anglais, et les deux se prêtent leurs décisions à chaque révision.
 
 ## Test rapide
 

@@ -10,7 +10,7 @@
     {
       "name": "rediger-prose-francaise",
       "source": "./",
-      "description": "Supprime les tics d'écriture IA en français. À utiliser dès qu'un texte FR est rédigé, édité ou relu, même sans nommer le skill, y compris libellés d'interface et fichiers de locales (i18n). Impose une prose articulée par subordination plutôt que par hachage, et applique la typographie française."
+      "description": "Supprime les tics d'écriture IA en français. À utiliser dès qu'un texte FR est rédigé, édité ou relu, même sans nommer le skill, y compris libellés d'interface et locales (i18n), et quand on demande si un texte sent l'IA sans le réécrire. Subordination plutôt que hachage, typographie française."
     }
   ]
 }

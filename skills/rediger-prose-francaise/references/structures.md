@@ -14,6 +14,19 @@ Pour relier les idées sans hacher, mobilise les subordonnants comme « alors 
 
 Le contrepoids vaut autant que la règle. Le tic est l'enfilade, non la phrase courte, si bien qu'une phrase brève après une longue respire et qu'un texte corrigé tombe volontiers dans l'excès inverse, la phrase de soixante mots ou le « parce que » servi à chaque articulation. Alterne les subordonnants, garde une phrase courte lorsqu'elle porte un effet, et ne relie jamais deux idées par une cause que la source ne donne pas, puisque la subordination doit rassembler ce qui est écrit et non inventer un lien.
 
+## Registre surcorrigé
+
+La surcorrection est un tic à part entière, la voix de celui qui « essaie de ne pas sonner IA ». Remplacer le lissé par défaut par un relâché par défaut reste un défaut, et le lecteur le repère aussi vite.
+
+| Forme | Problème |
+| --- | --- |
+| Phrase contorsionnée pour éviter un cadratin, ou deux-points et points de suspension posés là où il était | La torsion se lit autant que le tiret, la virgule ou le point font le travail |
+| Familiarité plaquée sur une prose soignée (« mdr », juron pour la couleur, minuscule en tête de phrase) | Costume, pas voix |
+| Faute de frappe volontaire pour tromper un détecteur | Un tic de plus, et pire |
+| Argot ou relâchement greffés sur un texte formel | L'effort se voit |
+
+Applique les corrections aussi loin que la phrase le demande, pas plus, avec la virgule et le point que tu écrirais. Un registre formel choisi n'est pas un tic, le tic est le défaut non choisi, dans un sens comme dans l'autre.
+
 ## Chaîne de participes présents
 
 Un participe présent isolé ne pose pas de problème et appartient au registre soutenu courant. La signature IA, c'est l'enfilade.
@@ -242,7 +255,7 @@ Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au m
 
 ### Ponctuation à manier avec précaution
 
-- **Tiret cadratin (—).** L'IA l'utilise comme virgule ou comme deux-points à l'anglo-saxonne, sans logique d'incise. Préfère les virgules (« Pierre, qui sait, est venu »), un point ou des parenthèses.
+- **Tiret cadratin (—).** L'IA l'utilise comme virgule ou comme deux-points à l'anglo-saxonne, sans logique d'incise. Préfère les virgules (« Pierre, qui sait, est venu »), un point ou des parenthèses, jamais un deux-points ou des points de suspension mis à sa place, ni une phrase tordue pour contourner le vide.
 - **Deux-points (`:`).** Légitime devant une liste ou une vraie explication, mais l'IA française en abuse pour présenter, annoncer ou définir. Garde-le quand il introduit vraiment quelque chose, et coupe l'annonce creuse, en reformulant alors par une virgule, un point ou une subordonnée. Dose, ne sème pas des deux-points à chaque phrase.
 - **Point-virgule (`;`).** Deux emplois légitimes, équilibrer deux propositions indépendantes mais liées (« Pierre travaille ; Marie se repose ») et séparer les items d'une liste verticale ou d'une énumération déjà chargée de virgules. Hors de là, l'IA le place par réflexe là où le français écrit attend un point ou une virgule. La charpente par défaut de la prose française reste la virgule pour articuler à l'intérieur de la phrase et le point pour la clore, si bien que le point-virgule doit rester l'exception choisie, jamais le liant courant. En cas de doute, coupe par un point ou relie par une subordonnée plutôt que par un point-virgule.
 - **Point d'exclamation (`!`).** L'IA le sème pour vendre son enthousiasme (« C'est parti ! », « Bonne nouvelle ! »), par contamination du ton commercial. Réserve-le aux phrases qui exclament vraiment, rares en registre soutenu.
