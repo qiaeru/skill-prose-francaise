@@ -6,6 +6,26 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 
 ## [Unreleased]
 
+### Added
+
+- Mode diagnostic repris de [no-ai-slop](https://github.com/petergyang/no-ai-slop) (Peter Yang, MIT) : sur « ce texte sent-il l'IA ? », le _skill_ nomme chaque tic, cite la ligne et donne la correction, sans réécrire, sans noter et sans se prononcer sur l'auteur. Le README en décrit le test rapide.
+- Correction minimale dans le seuil d'action : la phrase sans tic reste telle quelle, un brouillon rugueux n'est pas lissé partout au même degré, et une seule question sur le public est permise quand la correction en dépend.
+- Trois tics repris de no-ai-slop, avec liste, vérification rapide et exemple : la phrase transposable telle quelle à une autre entreprise (règle 11), le commentaire interprétatif (« Ce point est essentiel », « Comme on le voit ») et la fausse révélation (« Ce que personne ne vous dit ») dans la règle 12.
+- Contrepoids à la règle 18 : le synonyme remplace un mot passe-partout, jamais le terme qui désigne une chose précise.
+- La chute finale en métaphore est supprimée plutôt que réécrite, le paragraphe récapitulatif rejoint les clôtures clichées, et deux vérifications de mise en forme s'ajoutent (titre sur deux phrases, majuscule après un deux-points).
+
+### Changed
+
+- La grille de notation sur cinq axes disparaît au profit d'une « Relecture finale » : le compte des vérifications en échec reste le seul critère chiffré, complété par quatre questions sur le texte entier, parce qu'un modèle qui se note lui-même donne presque toujours 8 ou 9. La sortie ne mentionne plus de note, et le README ainsi que le test rapide suivent.
+- Allègement de SKILL.md, chargé à chaque déclenchement : six règles gardent le principe et deux ou trois amorces au lieu de l'inventaire, les italiques deviennent la règle 25, la section sur les interfaces fusionne avec « Quand l'appliquer » et le seuil de réécriture n'est énoncé qu'une fois.
+- Les cinq exemples dont l'« Après » n'était que l'« Avant » débarrassé du tic passent dans une table « Suppressions pures » à la fin de exemples.md.
+- La description du _skill_ précise qu'il s'applique même quand l'utilisateur ne le nomme pas, et l'attribution mentionne no-ai-slop à côté de stop-slop et de humanizer.
+- Le mot _skill_ passe en italique dans SKILL.md et interfaces.md, comme la règle 25 l'impose.
+
+### Fixed
+
+- « En somme » et « au final » figuraient chacun dans deux familles de tournures, ils ne restent que dans les clôtures clichées.
+
 ## [1.6.0] - 2026-09-09
 
 ### Added
@@ -59,7 +79,7 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 - Couverture typographique élargie : les guillemets droits d'une citation passent aux guillemets français, l'apostrophe typographique et les points de suspension en un caractère entrent dans la règle 14, les mois et les jours s'écrivent en minuscules et les ordinaux s'abrègent en « 1er », « 1re » et « 2e », avec une table « Dates et ordinaux » en référence.
 - Deux tics de ponctuation en plus : le point d'exclamation d'enthousiasme (« C'est parti ! ») rejoint la règle 13, tandis que le titre formulaïque en deux volets (« X : le guide complet ») gagne sa section de référence.
 
-- Workflow d'intégration continue [validate.yml](.github/workflows/validate.yml), premier filet d'un dépôt sans build ni tests. À chaque _push_, _pull request_ et une fois par semaine, il revalide les manifestes du _plugin_, l'hygiène _markdown_ et les invariants portés par [validate.mjs](.github/scripts/validate.mjs), exécutable en local (_frontmatter_ du _skill_, liens relatifs confinés au dossier installable, typographie de la règle 14, version du _plugin_ alignée sur la dernière version publiée).
+- _Workflow_ d'intégration continue [validate.yml](.github/workflows/validate.yml), premier filet d'un dépôt sans build ni tests. À chaque _push_, _pull request_ et une fois par semaine, il revalide les manifestes du _plugin_, l'hygiène _markdown_ et les invariants portés par [validate.mjs](.github/scripts/validate.mjs), exécutable en local (_frontmatter_ du _skill_, liens relatifs confinés au dossier installable, typographie de la règle 14, version du _plugin_ alignée sur la dernière version publiée).
 - Configuration [dependabot.yml](.github/dependabot.yml) qui surveille chaque semaine les versions des actions GitHub des _workflows_, pour qu'elles ne dérivent plus vers l'obsolescence.
 
 ### Changed
@@ -104,7 +124,7 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 - Deux accords fautifs dans les références et le critère d'échec du test rapide du README, qui mentionnait des puces absentes du paragraphe de test.
 - « Pour autant que » retiré des pléonasmes, la locution étant du français légitime.
 - « En matière de » retiré du jargon corporate, la règle 11 et la table des pièges grammaticaux la recommandant comme remplacement de « en termes de ».
-- L'introduction de SKILL.md annonçait neuf autres familles de tics alors que le skill en couvre dix-neuf.
+- L'introduction de SKILL.md annonçait neuf autres familles de tics alors que le _skill_ en couvre dix-neuf.
 - La ligne du degré dans la table des insécables plaçait l'espace avant le nombre au lieu de la placer entre le nombre et le symbole.
 
 ## [1.1.0] - 2026-06-04

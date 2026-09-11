@@ -12,4 +12,4 @@ En prose tu varies le lexique, alors qu'en interface une même action garde touj
 
 ## Textes longs
 
-Descriptions, textes d'aide, corps des fenêtres de confirmation, messages d'erreur explicatifs, introductions. Dès qu'une chaîne forme une ou plusieurs phrases complètes, applique le skill entier, subordination et vérifications rapides comprises. Un avertissement de deux phrases ou une description de carte est de la prose et se relit comme telle.
+Descriptions, textes d'aide, corps des fenêtres de confirmation, messages d'erreur explicatifs, introductions. Dès qu'une chaîne forme une ou plusieurs phrases complètes, applique le _skill_ entier, subordination et vérifications rapides comprises. Un avertissement de deux phrases ou une description de carte est de la prose et se relit comme telle.

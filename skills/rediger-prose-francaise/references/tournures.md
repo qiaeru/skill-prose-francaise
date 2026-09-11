@@ -153,7 +153,6 @@ Aucun n'est interdit, mais leur densité trahit la machine. Vise un connecteur p
 - cependant
 - dès lors
 - de fait
-- en somme
 - finalement
 - _in fine_
 - au demeurant
@@ -291,7 +290,6 @@ Souvent jargonneuses et typiques de l'IA. Remplace par du français courant.
 - se présenter sous la forme de (être)
 - prévoir à l'avance (prévoir)
 - collaborer ensemble (collaborer)
-- au final (finalement, ou rien du tout)
 
 ## Atténuations et précautions
 
@@ -310,7 +308,7 @@ Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le ti
 ## Clôtures clichées
 
 - en définitive
-- au final
+- au final (finalement, ou rien du tout)
 - en dernière analyse
 - pour conclure
 - en conclusion
@@ -319,6 +317,10 @@ Une précaution isolée reste légitime lorsque l'incertitude est réelle. Le ti
 - en fin de compte
 - tout compte fait
 - pour résumer
+- en résumé
+- pour faire court
+
+Le paragraphe final qui récapitule ce que le lecteur vient de lire relève du même réflexe, avec ou sans étiquette. Le lecteur sort du texte, il n'a pas besoin qu'on le lui raconte une seconde fois. Coupe le paragraphe et termine sur le dernier point concret, l'enseignement ou la prochaine étape que le texte donne déjà.
 
 ## Emphase performative
 
@@ -334,6 +336,42 @@ Faux signaux d'authenticité.
 - « le truc, c'est que »
 
 Si tu dois annoncer ta franchise, tu ne l'es pas.
+
+## Fausses révélations
+
+L'amorce qui pose l'auteur en seul initié devant un lecteur naïf, avant une affirmation ordinaire. Coupe l'amorce, l'affirmation tient seule.
+
+- « Ce que personne ne vous dit »
+- « Ce que la plupart des gens ignorent », « Ce que la plupart des gens oublient »
+- « Là où tout le monde se trompe »
+- « Le détail que tout le monde rate »
+- « Ce qu'on ne vous dira pas ailleurs »
+- « Petit secret »
+- « Et si je vous disais que »
+- « Réfléchissez-y »
+- « Spoiler », « Retournement de situation »
+
+| Forme IA | Reconstruction |
+| --- | --- |
+| « Ce que tout le monde rate, c'est que la distribution fait la différence. » | « La distribution fait la différence. » |
+| « Et si je vous disais que le modèle compte moins que ses tests ? » | « Les tests comptent plus que le modèle. » |
+
+## Commentaires interprétatifs
+
+Le texte sort de son sujet pour dire au lecteur quoi remarquer, quel poids donner à ce qu'il vient de lire ou comment l'interpréter, au lieu de le lui montrer par un fait, un exemple ou une conséquence. Si le point est clair, l'aparté tombe. Sinon, remplace-le par le fait qui manque, pris dans le texte.
+
+- « Ce point est essentiel », « Ce point mérite qu'on s'y arrête »
+- « Cette distinction compte », « Cette nuance a son importance »
+- « Ce détail compte plus qu'il n'y paraît »
+- « Comme on le voit », « Comme vous pouvez le constater »
+- « Il est important de souligner que », « Il faut bien comprendre que »
+- « Retenez bien ceci »
+- « Autrement dit », « En d'autres termes », lorsqu'ils annoncent une redite et non une reformulation qui précise
+
+| Forme IA | Reconstruction |
+| --- | --- |
+| « Le relevé passe par un agent séparé. Ce détail compte plus qu'il n'y paraît. » | « Le relevé passe par un agent séparé. », et si le texte dit en quoi la séparation compte, ce fait remplace l'aparté |
+| « Comme on le voit, la migration a tenu ses délais. » | « La migration a tenu ses délais. » |
 
 ## Objections fantômes
 
@@ -482,9 +520,12 @@ Le _skill_ liste surtout ce qu'il faut éviter, mais le réflexe utile reste de 
 | « est-ce que... » à l'écrit | l'inversion (« faut-il », « peut-on ») |
 | trois adjectifs synonymes alignés | deux adjectifs contrastés ou un seul juste |
 | une liste à puces de phrases liées par un raisonnement | un paragraphe en prose |
-| la répétition d'un même mot quatre fois en cinq phrases | un synonyme adapté au contexte |
+| la répétition d'un même mot quatre fois en cinq phrases | un synonyme adapté au contexte, sauf pour le terme qui désigne une chose précise, qui se répète |
+| une phrase qui irait telle quelle chez une autre entreprise ou dans un autre pays | la phrase coupée, ou rattachée au sujet par un fait que le texte donne |
 | une amorce rhétorique (« Voyons cela », « Posons-nous la question ») | entrer dans le propos sans détour |
-| une clôture cliché (« en définitive », « pour conclure ») | la dernière phrase de fond, sans étiquette |
+| une clôture cliché (« en définitive », « pour conclure ») ou un paragraphe qui récapitule | la dernière phrase de fond, sans étiquette |
+| une fausse révélation (« Ce que personne ne vous dit », « Et si je vous disais que ») | l'affirmation seule, sans amorce |
+| un commentaire interprétatif (« Ce point est essentiel », « Comme on le voit ») | le fait seul, ou le fait qui manquait |
 | une objection fantôme (« Je ne dis pas que », « On pourrait être tenté de ») | l'affirmation que la défense abrite |
 | une chute d'une ligne qui redit le paragraphe (« Tout est là. ») | le paragraphe seul, ou une phrase qui ajoute un fait |
 | une portée gonflée (« marque un tournant », « ouvre la voie à ») | le fait seul, puis le fait concret suivant |

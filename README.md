@@ -1,4 +1,4 @@
-# Skill de prose française
+# _Skill_ de prose française
 
 _Skill_ pour Claude Code qui élimine les tics d'écriture de l'intelligence artificielle dans les textes français.
 
@@ -6,7 +6,7 @@ La prose française se construit par des phrases plus longues, mieux articulées
 
 Ce _skill_ cible donc d'abord ce hachage, puis les classiques (participes présents en chaîne, adjectifs intensifs vides, anglicismes, fausses oppositions et langue de bois).
 
-Il s'agit d'une adaptation française inspirée de [stop-slop](https://github.com/hardikpandya/stop-slop) d'Hardik Pandya, complétée par les apports de [humanizer](https://github.com/blader/humanizer) de Siqi Chen, à savoir le seuil d'action, la voix de l'auteur et les familles de la mise en scène, de la portée gonflée, de l'autorité empruntée et de l'objection fantôme.
+Il s'agit d'une adaptation française inspirée de [stop-slop](https://github.com/hardikpandya/stop-slop) d'Hardik Pandya, complétée par les apports de [humanizer](https://github.com/blader/humanizer) de Siqi Chen, à savoir le seuil d'action, la voix de l'auteur et les familles de la mise en scène, de la portée gonflée, de l'autorité empruntée et de l'objection fantôme, puis par ceux de [no-ai-slop](https://github.com/petergyang/no-ai-slop) de Peter Yang, à savoir le diagnostic sans réécriture, la correction minimale, le test de transposabilité et les familles du commentaire interprétatif, de la fausse révélation et des synonymes tournants.
 
 ## Arborescence
 
@@ -70,17 +70,19 @@ Redémarrez ensuite Claude Code pour que le _skill_ soit détecté. Vous pouvez 
 
 Une fois le _skill_ installé, Claude s'en sert de trois manières principales.
 
-- Lorsque vous lui demandez explicitement « applique rediger-prose-francaise » ou « relis avec rediger-prose-francaise », Claude lit `SKILL.md`, ouvre les fichiers de référence dont il a besoin et passe le texte en revue règle par règle. C'est la voie la plus fiable quand vous tenez à un traitement complet, parce qu'elle force le passage par la grille de notation.
+- Lorsque vous lui demandez explicitement « applique rediger-prose-francaise » ou « relis avec rediger-prose-francaise », Claude lit `SKILL.md`, ouvre les fichiers de référence dont il a besoin et passe le texte en revue règle par règle. C'est la voie la plus fiable quand vous tenez à un traitement complet, parce qu'elle force le passage par les vérifications rapides.
 - Si vous formulez une demande de rédaction, d'édition ou de relecture d'un texte français sans nommer le _skill_, Claude reconnaît le contexte grâce au champ `description` de la _frontmatter_ et applique le _skill_ de lui-même. Vous pouvez le confirmer en lui demandant de citer la règle qu'il vient d'appliquer.
-- Enfin, pour un texte court, le _skill_ sert surtout de garde-fou. Claude évite les tics les plus visibles sans dérouler la grille de notation, ce qui reste suffisant pour la prose du quotidien.
+- Enfin, pour un texte court, le _skill_ sert surtout de garde-fou. Claude évite les tics les plus visibles sans dérouler les vérifications rapides, ce qui reste suffisant pour la prose du quotidien.
 
-Quel que soit le mode d'invocation, le _skill_ repose sur trois étages que vous pouvez consulter à part. `SKILL.md` regroupe les règles centrales et les vérifications rapides. Le dossier [skills/rediger-prose-francaise/references/](skills/rediger-prose-francaise/references/) détaille les tournures, les structures et la typographie à éviter, le régime propre aux libellés d'interface et aux fichiers de locales, ainsi que des exemples avant et après, un par famille de tics. La grille de notation, en bas de `SKILL.md`, attribue une note sur cinq axes (articulation, densité lexicale, concret, authenticité et économie), avec un seuil de réécriture fixé à 35 sur 50, doublé d'un critère objectif puisque toute vérification rapide encore en échec déclenche aussi la réécriture.
+Quel que soit le mode d'invocation, le _skill_ repose sur trois étages que vous pouvez consulter à part. `SKILL.md` regroupe les règles centrales et les vérifications rapides. Le dossier [skills/rediger-prose-francaise/references/](skills/rediger-prose-francaise/references/) détaille les tournures, les structures et la typographie à éviter, le régime propre aux libellés d'interface et aux fichiers de locales, ainsi que des exemples avant et après, un par famille de tics. La relecture finale, en bas de `SKILL.md`, compte les vérifications rapides encore en échec et pose quatre questions sur le texte entier (l'auteur reconnaît-il sa prose, passe-t-elle lue à voix haute, sonne-t-elle français écrit, reste-t-il du gras), et une seule vérification en échec ou une seule réponse négative déclenche la réécriture. Il n'y a pas de note chiffrée, parce qu'un modèle qui se note lui-même donne presque toujours 8 ou 9, alors qu'une vérification en échec se constate.
 
-Pour un usage régulier, gardez à l'esprit que ce _skill_ privilégie une prose française qui coule par subordination, plutôt qu'une succession de phrases courtes calquées sur l'anglais. Si une suggestion de Claude vous paraît trop hachée, demandez-lui de rassembler les idées dans une phrase mieux articulée et de revoir sa note d'articulation en conséquence.
+Pour un usage régulier, gardez à l'esprit que ce _skill_ privilégie une prose française qui coule par subordination, plutôt qu'une succession de phrases courtes calquées sur l'anglais. Si une suggestion de Claude vous paraît trop hachée, demandez-lui de rassembler les idées dans une phrase mieux articulée et de repasser les vérifications de la famille « Architecture de la phrase ».
 
 Le _skill_ ne touche qu'à la forme. Il n'ajoute ni chiffre, ni cause, ni acteur absents de votre texte, garde une longueur voisine de l'original et signale le flou plutôt que de le combler, si bien qu'une phrase vague ressort sobre au lieu d'être étoffée par des précisions inventées.
 
-Vous pouvez joindre deux ou trois paragraphes de votre propre prose. Le _skill_ cale alors la réécriture sur votre longueur de phrase, votre lexique et votre ponctuation, et l'échantillon prime sur ses règles. Pointé vers un fichier, il n'y réécrit que la prose et laisse intacts le code, la _frontmatter_ et les cibles de liens, tandis qu'appelé depuis une autre tâche (message de _commit_, description de _pull request_) il ne rend que le texte final. Il applique enfin un seuil d'action, puisqu'un point-virgule ou un connecteur isolés ne comptent qu'en compagnie d'autres tics, alors qu'une fausse opposition ou un résidu d'assistant justifient une correction dès la première occurrence.
+Vous pouvez joindre deux ou trois paragraphes de votre propre prose. Le _skill_ cale alors la réécriture sur votre longueur de phrase, votre lexique et votre ponctuation, et l'échantillon prime sur ses règles. Pointé vers un fichier, il n'y réécrit que la prose et laisse intacts le code, la _frontmatter_ et les cibles de liens, tandis qu'appelé depuis une autre tâche (message de _commit_, description de _pull request_) il ne rend que le texte final. Il applique enfin un seuil d'action, puisqu'un point-virgule ou un connecteur isolés ne comptent qu'en compagnie d'autres tics, alors qu'une fausse opposition ou un résidu d'assistant justifient une correction dès la première occurrence, et il ne corrige que ce qui porte un tic, si bien qu'une phrase saine reste telle quelle même si Claude l'aurait tournée autrement.
+
+Vous pouvez aussi demander un diagnostic sans réécriture (« ce texte sent-il l'IA ? », « relève les tics sans réécrire »). Le _skill_ nomme alors chaque tic trouvé, cite la ligne et donne la correction en quelques mots, sans réécrire ni noter le texte, et sans se prononcer sur son auteur, humain ou machine, parce qu'un détecteur devine alors qu'un tic nommé et cité se vérifie.
 
 ## Limites du _skill_
 
@@ -89,7 +91,7 @@ Vous pouvez joindre deux ou trois paragraphes de votre propre prose. Le _skill_ 
 - Ce n'est pas un correcteur orthographique. Le _skill_ ne détecte pas les fautes d'accord du participe passé selon les règles fines, ni les confusions homophoniques (« ces » et « ses », « a » et « à »). Pour ce travail, un outil dédié comme Antidote ou LanguageTool reste indispensable.
 - Le fond lui échappe également. Il regarde la forme, le rythme et le lexique, mais il ne vérifie pas la cohérence argumentative, l'exactitude factuelle ou la solidité du raisonnement.
 - Son registre reste le soutenu courant. Pour la fiction, la poésie, le théâtre, le juridique ou l'administratif pur, plusieurs règles deviennent inadaptées, et l'auteur garde la main sur ce qui doit céder. La section « Quand l'appliquer » de `SKILL.md` le rappelle.
-- Enfin, il ne couvre que le français. Pour l'anglais, le [stop-slop](https://github.com/hardikpandya/stop-slop) original et [humanizer](https://github.com/blader/humanizer) restent les bonnes références.
+- Enfin, il ne couvre que le français. Pour l'anglais, le [stop-slop](https://github.com/hardikpandya/stop-slop) original, [humanizer](https://github.com/blader/humanizer) et [no-ai-slop](https://github.com/petergyang/no-ai-slop) restent les bonnes références.
 
 ## Test rapide
 
@@ -97,7 +99,9 @@ Pour vérifier que le _skill_ est bien chargé et qu'il fonctionne, soumettez à
 
 > À noter que cette solution représente un véritable enjeu stratégique majeur, permettant ainsi aux équipes d'implémenter une démarche d'amélioration continue, tout en garantissant une scalabilité optimale. En effet, par ailleurs, il est important de souligner que ce n'est pas une simple mise à jour, c'est une refonte fondamentale. Cette solution est simple, intuitive et performante. La solution s'adapte. La solution répond aux besoins. Voyons cela ensemble. En définitive, la solution permet véritablement de réaliser des gains de productivité significatifs.
 
-Si le _skill_ est actif, Claude doit identifier l'essentiel de ces tics, proposer une version qui coule par subordination et faire passer la note globale au-dessus de 35 sur 50. À l'inverse, si la réponse de Claude introduit des puces ou conserve les phrases courtes empilées et les adverbes en _-ment_, le _skill_ n'a pas été chargé.
+Si le _skill_ est actif, Claude doit identifier l'essentiel de ces tics, proposer une version qui coule par subordination et annoncer un compte de vérifications en échec nul ou presque. À l'inverse, si la réponse de Claude introduit des puces ou conserve les phrases courtes empilées et les adverbes en _-ment_, le _skill_ n'a pas été chargé.
+
+Pour tester le mode diagnostic, soumettez le même paragraphe en demandant « ce texte sent-il l'IA ? ». Claude doit alors lister les tics en citant chaque passage et sa correction, sans réécrire le paragraphe, sans le noter et sans conclure sur son auteur.
 
 ## Licence
 

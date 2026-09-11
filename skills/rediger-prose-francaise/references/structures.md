@@ -131,14 +131,17 @@ Annoncer l'idée au lieu de la livrer.
 - « Plongeons dans le sujet. »
 - « Plongée au cœur de X. »
 - « Dans cet article, nous allons voir... »
+- « Et si je vous disais que... », « Réfléchissez-y », « Spoiler », et la question posée pour y répondre aussitôt soi-même
 
-Entre dans le propos.
+Entre dans le propos. Les amorces qui posent l'auteur en seul initié (« Ce que personne ne vous dit ») et les commentaires qui disent au lecteur quel poids donner à ce qu'il lit (« Ce point est essentiel ») sont listés dans [tournures.md](tournures.md).
 
 La variante en cours de texte est la question-relance, un fragment interrogatif aussitôt suivi de sa réponse (« Le résultat ? Une équipe plus rapide. », « La bonne nouvelle ? », « Le verdict ? »). C'est un tic de transition qui mime le suspense au lieu d'articuler. Énonce directement, par une phrase pleine ou une subordonnée de conséquence (« si bien que l'équipe gagne en vitesse »).
 
 ## Chute d'une ligne et fragments dramatiques
 
 Le paragraphe d'une seule phrase qui redit le paragraphe précédent (« C'est là tout l'enjeu. », « Tout est là. », « Voilà le vrai gain. »), la même chute servie après chaque section, l'injonction à relire (« Relisez cette phrase. », « Prenez le temps de le mesurer. »), la rangée de fragments (« Aucun _a priori_. Aucune nostalgie. ») et le mot scandé point par point ou en capitales (« chaque. jour. ») demandent au lecteur de s'arrêter sur une idée au lieu d'en ajouter une. Une phrase courte porte l'accent quand elle apporte un fait neuf. Coupe la chute qui répète, fonds les fragments dans une phrase qui affirme quelque chose de précis.
+
+La chute finale du texte, celle qui tourne le propos en métaphore, en aphorisme ou en formule à retenir (« L'avenir n'arrive pas, il est déjà là. »), suit un régime plus strict. Ne la récris pas en une métaphore plus juste et ne cherche pas à sauver son rythme, supprime-la et termine sur la phrase concrète la plus claire que le texte contient déjà. Si la fin réclame une fermeture, ajoute l'enseignement ou la prochaine étape que le texte donne, en une phrase plate.
 
 | Forme IA | Reconstruction |
 | --- | --- |
@@ -199,6 +202,8 @@ Le français écrit accepte mal la répétition à courte distance, là où l'an
 | important | central, déterminant lorsque c'est vrai, lourd de conséquences |
 | montrer que | démontrer que, indiquer que, témoigner que (sans abus) |
 
+Le contrepoids vaut autant que la table. Ces synonymes remplacent un mot passe-partout, jamais le terme qui désigne une chose précise du texte. Un agent, un fichier, une base ou un service gardent leur nom d'un bout à l'autre, et la rotation « L'agent relit le brouillon. L'assistant note le texte. L'outil propose des corrections. » fait croire à trois choses là où il n'y en a qu'une. Écris « L'agent relit le brouillon, le note et propose des corrections. » Le mot juste se répète, et la même exigence de cohérence vaut pour les libellés d'interface, où elle prime sur toute variété.
+
 L'autre forme de répétition est syntaxique. Trois phrases qui commencent par le même mot (« Cette solution... Cette solution... Cette solution... ») ou par la même structure (« On voit que..., On note que..., On observe que... ») sonnent comme une copie automatique. Varie l'attaque, déplace le complément circonstanciel en tête, alterne phrase simple et phrase complexe.
 
 Deux répétitions plus discrètes trahissent aussi la machine. L'anaphore « ce dernier », « cette dernière », servie à chaque phrase pour reprendre le nom qui précède, alors que le français répète volontiers le nom ou passe par un pronom simple. Et le subordonnant unique, « parce que » ou « puisque » à chaque articulation, qui rend la subordination aussi mécanique que le hachage qu'elle remplace.
@@ -250,6 +255,8 @@ Lorsque trois « que » s'enchaînent dans la même phrase, remplace-en au m
 - **Émojis et pictogrammes.** L'IA ponctue ses paragraphes de coches, de fusées et d'ampoules, par contamination du contenu web. En prose soutenue, supprime-les, le mot porte le sens.
 - **Flèches et filets.** La flèche (→) en guise de connecteur ou de puce, le filet horizontal entre chaque section et le titre de premier niveau qui répète le titre du document décorent sans informer. Remplace la flèche par le mot (« donne », « puis »), retire les filets et laisse le titre paraître une fois.
 - **Titre redit.** Le paragraphe d'une ligne qui reformule le titre qu'il suit (« ## Performance », puis « La vitesse compte. ») retarde le contenu. Supprime-le, le titre fait le travail.
+- **Titre sur deux phrases.** Le sous-titre qui coiffe une section de deux phrases découpe le texte en cases au lieu de le structurer. Fonds la section dans sa voisine et garde les titres pour les sections qui en ont la taille. La mise en forme suit le contenu, elle ne le décore pas.
+- **Majuscule après le deux-points.** En cours de phrase, ce qui suit un deux-points commence par une minuscule (« Le résultat : une équipe plus rapide »), la capitale étant réservée au nom propre et à la citation complète qui suit le deux-points. La majuscule d'après deux-points est un calque de la mise en scène anglo-saxonne.
 
 ### Énumérations sans virgule d'Oxford
 
@@ -275,8 +282,8 @@ Le français impose une espace insécable avant les ponctuations doubles et à l
 | `%` | fine insécable avant |
 | `«` | fine insécable après |
 | `»` | fine insécable avant |
-| `°C` et autres symboles d'unité | insécable normale entre le nombre et le symbole (« 25 °C ») |
-| `h` dans les heures | insécable normale avant et après (« 14 h 30 ») |
+| `°C` et autres symboles d'unité | insécable normale entre le nombre et le symbole (« 25 °C ») |
+| `h` dans les heures | insécable normale avant et après (« 14 h 30 ») |
 
 ### Majuscules accentuées
 
@@ -325,11 +332,11 @@ Une liste à puces introduite par un deux-points suit une ponctuation réglée. 
 | À éviter | Correct |
 | --- | --- |
 | 3.14 | 3,14 |
-| 1,000,000 | 1 000 000 |
+| 1,000,000 | 1 000 000 |
 | 50% | 50 % |
-| 25°C | 25 °C |
-| 14h30 | 14 h 30 |
-| 10km | 10 km |
+| 25°C | 25 °C |
+| 14h30 | 14 h 30 |
+| 10km | 10 km |
 
 La virgule sert de séparateur décimal, l'espace (idéalement insécable) sépare les milliers, et toute unité prend une espace insécable avant son symbole.
 
