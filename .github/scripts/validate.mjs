@@ -110,6 +110,10 @@ const CONTROLES_MENTIONS = [
   ],
   [/\p{L}\/\p{L}/u, 'barre oblique entre deux mots, « ou », « et » ou reformulation attendue'],
   [/\.\.\./, 'trois points tapés, caractère unique … attendu'],
+  [
+    /(?:^|[^_\w-])(?:skills?|plugins?|frontmatter|markdown|workflows?|commits?|push|pull requests?|marketplace)(?![\w-]|\.md|\.json|\.yml)/i,
+    'terme anglais non naturalisé en romain, italique attendu (règle 25)',
+  ],
 ];
 for (const fichier of fichiersProse) {
   const lignes = lire(fichier).split(/\r?\n/);
@@ -139,7 +143,8 @@ for (const fichier of fichiersProse) {
     for (const [motif, message] of CONTROLES) {
       if (motif.test(nettoye)) signale(fichier, i + 1, message);
     }
-    if (/^\s*\|/.test(brut)) continue;
+    // Les lignes « Avant » des exemples citent le tic à corriger.
+    if (/^\s*\|/.test(brut) || /^\*\*Avant\.\*\*/.test(brut)) continue;
     const nettoyeMention = brut
       .replace(/`[^`]*`/g, '')
       .replace(/\[[^\]]*\]\([^)]*\)/g, '')
@@ -177,9 +182,18 @@ if (descriptionSkill && manifeste.description !== descriptionSkill) {
   );
 }
 
+// 6. La marketplace répète la description du plugin, sans quoi la fiche
+// affichée à l'installation dérive de celle du runtime.
+const marketplace = JSON.parse(lire('.claude-plugin/marketplace.json'));
+for (const entree of marketplace.plugins ?? []) {
+  if (entree.name === manifeste.name && entree.description !== manifeste.description) {
+    signale('.claude-plugin/marketplace.json', null, `description du plugin ${entree.name} différente de plugin.json`);
+  }
+}
+
 if (erreurs.length > 0) {
   console.error(`${erreurs.length} erreur(s) d'invariant :`);
   for (const e of erreurs) console.error(`  ${e}`);
   process.exit(1);
 }
-console.log(`Invariants vérifiés sur ${fichiersProse.length} fichiers : frontmatter, liens, typographie, mentions, version, description.`);
+console.log(`Invariants vérifiés sur ${fichiersProse.length} fichiers : frontmatter, liens, typographie, mentions, version, descriptions.`);

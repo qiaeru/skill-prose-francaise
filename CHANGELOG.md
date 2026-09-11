@@ -21,6 +21,7 @@ Le format suit la convention [Keep a Changelog](https://keepachangelog.com/fr/1.
 - Les cinq exemples dont l'« Après » n'était que l'« Avant » débarrassé du tic passent dans une table « Suppressions pures » à la fin de exemples.md.
 - La description du _skill_ précise qu'il s'applique même quand l'utilisateur ne le nomme pas, et l'attribution mentionne no-ai-slop à côté de stop-slop et de humanizer.
 - Le mot _skill_ passe en italique dans SKILL.md et interfaces.md, comme la règle 25 l'impose.
+- Le validateur contrôle la règle 25 sur la prose du dépôt (termes anglais comme _skill_, _plugin_ ou _workflow_ laissés en romain, hors noms de fichiers et lignes « Avant » des exemples) et l'égalité des descriptions de plugin.json et de marketplace.json, qui avaient dérivé.
 
 ### Fixed
 
